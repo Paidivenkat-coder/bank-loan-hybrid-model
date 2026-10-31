@@ -1,0 +1,86 @@
+{
+    "Logistic Regression": {
+        "model_name": "Logistic Regression",
+        "roc_auc": 0.7491,
+        "gini_coefficient": 0.4982,
+        "ks_statistic": 0.3963,
+        "pr_auc": 0.3946,
+        "accuracy": 0.4067,
+        "balanced_accuracy": 0.6161,
+        "precision": 0.2274,
+        "recall_sensitivity": 0.945,
+        "specificity": 0.2872,
+        "f1_score": 0.3665,
+        "brier_score": 0.1928,
+        "financial_loss_cost": 760.0,
+        "confusion_matrix": {
+            "tn": 282,
+            "fp": 700,
+            "fn": 12,
+            "tp": 206
+        }
+    },
+    "Decision Tree": {
+        "model_name": "Decision Tree",
+        "roc_auc": 0.6659,
+        "gini_coefficient": 0.3319,
+        "ks_statistic": 0.2645,
+        "pr_auc": 0.3155,
+        "accuracy": 0.3417,
+        "balanced_accuracy": 0.5514,
+        "precision": 0.2008,
+        "recall_sensitivity": 0.8807,
+        "specificity": 0.222,
+        "f1_score": 0.3271,
+        "brier_score": 0.2187,
+        "financial_loss_cost": 894.0,
+        "confusion_matrix": {
+            "tn": 218,
+            "fp": 764,
+            "fn": 26,
+            "tp": 192
+        }
+    },
+    "Hybrid Model (Tree-Embedding LR)": {
+        "model_name": "Hybrid Model (Tree-Embedding LR)",
+        "roc_auc": 0.7304,
+        "gini_coefficient": 0.4609,
+        "ks_statistic": 0.3601,
+        "pr_auc": 0.3844,
+        "accuracy": 0.4508,
+        "balanced_accuracy": 0.6198,
+        "precision": 0.2334,
+        "recall_sensitivity": 0.8853,
+        "specificity": 0.3544,
+        "f1_score": 0.3694,
+        "brier_score": 0.1932,
+        "financial_loss_cost": 759.0,
+        "confusion_matrix": {
+            "tn": 348,
+            "fp": 634,
+            "fn": 25,
+            "tp": 193
+        }
+    },
+    "Stacking Ensemble": {
+        "model_name": "Stacking Ensemble",
+        "roc_auc": 0.7473,
+        "gini_coefficient": 0.4946,
+        "ks_statistic": 0.3789,
+        "pr_auc": 0.4069,
+        "accuracy": 0.745,
+        "balanced_accuracy": 0.6854,
+        "precision": 0.3728,
+        "recall_sensitivity": 0.5917,
+        "specificity": 0.779,
+        "f1_score": 0.4574,
+        "brier_score": 0.1294,
+        "financial_loss_cost": 662.0,
+        "confusion_matrix": {
+            "tn": 765,
+            "fp": 217,
+            "fn": 89,
+            "tp": 129
+        }
+    }
+}

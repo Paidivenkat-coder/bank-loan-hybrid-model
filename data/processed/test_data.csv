@@ -1,0 +1,1201 @@
+applicant_id,age,education,employment_type,employment_years,annual_income,existing_monthly_debt,loan_amount,loan_term_months,interest_rate,loan_intent,home_ownership,savings_balance,rent_utility_payment_score,has_cosigner,has_collateral,num_recent_credit_inquiries,num_bank_overdrafts_12m,bank_tenure_months,loan_default
+APP-13335,21,Associate,Salaried,0.5,37000.0,160.0,15700.0,36,8.21,Debt Consolidation,Rent,5600.0,54,0,Vehicle,0,2,72,0
+APP-15412,24,Bachelor,Salaried,0.3,30400.0,640.0,9500.0,24,13.82,Personal,Own,8700.0,87,0,,2,1,30,0
+APP-12081,32,Bachelor,Contract,2.7,36600.0,390.0,5300.0,24,9.79,Small Business,Rent,10000.0,70,0,,0,0,36,0
+APP-13879,27,Bachelor,Salaried,1.9,40200.0,460.0,17000.0,60,17.57,Debt Consolidation,Rent,16700.0,58,0,Vehicle,2,2,28,0
+APP-10844,30,Bachelor,Salaried,4.9,57600.0,1390.0,24900.0,36,7.5,Personal,Rent,35000.0,79,0,Vehicle,2,0,35,0
+APP-13080,36,Bachelor,Salaried,2.0,66900.0,460.0,6800.0,60,13.31,Education,Rent,1100.0,83,0,,1,0,55,0
+APP-15799,24,Master,Salaried,2.8,109400.0,810.0,45000.0,60,13.14,Debt Consolidation,Rent,4200.0,79,1,,1,1,31,1
+APP-14117,21,Bachelor,Freelance,0.5,62000.0,1210.0,10300.0,36,17.39,Medical,Rent,9800.0,100,1,,1,1,40,0
+APP-15866,24,Bachelor,Salaried,1.3,41600.0,320.0,4900.0,24,16.09,Home Improvement,Rent,2100.0,84,0,,4,2,51,0
+APP-12853,30,Bachelor,Contract,6.2,44500.0,520.0,13600.0,60,12.05,Personal,Mortgage,1300.0,63,0,,1,1,27,0
+APP-15874,37,Bachelor,Salaried,1.3,34200.0,530.0,15400.0,36,18.15,Education,Rent,5800.0,75,0,,0,1,34,0
+APP-15818,21,Associate,Salaried,0.1,57000.0,480.0,18500.0,48,7.5,Small Business,With Parents,9300.0,52,1,,2,2,29,0
+APP-11118,30,Bachelor,Salaried,5.7,34400.0,330.0,11400.0,60,16.44,Debt Consolidation,Rent,2400.0,90,0,,1,2,29,0
+APP-10926,25,Bachelor,Self-Employed,1.6,87500.0,610.0,10600.0,24,16.55,Education,Mortgage,9500.0,66,0,Fixed Deposit,0,3,21,0
+APP-13702,23,High School,Salaried,0.2,30500.0,650.0,13500.0,24,8.89,Education,With Parents,4100.0,77,0,,2,0,7,0
+APP-11943,26,Master,Salaried,1.7,50000.0,450.0,16100.0,24,13.46,Debt Consolidation,Mortgage,2100.0,80,0,Vehicle,1,0,31,0
+APP-10230,24,Associate,Salaried,0.6,57000.0,490.0,17300.0,36,7.5,Personal,Rent,1800.0,78,0,,3,1,25,0
+APP-13834,22,Associate,Contract,1.5,61200.0,140.0,10400.0,36,15.27,Education,Rent,2300.0,81,0,,1,1,31,0
+APP-11134,27,Bachelor,Self-Employed,4.0,60300.0,390.0,23700.0,24,13.04,Small Business,Rent,12700.0,55,0,,1,2,96,0
+APP-12721,25,Master,Freelance,3.4,51700.0,370.0,18700.0,36,15.9,Small Business,Rent,10200.0,77,0,Vehicle,1,0,54,0
+APP-14579,34,Bachelor,Self-Employed,7.3,38900.0,420.0,16000.0,12,13.94,Small Business,Mortgage,4000.0,68,1,Vehicle,2,0,43,0
+APP-15562,24,Bachelor,Self-Employed,1.1,79500.0,490.0,27000.0,36,13.72,Small Business,Mortgage,4900.0,85,0,,2,1,10,0
+APP-10161,34,Bachelor,Salaried,3.9,36200.0,390.0,7100.0,12,11.12,Small Business,Rent,12800.0,77,0,,1,0,77,0
+APP-14355,33,High School,Salaried,2.1,29800.0,400.0,4400.0,60,13.17,Debt Consolidation,Rent,2100.0,69,0,,0,2,29,0
+APP-10855,25,Bachelor,Salaried,0.3,40200.0,1050.0,5900.0,36,17.13,Personal,Mortgage,800.0,74,0,,0,2,43,1
+APP-13346,27,Master,Freelance,1.6,74000.0,1110.0,27900.0,48,12.27,Personal,With Parents,13600.0,100,0,,0,0,63,0
+APP-13320,30,Bachelor,Salaried,5.0,47600.0,120.0,14400.0,48,11.16,Education,With Parents,3300.0,70,0,,2,0,40,0
+APP-12778,28,High School,Salaried,4.0,40500.0,1040.0,16500.0,48,14.11,Education,Mortgage,16600.0,71,0,,1,0,42,0
+APP-12466,24,Doctorate,Contract,2.6,60100.0,100.0,21600.0,36,13.97,Debt Consolidation,Rent,10700.0,100,0,,0,1,38,0
+APP-14710,25,High School,Self-Employed,0.4,43800.0,620.0,9500.0,36,14.1,Education,Rent,2300.0,60,0,,1,0,37,0
+APP-10815,21,High School,Salaried,0.5,39800.0,330.0,6000.0,36,15.85,Debt Consolidation,Mortgage,600.0,72,0,,1,0,39,0
+APP-13204,22,High School,Contract,0.2,82200.0,1020.0,23200.0,60,7.5,Medical,With Parents,2400.0,75,1,,2,1,27,0
+APP-14581,22,Bachelor,Contract,1.0,53600.0,360.0,7500.0,36,14.64,Personal,Own,35000.0,86,1,Fixed Deposit,0,0,38,0
+APP-10566,21,Bachelor,Freelance,0.3,39500.0,320.0,7900.0,36,11.2,Home Improvement,Rent,6100.0,53,0,,0,0,34,0
+APP-10610,33,Associate,Salaried,7.7,18500.0,320.0,6600.0,24,17.91,Personal,Rent,2300.0,87,0,Vehicle,1,1,25,1
+APP-11006,34,Associate,Salaried,4.2,85900.0,210.0,12900.0,24,15.7,Home Improvement,With Parents,10300.0,75,0,,2,2,48,1
+APP-15411,25,Doctorate,Salaried,3.1,105800.0,640.0,22800.0,24,18.2,Education,Rent,9900.0,94,0,Vehicle,2,0,35,0
+APP-11331,36,Associate,Self-Employed,7.7,45100.0,360.0,16900.0,36,18.37,Small Business,Mortgage,4000.0,100,0,,3,2,19,1
+APP-12528,42,High School,Salaried,3.5,36600.0,220.0,8700.0,36,17.39,Personal,Own,13600.0,84,0,Vehicle,3,1,24,0
+APP-12412,21,High School,Salaried,0.6,45900.0,470.0,6900.0,36,13.49,Debt Consolidation,With Parents,10600.0,70,1,Fixed Deposit,3,0,30,0
+APP-11408,26,High School,Salaried,2.9,68800.0,1080.0,21100.0,12,14.41,Debt Consolidation,With Parents,200.0,78,0,,4,1,43,0
+APP-15653,36,Associate,Freelance,3.6,34600.0,120.0,13300.0,36,16.62,Small Business,With Parents,15200.0,88,0,Fixed Deposit,0,0,27,0
+APP-14141,39,High School,Salaried,8.4,37400.0,130.0,4700.0,36,8.15,Medical,Rent,5800.0,90,0,,0,0,15,0
+APP-15711,22,Bachelor,Freelance,0.8,57300.0,470.0,10200.0,48,14.61,Medical,Own,27700.0,60,1,,2,1,14,1
+APP-10654,45,Bachelor,Salaried,9.8,60900.0,680.0,7200.0,36,17.96,Education,Rent,1000.0,92,0,,1,1,31,0
+APP-12598,36,Bachelor,Freelance,4.8,108400.0,2390.0,16100.0,24,7.5,Personal,Rent,4400.0,67,1,,2,0,16,0
+APP-10505,25,Bachelor,Salaried,2.7,47800.0,590.0,10200.0,24,9.97,Personal,Rent,13600.0,38,1,,2,0,25,0
+APP-11303,24,Bachelor,Salaried,3.0,25400.0,410.0,10100.0,36,23.2,Education,With Parents,1400.0,71,0,,3,0,63,1
+APP-15015,25,High School,Salaried,3.4,25200.0,390.0,10500.0,36,11.79,Home Improvement,Own,900.0,78,1,Fixed Deposit,1,0,9,0
+APP-10008,25,Associate,Salaried,2.3,97900.0,1180.0,14100.0,36,14.54,Small Business,Rent,30100.0,77,0,Vehicle,0,0,30,0
+APP-15733,27,High School,Salaried,4.3,38900.0,260.0,12300.0,36,8.09,Small Business,Rent,1500.0,79,1,,1,0,24,0
+APP-15812,30,Master,Contract,6.8,30500.0,360.0,9900.0,36,12.77,Education,With Parents,6300.0,87,0,,1,1,41,1
+APP-13989,23,High School,Salaried,0.3,43200.0,430.0,5700.0,24,15.13,Debt Consolidation,Rent,4900.0,75,0,,2,0,140,0
+APP-14221,34,High School,Self-Employed,10.3,69800.0,490.0,27400.0,12,15.32,Education,With Parents,9700.0,63,0,Fixed Deposit,3,0,10,0
+APP-11322,28,Associate,Salaried,3.8,71100.0,270.0,20800.0,48,13.59,Education,With Parents,14900.0,81,0,,4,1,74,0
+APP-15477,28,High School,Salaried,4.6,35400.0,610.0,9600.0,24,12.07,Education,Rent,8400.0,71,0,,2,0,29,0
+APP-14336,21,Master,Salaried,0.1,70200.0,870.0,10600.0,24,7.5,Education,With Parents,5700.0,72,1,,0,0,25,0
+APP-10252,42,High School,Salaried,12.1,45800.0,740.0,14400.0,12,16.57,Personal,Own,9200.0,66,0,,2,0,29,1
+APP-14429,25,Master,Self-Employed,0.3,34900.0,330.0,13300.0,12,21.03,Medical,With Parents,4000.0,71,1,,1,0,60,0
+APP-14201,21,High School,Salaried,0.2,66700.0,740.0,15100.0,24,10.0,Education,With Parents,8100.0,59,0,,2,0,74,0
+APP-15499,39,Master,Salaried,8.3,58300.0,700.0,11400.0,36,18.19,Debt Consolidation,With Parents,5100.0,65,0,Fixed Deposit,1,1,8,0
+APP-13619,34,Master,Self-Employed,0.5,65100.0,280.0,11000.0,48,15.15,Home Improvement,Own,600.0,46,0,Vehicle,0,1,39,1
+APP-11971,21,Associate,Self-Employed,0.2,79900.0,1190.0,14600.0,24,20.07,Medical,Rent,3100.0,73,0,,2,0,39,0
+APP-14372,21,High School,Salaried,0.1,69400.0,1200.0,14700.0,36,12.79,Education,Rent,22300.0,93,0,,1,3,41,0
+APP-10361,38,Master,Salaried,9.4,64400.0,1090.0,14900.0,36,9.91,Home Improvement,Rent,3000.0,56,0,Fixed Deposit,1,0,40,0
+APP-14044,35,High School,Salaried,5.2,27200.0,390.0,3300.0,36,15.16,Medical,With Parents,8500.0,94,0,,2,1,10,0
+APP-13916,28,Bachelor,Salaried,0.7,31300.0,410.0,7700.0,36,10.3,Education,Mortgage,15300.0,54,0,,2,0,65,0
+APP-13059,26,Associate,Contract,4.0,42700.0,220.0,17900.0,36,20.72,Debt Consolidation,Own,17600.0,91,0,,3,2,4,1
+APP-14787,24,Associate,Salaried,0.1,27000.0,630.0,7700.0,36,7.77,Small Business,Mortgage,4000.0,65,0,,1,0,16,0
+APP-15541,39,Bachelor,Contract,0.6,50400.0,440.0,10600.0,60,14.39,Debt Consolidation,Rent,4100.0,30,0,,0,1,11,1
+APP-15271,45,High School,Salaried,0.2,30900.0,290.0,6100.0,36,12.27,Education,Rent,1000.0,89,1,,2,0,60,1
+APP-13137,22,Bachelor,Salaried,0.7,83100.0,870.0,37200.0,48,7.5,Medical,Mortgage,9500.0,90,0,,2,1,32,0
+APP-15243,33,Bachelor,Salaried,8.8,76000.0,460.0,26400.0,36,10.45,Debt Consolidation,Rent,10800.0,68,0,Fixed Deposit,1,2,10,0
+APP-14281,21,Associate,Self-Employed,0.3,85400.0,1500.0,14100.0,24,14.08,Education,With Parents,35000.0,68,0,,1,0,22,0
+APP-12510,32,High School,Salaried,8.7,22500.0,130.0,5900.0,12,11.14,Small Business,Rent,200.0,68,0,,0,1,28,0
+APP-10933,21,Bachelor,Salaried,0.1,58200.0,430.0,19500.0,24,14.0,Education,Mortgage,3100.0,57,0,Vehicle,1,0,76,0
+APP-14727,25,High School,Freelance,2.5,45100.0,390.0,8700.0,36,7.5,Education,Rent,27900.0,79,0,,0,0,12,0
+APP-15770,41,Bachelor,Salaried,11.0,122400.0,1700.0,21200.0,36,11.91,Small Business,With Parents,27100.0,65,0,,3,1,27,0
+APP-13434,43,Master,Salaried,12.2,50600.0,150.0,7000.0,24,8.23,Personal,Own,14300.0,95,0,,0,1,34,0
+APP-13886,21,Bachelor,Salaried,0.7,27300.0,340.0,3600.0,24,9.61,Debt Consolidation,Rent,6000.0,90,1,,1,2,9,0
+APP-15390,24,Associate,Salaried,1.9,36400.0,380.0,12600.0,48,7.5,Home Improvement,Own,1700.0,82,0,,1,1,98,0
+APP-13970,26,Bachelor,Salaried,2.9,79700.0,1010.0,25000.0,12,7.5,Home Improvement,Own,17200.0,62,1,,2,0,14,0
+APP-12650,23,Master,Salaried,0.3,85600.0,600.0,30300.0,12,12.12,Medical,Rent,300.0,76,0,Vehicle,3,0,20,1
+APP-14229,29,Bachelor,Salaried,4.7,21000.0,250.0,8800.0,36,13.96,Debt Consolidation,Rent,200.0,47,0,,1,1,21,1
+APP-11247,23,High School,Contract,0.9,20100.0,220.0,2000.0,12,7.5,Education,Rent,500.0,64,0,,2,0,34,0
+APP-10974,26,Master,Salaried,1.6,26800.0,200.0,8600.0,24,16.96,Education,Own,1200.0,59,1,Vehicle,2,1,48,0
+APP-10405,33,Associate,Self-Employed,3.2,22100.0,190.0,2500.0,12,21.54,Personal,With Parents,200.0,83,0,,0,0,17,0
+APP-12538,21,Bachelor,Self-Employed,0.3,42900.0,730.0,8100.0,24,8.29,Medical,Rent,8400.0,77,1,,1,1,36,0
+APP-11848,35,Associate,Contract,1.6,87600.0,1430.0,32500.0,36,11.07,Debt Consolidation,With Parents,10500.0,95,0,Fixed Deposit,2,1,15,0
+APP-10159,33,Associate,Salaried,1.1,53000.0,940.0,23800.0,36,9.03,Education,Mortgage,400.0,75,1,Vehicle,1,1,46,0
+APP-13515,32,Bachelor,Self-Employed,1.9,39000.0,210.0,14600.0,48,7.5,Medical,Rent,500.0,78,0,,1,0,38,0
+APP-12259,30,High School,Contract,1.0,32000.0,570.0,11500.0,24,14.27,Home Improvement,Own,15600.0,84,0,Fixed Deposit,3,0,11,0
+APP-14235,21,Bachelor,Salaried,0.6,67800.0,1180.0,26300.0,24,7.5,Personal,Rent,5100.0,67,1,Vehicle,0,0,22,0
+APP-10164,35,Associate,Self-Employed,0.4,32000.0,370.0,3500.0,12,19.51,Medical,Rent,9300.0,61,0,Vehicle,1,0,24,0
+APP-15977,33,High School,Self-Employed,8.8,26300.0,200.0,6700.0,24,13.24,Home Improvement,With Parents,600.0,83,0,Vehicle,2,0,28,0
+APP-15945,34,High School,Salaried,9.4,22500.0,470.0,7600.0,36,8.68,Small Business,Mortgage,700.0,94,0,Vehicle,3,2,7,1
+APP-14284,23,High School,Freelance,1.5,32900.0,410.0,9600.0,36,14.83,Debt Consolidation,Mortgage,800.0,72,1,,3,0,12,0
+APP-12749,27,Associate,Salaried,0.8,42200.0,980.0,12000.0,12,9.12,Debt Consolidation,Mortgage,2100.0,72,0,Vehicle,2,0,34,1
+APP-13766,22,Master,Salaried,0.3,73000.0,1950.0,16600.0,12,16.64,Education,Mortgage,11800.0,72,1,,3,1,31,0
+APP-15652,28,Bachelor,Salaried,3.2,58700.0,620.0,25400.0,36,9.57,Education,With Parents,3200.0,74,1,,1,0,24,0
+APP-11127,24,Doctorate,Salaried,1.6,52100.0,210.0,8000.0,36,13.98,Debt Consolidation,Own,300.0,49,1,Vehicle,4,1,28,0
+APP-14728,39,High School,Self-Employed,3.5,45400.0,460.0,17100.0,36,12.82,Small Business,Own,5000.0,83,0,,2,1,22,0
+APP-12679,27,High School,Salaried,3.8,29400.0,570.0,3600.0,36,17.59,Personal,With Parents,14100.0,67,0,Vehicle,4,0,25,1
+APP-13030,21,Bachelor,Salaried,0.3,73200.0,530.0,25100.0,36,17.45,Home Improvement,Mortgage,4400.0,58,0,,2,0,14,1
+APP-13351,26,Master,Contract,1.4,69100.0,510.0,10100.0,24,10.24,Small Business,Own,8500.0,81,1,,1,2,10,0
+APP-15405,29,High School,Salaried,0.5,48600.0,290.0,19900.0,36,15.41,Debt Consolidation,Own,35000.0,67,1,,3,0,14,0
+APP-13976,32,Bachelor,Salaried,5.6,66900.0,380.0,17700.0,36,12.39,Home Improvement,With Parents,33300.0,83,0,,2,1,45,0
+APP-14254,30,Bachelor,Salaried,4.9,39900.0,1090.0,13000.0,36,18.77,Small Business,Mortgage,8100.0,51,0,Vehicle,0,0,5,1
+APP-10334,35,Master,Salaried,11.0,44300.0,300.0,6200.0,24,13.43,Education,Rent,3600.0,54,1,,1,2,8,1
+APP-12746,30,Bachelor,Salaried,5.6,83600.0,1160.0,22800.0,24,14.57,Personal,Mortgage,8500.0,90,0,,5,1,18,0
+APP-13826,21,Bachelor,Salaried,0.4,60400.0,330.0,12300.0,24,15.57,Education,With Parents,4800.0,67,0,Vehicle,2,1,33,1
+APP-13616,22,Bachelor,Freelance,0.4,54300.0,850.0,8000.0,36,8.4,Personal,Rent,3500.0,98,0,,1,0,13,0
+APP-12909,37,Bachelor,Contract,10.0,49300.0,410.0,11200.0,60,19.07,Debt Consolidation,Rent,6800.0,100,1,,1,0,13,0
+APP-12552,41,Bachelor,Salaried,6.3,54200.0,620.0,15700.0,24,7.9,Home Improvement,Rent,21900.0,37,0,Vehicle,0,0,18,0
+APP-13731,23,Bachelor,Salaried,1.2,94300.0,760.0,9900.0,48,17.16,Home Improvement,Rent,35000.0,59,1,Fixed Deposit,1,0,25,0
+APP-11834,25,Associate,Salaried,2.7,32600.0,170.0,7100.0,24,8.78,Home Improvement,Rent,3900.0,89,0,Vehicle,2,0,13,0
+APP-13301,22,Associate,Salaried,0.2,56800.0,1200.0,8600.0,12,12.75,Education,Rent,4200.0,97,1,,2,0,36,0
+APP-10798,29,High School,Salaried,6.2,37200.0,640.0,6500.0,48,13.33,Education,With Parents,2400.0,57,0,,1,0,64,0
+APP-14135,26,Doctorate,Contract,1.1,98400.0,1060.0,12300.0,36,17.18,Education,Mortgage,20700.0,90,0,,0,1,33,0
+APP-13944,26,Bachelor,Salaried,1.7,77200.0,1600.0,20700.0,36,13.59,Debt Consolidation,Rent,21800.0,91,0,,4,0,19,0
+APP-10128,29,Master,Contract,3.6,82000.0,490.0,8900.0,36,11.93,Personal,Rent,29700.0,74,0,,2,3,86,0
+APP-13640,25,Associate,Contract,3.4,74000.0,1260.0,23000.0,24,17.51,Personal,Own,2300.0,74,0,,2,0,50,0
+APP-13868,29,Bachelor,Salaried,2.2,67700.0,240.0,19900.0,36,13.2,Personal,Own,1600.0,63,0,,2,0,49,1
+APP-11480,33,Associate,Salaried,4.6,58800.0,800.0,23300.0,36,8.52,Debt Consolidation,Rent,1200.0,54,0,,0,0,57,0
+APP-15455,38,Doctorate,Salaried,3.7,124900.0,1790.0,21000.0,24,18.43,Personal,With Parents,3600.0,79,0,Vehicle,0,2,12,0
+APP-14250,35,Bachelor,Salaried,2.1,45900.0,930.0,18300.0,48,18.73,Education,Rent,17100.0,76,0,Vehicle,0,0,22,0
+APP-11644,22,Associate,Salaried,0.3,127200.0,820.0,27300.0,36,15.22,Debt Consolidation,Mortgage,12500.0,78,0,,1,0,22,0
+APP-13150,34,Associate,Salaried,0.2,30100.0,360.0,7800.0,48,15.4,Personal,Rent,12900.0,82,0,Fixed Deposit,3,0,14,0
+APP-13008,36,Master,Salaried,10.5,44200.0,230.0,11300.0,36,14.63,Personal,Own,24800.0,63,0,,6,0,22,0
+APP-14406,28,High School,Salaried,5.3,18200.0,100.0,4800.0,36,19.95,Small Business,Own,6300.0,80,1,,2,0,28,1
+APP-13804,23,High School,Salaried,2.1,92500.0,240.0,18800.0,24,14.59,Personal,Rent,8500.0,79,1,,2,1,20,0
+APP-15129,29,Bachelor,Salaried,3.6,31100.0,690.0,6600.0,36,23.23,Personal,Own,600.0,74,0,,3,1,30,1
+APP-12898,27,Bachelor,Salaried,3.5,57200.0,980.0,25100.0,12,21.35,Personal,Rent,3700.0,72,1,,1,0,51,1
+APP-15932,29,Bachelor,Contract,4.3,18600.0,80.0,5900.0,36,18.3,Personal,Rent,2900.0,60,0,,2,1,69,0
+APP-10171,23,Bachelor,Self-Employed,1.4,141100.0,2440.0,36300.0,48,16.98,Small Business,Mortgage,34800.0,30,1,,1,0,25,0
+APP-12816,32,Bachelor,Salaried,0.3,48500.0,980.0,18800.0,36,15.74,Small Business,Rent,1800.0,68,1,,1,1,34,0
+APP-14956,27,Associate,Salaried,4.5,94100.0,1540.0,20700.0,36,10.0,Personal,Rent,35000.0,63,0,Vehicle,1,2,21,0
+APP-14086,34,Associate,Salaried,7.3,136800.0,1330.0,27900.0,36,11.53,Debt Consolidation,Rent,35000.0,63,0,,1,0,3,0
+APP-15599,31,Master,Freelance,2.8,34600.0,70.0,9400.0,60,9.04,Small Business,Mortgage,12700.0,43,1,Fixed Deposit,0,1,38,0
+APP-14301,21,High School,Salaried,0.6,43200.0,430.0,16500.0,36,13.29,Education,Rent,12900.0,89,0,,2,1,35,0
+APP-12146,21,Associate,Contract,0.3,24400.0,140.0,9100.0,24,8.51,Medical,Rent,4900.0,62,0,,2,0,5,0
+APP-11613,28,Bachelor,Freelance,4.5,54300.0,1420.0,22700.0,36,7.5,Small Business,Own,6000.0,69,0,Vehicle,0,1,23,0
+APP-12078,28,Associate,Freelance,1.5,28100.0,730.0,9700.0,36,8.32,Debt Consolidation,Rent,11100.0,66,0,Fixed Deposit,0,0,19,0
+APP-10880,45,Associate,Salaried,14.7,100900.0,680.0,17400.0,36,7.99,Small Business,Rent,2800.0,97,0,Vehicle,0,0,39,0
+APP-11255,21,Bachelor,Self-Employed,0.7,50800.0,80.0,9200.0,60,8.62,Small Business,Mortgage,5700.0,48,0,,2,0,12,1
+APP-14742,29,Bachelor,Salaried,1.2,52600.0,770.0,11200.0,36,14.85,Personal,Rent,8100.0,57,0,,2,1,13,1
+APP-11492,25,Bachelor,Salaried,2.6,117700.0,360.0,45000.0,36,12.43,Small Business,Rent,7800.0,78,1,,1,0,43,0
+APP-12842,38,Bachelor,Contract,3.9,32800.0,250.0,9300.0,36,21.56,Personal,Mortgage,6000.0,91,0,Vehicle,1,0,14,1
+APP-14759,33,Associate,Salaried,7.0,51500.0,750.0,8500.0,36,13.14,Small Business,Rent,9300.0,97,0,,2,0,19,0
+APP-14591,30,Bachelor,Salaried,7.2,67000.0,1210.0,21300.0,12,10.64,Debt Consolidation,Mortgage,900.0,81,0,,1,0,37,1
+APP-13958,36,High School,Self-Employed,11.6,51500.0,1240.0,13400.0,24,15.44,Education,Rent,25800.0,100,0,,2,0,85,0
+APP-14974,21,Bachelor,Salaried,0.4,18000.0,170.0,2100.0,24,11.46,Debt Consolidation,Rent,3800.0,84,1,,1,2,6,0
+APP-12055,23,High School,Salaried,1.7,42900.0,200.0,14200.0,48,8.83,Education,With Parents,2500.0,59,0,,1,0,55,0
+APP-14666,24,Associate,Self-Employed,1.4,27500.0,60.0,8400.0,36,11.0,Debt Consolidation,Rent,800.0,71,1,,2,0,22,1
+APP-11039,35,High School,Salaried,3.4,25100.0,310.0,7300.0,36,13.52,Small Business,Rent,12400.0,94,0,,1,1,49,1
+APP-11431,34,High School,Salaried,2.6,64200.0,1020.0,13900.0,48,12.91,Home Improvement,Rent,4700.0,83,0,Vehicle,2,0,7,0
+APP-11538,21,Associate,Self-Employed,0.4,75600.0,630.0,16500.0,36,12.33,Personal,Rent,17400.0,81,0,,0,0,38,0
+APP-11167,32,High School,Self-Employed,8.9,46200.0,720.0,14100.0,12,17.95,Debt Consolidation,With Parents,11600.0,52,0,,0,0,27,0
+APP-12375,38,Master,Salaried,8.2,61400.0,1260.0,19100.0,36,10.59,Personal,With Parents,5200.0,79,1,,1,0,44,0
+APP-13259,38,Bachelor,Salaried,7.8,57200.0,1000.0,19700.0,36,10.93,Education,Own,23800.0,68,0,Vehicle,2,0,9,0
+APP-15222,27,Associate,Contract,0.2,72200.0,980.0,23400.0,36,11.28,Debt Consolidation,Rent,35000.0,100,0,,2,1,19,0
+APP-13869,35,Bachelor,Contract,1.0,35700.0,210.0,13700.0,36,13.45,Education,Mortgage,2400.0,82,0,,1,1,26,1
+APP-12039,21,Bachelor,Contract,0.1,60200.0,150.0,8800.0,36,14.28,Personal,Own,35000.0,69,1,,2,0,16,0
+APP-14543,25,Bachelor,Contract,1.0,88700.0,480.0,21600.0,36,7.81,Debt Consolidation,Rent,32400.0,82,0,,2,0,67,0
+APP-14573,25,Master,Salaried,2.4,38800.0,210.0,6100.0,36,12.56,Personal,Rent,5700.0,73,0,,3,0,24,0
+APP-12250,28,Associate,Salaried,3.1,54500.0,300.0,11200.0,60,9.97,Education,Rent,8600.0,63,0,,0,1,19,0
+APP-15918,33,Bachelor,Salaried,2.2,58600.0,920.0,19100.0,12,20.05,Personal,Rent,3400.0,48,1,,0,2,32,1
+APP-11913,32,Bachelor,Freelance,8.8,39700.0,490.0,13800.0,24,13.68,Home Improvement,Mortgage,700.0,92,0,Vehicle,1,0,20,1
+APP-10590,29,Bachelor,Self-Employed,5.4,57300.0,650.0,16000.0,36,13.78,Education,Rent,3300.0,71,1,Fixed Deposit,2,1,23,0
+APP-11937,32,High School,Self-Employed,7.6,32300.0,400.0,5300.0,36,15.51,Education,Rent,2000.0,51,0,,2,0,21,0
+APP-10727,31,Bachelor,Freelance,2.9,55800.0,170.0,22700.0,24,12.13,Personal,Rent,3300.0,76,1,Vehicle,0,1,38,0
+APP-12937,27,Bachelor,Salaried,4.7,19500.0,170.0,6800.0,24,16.37,Small Business,With Parents,10800.0,97,0,,3,0,38,0
+APP-11717,30,Master,Salaried,4.0,48400.0,680.0,11200.0,36,14.58,Education,Mortgage,5300.0,56,0,,1,0,6,0
+APP-11883,25,High School,Salaried,2.9,38000.0,450.0,8900.0,24,16.06,Education,Rent,10100.0,75,0,,1,0,19,0
+APP-13406,33,Master,Salaried,1.6,48000.0,300.0,10500.0,24,18.67,Education,With Parents,2800.0,100,0,,3,1,22,0
+APP-15039,31,High School,Salaried,0.9,42400.0,810.0,5400.0,48,16.04,Debt Consolidation,Rent,7100.0,86,0,Vehicle,4,0,31,0
+APP-14950,30,Master,Self-Employed,6.3,120500.0,1080.0,30100.0,36,11.55,Debt Consolidation,Own,19100.0,59,0,,1,0,21,0
+APP-15085,44,Bachelor,Salaried,2.1,77700.0,980.0,17300.0,48,14.69,Education,Own,5500.0,94,0,,1,0,16,0
+APP-10086,34,Master,Salaried,7.6,91000.0,1360.0,14000.0,36,14.25,Home Improvement,With Parents,33000.0,65,0,,1,0,28,0
+APP-14936,29,Associate,Salaried,2.1,69500.0,470.0,17400.0,36,11.21,Small Business,Mortgage,35000.0,71,1,,1,1,15,0
+APP-11729,40,Doctorate,Salaried,0.4,111300.0,1390.0,19600.0,48,15.31,Debt Consolidation,Rent,2700.0,66,0,Fixed Deposit,0,0,38,0
+APP-10429,21,Master,Salaried,0.3,50600.0,300.0,12700.0,48,12.93,Debt Consolidation,Rent,9800.0,75,1,,0,0,21,0
+APP-10962,30,Associate,Salaried,5.4,89900.0,2230.0,9500.0,48,16.01,Education,With Parents,11300.0,59,1,,2,1,33,0
+APP-10338,31,Bachelor,Salaried,2.4,108500.0,1190.0,17100.0,60,16.29,Personal,Mortgage,3100.0,72,1,,1,1,9,0
+APP-15970,35,Master,Salaried,6.8,35500.0,520.0,10100.0,36,16.78,Small Business,Mortgage,16300.0,65,0,,3,0,38,1
+APP-14486,31,Bachelor,Salaried,6.4,39800.0,470.0,13500.0,36,13.6,Personal,Mortgage,22000.0,64,0,,0,1,20,0
+APP-11677,38,Bachelor,Self-Employed,12.3,33000.0,530.0,6100.0,24,15.73,Medical,Own,3800.0,87,1,Vehicle,4,1,49,0
+APP-11080,26,Associate,Freelance,3.8,94700.0,1070.0,22500.0,36,7.5,Personal,With Parents,14000.0,69,0,,2,0,4,1
+APP-13279,32,Associate,Salaried,0.8,29500.0,60.0,10300.0,24,7.5,Education,Rent,11000.0,94,0,,1,0,31,0
+APP-15028,37,Bachelor,Salaried,2.4,101400.0,530.0,44700.0,48,18.83,Home Improvement,Rent,35000.0,87,0,,1,0,5,1
+APP-13663,31,High School,Contract,0.6,81900.0,410.0,15400.0,36,12.16,Small Business,Rent,16700.0,73,0,Fixed Deposit,0,2,36,1
+APP-13807,21,Associate,Contract,0.6,54000.0,300.0,6200.0,36,12.43,Home Improvement,Rent,8000.0,76,0,,2,0,21,0
+APP-14965,27,High School,Self-Employed,2.4,28100.0,100.0,5700.0,24,14.03,Personal,Mortgage,6200.0,70,0,Vehicle,1,1,22,0
+APP-13746,21,Bachelor,Salaried,0.2,65800.0,580.0,23300.0,48,12.51,Personal,Mortgage,8400.0,63,0,Vehicle,1,0,26,0
+APP-14107,37,Bachelor,Salaried,12.3,39700.0,690.0,13400.0,48,11.73,Education,With Parents,6300.0,61,1,,1,0,26,0
+APP-11983,34,High School,Salaried,0.7,24900.0,50.0,8000.0,36,12.99,Personal,Own,1200.0,84,0,,2,1,28,0
+APP-10986,38,Bachelor,Salaried,1.2,67800.0,760.0,20300.0,60,14.34,Small Business,With Parents,29300.0,68,1,Vehicle,1,0,8,0
+APP-12024,21,High School,Freelance,0.6,59600.0,880.0,21400.0,36,19.0,Personal,Rent,1100.0,60,1,,3,0,31,1
+APP-14012,22,Bachelor,Salaried,1.3,26500.0,500.0,3100.0,48,14.76,Home Improvement,With Parents,3300.0,81,0,,1,1,47,0
+APP-14743,31,Master,Contract,0.6,76100.0,380.0,32200.0,24,9.81,Education,With Parents,19600.0,80,0,,3,0,12,0
+APP-13032,31,Bachelor,Salaried,3.8,60100.0,1400.0,20300.0,48,15.99,Personal,Mortgage,16500.0,79,0,,4,0,48,0
+APP-14360,30,Associate,Salaried,5.1,44100.0,810.0,19600.0,36,7.5,Small Business,Mortgage,3000.0,71,0,,2,3,26,0
+APP-14182,23,Bachelor,Contract,0.5,25400.0,320.0,6800.0,36,15.22,Small Business,Mortgage,4400.0,78,1,Fixed Deposit,2,2,31,1
+APP-10454,25,Master,Salaried,2.8,31600.0,160.0,5800.0,36,11.49,Personal,Rent,4500.0,81,0,,1,0,28,0
+APP-14110,36,Associate,Salaried,3.7,57800.0,890.0,7600.0,24,17.44,Personal,Mortgage,8800.0,74,0,Vehicle,2,0,5,0
+APP-11400,22,Bachelor,Salaried,0.2,63300.0,1190.0,22500.0,48,10.55,Education,Rent,26300.0,65,1,Vehicle,1,0,16,0
+APP-14031,21,Bachelor,Contract,0.2,28400.0,240.0,3500.0,48,12.09,Small Business,Mortgage,7400.0,68,0,,0,0,13,0
+APP-14007,24,Bachelor,Salaried,2.8,71300.0,290.0,32000.0,12,7.5,Personal,Rent,32400.0,69,0,Vehicle,0,0,8,0
+APP-13188,34,Bachelor,Salaried,4.8,61400.0,360.0,13500.0,48,18.61,Education,Mortgage,1300.0,96,0,Vehicle,2,0,63,0
+APP-14204,29,High School,Salaried,3.5,40800.0,430.0,5700.0,60,15.05,Home Improvement,Rent,24600.0,65,0,,1,1,17,0
+APP-14995,28,Associate,Salaried,5.3,61800.0,630.0,23900.0,24,9.34,Education,Rent,2600.0,49,0,,2,0,35,1
+APP-10200,31,Associate,Salaried,5.1,56200.0,480.0,22900.0,48,10.38,Debt Consolidation,Rent,16000.0,65,1,Vehicle,1,0,38,0
+APP-12896,21,Bachelor,Salaried,0.3,26900.0,320.0,5300.0,24,18.04,Medical,Rent,1500.0,83,1,,0,0,44,0
+APP-10649,33,Doctorate,Freelance,9.3,68700.0,900.0,13200.0,24,12.09,Small Business,Rent,15200.0,85,0,Vehicle,4,1,29,0
+APP-11323,32,Associate,Salaried,5.3,33700.0,230.0,8100.0,36,15.2,Personal,Own,600.0,77,0,Fixed Deposit,1,1,48,0
+APP-12511,32,Bachelor,Salaried,7.3,41400.0,500.0,5300.0,36,10.75,Home Improvement,Own,10500.0,47,0,,3,1,19,0
+APP-14019,28,Bachelor,Salaried,5.8,63900.0,820.0,21900.0,36,14.25,Debt Consolidation,Mortgage,3400.0,85,0,,2,0,13,1
+APP-10613,21,High School,Freelance,0.7,26900.0,220.0,6100.0,24,10.26,Debt Consolidation,Rent,4100.0,59,1,,2,1,20,1
+APP-11713,34,Master,Self-Employed,3.4,58500.0,400.0,12000.0,36,12.44,Personal,Rent,1500.0,54,0,,0,0,41,0
+APP-14721,32,High School,Self-Employed,2.2,33600.0,660.0,13500.0,36,15.82,Debt Consolidation,Rent,1600.0,60,0,Vehicle,1,0,10,0
+APP-12572,27,Bachelor,Contract,4.9,33100.0,280.0,14400.0,36,15.91,Small Business,Own,1800.0,84,0,Fixed Deposit,2,0,34,0
+APP-14114,39,Bachelor,Salaried,3.7,37200.0,480.0,14900.0,36,7.5,Debt Consolidation,Mortgage,20300.0,81,0,,0,0,20,0
+APP-14001,28,Associate,Salaried,2.6,47600.0,630.0,17200.0,24,17.0,Personal,Own,6500.0,83,0,,4,0,36,0
+APP-10101,26,Master,Self-Employed,2.5,26200.0,80.0,4100.0,12,15.48,Personal,Mortgage,4800.0,76,1,Vehicle,0,1,26,0
+APP-15869,26,Bachelor,Salaried,3.9,57000.0,430.0,12200.0,36,16.94,Small Business,Rent,3400.0,97,0,,3,0,21,0
+APP-13674,28,Master,Salaried,5.8,36400.0,230.0,12900.0,36,11.32,Small Business,Rent,15900.0,60,0,Vehicle,2,0,29,0
+APP-14011,21,High School,Salaried,0.6,27600.0,430.0,12300.0,24,11.62,Education,With Parents,800.0,100,0,Vehicle,1,2,42,1
+APP-11310,28,Bachelor,Self-Employed,3.4,95800.0,1220.0,39700.0,48,16.33,Personal,With Parents,500.0,43,0,,1,2,43,0
+APP-10807,25,High School,Salaried,0.9,54900.0,1380.0,18600.0,36,14.77,Education,With Parents,7200.0,85,0,,3,0,38,0
+APP-14686,23,Associate,Contract,0.8,21400.0,280.0,9000.0,36,9.46,Debt Consolidation,Mortgage,6200.0,78,0,,0,2,63,0
+APP-14714,29,High School,Self-Employed,1.1,51200.0,590.0,11500.0,36,12.92,Small Business,Own,200.0,69,1,,1,2,6,1
+APP-12233,34,Doctorate,Freelance,8.7,132700.0,1120.0,20900.0,48,10.45,Personal,With Parents,900.0,71,0,Vehicle,2,0,10,0
+APP-10015,25,Bachelor,Salaried,3.1,46300.0,880.0,20200.0,36,13.02,Debt Consolidation,With Parents,11900.0,70,1,Vehicle,0,1,37,0
+APP-15261,23,Bachelor,Salaried,2.2,160000.0,680.0,45000.0,36,15.25,Debt Consolidation,Rent,900.0,68,0,Vehicle,0,0,28,0
+APP-13873,21,Associate,Contract,0.5,51400.0,1050.0,13100.0,24,13.53,Personal,Rent,4000.0,81,0,,2,1,14,0
+APP-14719,29,High School,Salaried,0.5,19300.0,90.0,5000.0,12,13.16,Small Business,Rent,3000.0,71,0,Vehicle,3,1,14,1
+APP-11477,31,High School,Salaried,0.7,43100.0,240.0,19300.0,24,11.02,Small Business,Mortgage,28700.0,65,0,Vehicle,1,2,9,0
+APP-15585,24,Bachelor,Salaried,0.7,59600.0,410.0,17200.0,48,14.32,Education,Rent,6300.0,79,1,,1,0,19,0
+APP-11433,25,Associate,Salaried,2.2,35300.0,340.0,13300.0,60,10.15,Small Business,Rent,21700.0,52,0,Vehicle,0,2,9,0
+APP-12178,42,High School,Salaried,9.8,29600.0,90.0,4900.0,24,16.72,Personal,Rent,1800.0,67,0,,1,2,26,1
+APP-11191,21,Bachelor,Self-Employed,0.5,46900.0,870.0,15800.0,24,14.63,Debt Consolidation,With Parents,3100.0,97,0,,1,0,13,0
+APP-15480,41,Bachelor,Self-Employed,9.8,46900.0,340.0,13800.0,60,11.28,Education,With Parents,10400.0,100,0,,1,1,26,0
+APP-13708,31,Bachelor,Salaried,5.7,48000.0,720.0,6700.0,36,10.87,Education,Own,1800.0,68,0,Vehicle,0,2,24,0
+APP-10561,42,High School,Salaried,14.0,26000.0,170.0,10000.0,24,15.65,Personal,Rent,1300.0,96,0,Vehicle,1,2,57,1
+APP-11252,21,Bachelor,Salaried,0.3,120300.0,1640.0,18100.0,24,14.78,Education,Rent,13300.0,73,0,,0,0,15,0
+APP-11170,33,Bachelor,Salaried,7.0,64500.0,150.0,20600.0,36,11.79,Debt Consolidation,Own,6400.0,62,1,Vehicle,1,0,31,0
+APP-11949,28,Bachelor,Contract,2.0,40300.0,320.0,10100.0,48,18.9,Personal,Rent,2100.0,63,0,,1,1,32,1
+APP-11981,21,Bachelor,Salaried,0.2,129500.0,590.0,21100.0,48,15.52,Personal,Mortgage,17300.0,30,0,,1,2,3,0
+APP-10802,29,Bachelor,Salaried,1.6,43500.0,320.0,8000.0,48,13.66,Personal,Mortgage,2500.0,62,0,,1,1,32,1
+APP-14957,35,Bachelor,Contract,2.4,34100.0,310.0,7500.0,36,14.86,Debt Consolidation,With Parents,7400.0,82,1,,1,1,20,0
+APP-13912,35,Bachelor,Salaried,5.4,54100.0,650.0,16800.0,24,12.39,Personal,Rent,1700.0,83,0,Vehicle,2,0,13,0
+APP-14774,21,Bachelor,Freelance,0.4,52800.0,600.0,6400.0,24,10.11,Personal,Own,24200.0,75,0,,1,0,15,0
+APP-12080,29,Associate,Salaried,4.4,32900.0,550.0,8600.0,36,8.49,Medical,With Parents,1000.0,67,0,,0,0,31,0
+APP-15096,34,High School,Salaried,7.0,48600.0,1250.0,10800.0,24,13.94,Education,With Parents,16000.0,67,0,,2,0,17,0
+APP-13470,28,High School,Self-Employed,4.6,32200.0,70.0,11800.0,36,10.92,Debt Consolidation,Rent,3500.0,87,1,Vehicle,2,1,21,0
+APP-12507,37,High School,Contract,12.4,49400.0,180.0,6200.0,36,12.57,Small Business,Rent,11200.0,97,0,,1,0,37,0
+APP-15778,29,Bachelor,Salaried,4.4,79600.0,940.0,12400.0,24,17.22,Education,With Parents,7400.0,88,0,Vehicle,1,1,21,0
+APP-13490,26,Bachelor,Salaried,2.1,38600.0,310.0,13100.0,24,12.54,Personal,Rent,2500.0,93,0,,1,2,19,0
+APP-12558,31,Bachelor,Salaried,2.0,42300.0,100.0,11600.0,48,17.96,Personal,Rent,7600.0,58,0,,3,0,18,0
+APP-14693,32,Bachelor,Salaried,5.7,82000.0,860.0,29900.0,48,14.98,Personal,Own,30800.0,90,0,,2,1,26,0
+APP-10267,21,Bachelor,Salaried,0.2,40000.0,160.0,15400.0,36,10.77,Personal,Rent,1400.0,53,1,,0,2,10,0
+APP-11304,32,Master,Self-Employed,6.7,49900.0,270.0,11300.0,48,7.5,Home Improvement,Rent,3800.0,71,0,Vehicle,1,1,32,0
+APP-11652,30,Bachelor,Self-Employed,1.0,73300.0,1070.0,26800.0,12,13.97,Personal,Mortgage,1300.0,80,0,,4,0,9,1
+APP-15823,36,Master,Salaried,0.4,80500.0,1340.0,19700.0,36,14.13,Personal,Own,10500.0,50,0,Vehicle,1,0,5,0
+APP-10987,34,Bachelor,Contract,2.0,66900.0,1110.0,7300.0,36,14.11,Personal,Own,12500.0,58,0,,0,1,48,0
+APP-10687,26,Master,Self-Employed,0.8,69200.0,990.0,19800.0,24,11.81,Education,With Parents,18000.0,67,0,Vehicle,1,0,45,0
+APP-12914,33,Master,Contract,2.7,91500.0,1060.0,23000.0,24,11.79,Education,Own,25300.0,80,1,,0,2,67,0
+APP-13872,21,Bachelor,Salaried,0.1,60900.0,930.0,17500.0,36,13.4,Debt Consolidation,Own,3700.0,85,1,,1,0,20,1
+APP-14556,22,Associate,Self-Employed,0.9,40900.0,300.0,12300.0,60,13.28,Debt Consolidation,Own,2100.0,99,1,Vehicle,3,1,6,0
+APP-13447,23,Associate,Salaried,0.9,43200.0,470.0,14400.0,36,13.45,Small Business,Rent,1400.0,83,0,,2,1,28,0
+APP-13355,27,Associate,Self-Employed,4.2,41800.0,590.0,13400.0,24,12.59,Home Improvement,Mortgage,7400.0,99,0,Vehicle,2,2,16,0
+APP-12297,38,Associate,Salaried,8.8,60700.0,1130.0,17100.0,48,22.59,Debt Consolidation,Rent,35000.0,73,0,Vehicle,4,2,17,1
+APP-10773,35,High School,Salaried,3.5,49900.0,470.0,18200.0,24,10.15,Education,Mortgage,900.0,62,0,Vehicle,1,0,100,0
+APP-14067,30,High School,Salaried,3.3,45500.0,390.0,8100.0,36,14.15,Personal,Rent,3000.0,82,1,Vehicle,1,1,25,0
+APP-13468,26,Bachelor,Salaried,2.3,54600.0,290.0,17100.0,48,10.47,Education,Mortgage,1100.0,70,0,,0,3,14,1
+APP-10999,32,Associate,Salaried,1.4,95300.0,540.0,42500.0,60,11.31,Education,Rent,28600.0,55,1,,0,0,69,0
+APP-14028,39,Bachelor,Salaried,14.0,52000.0,410.0,20900.0,24,10.35,Small Business,Rent,23500.0,74,0,Fixed Deposit,1,1,41,0
+APP-11405,24,High School,Salaried,0.3,18000.0,320.0,5600.0,12,13.93,Personal,Rent,5800.0,96,0,Vehicle,2,1,23,0
+APP-13745,27,Bachelor,Salaried,1.6,57700.0,610.0,9800.0,36,10.93,Education,Rent,9000.0,81,1,,1,0,9,0
+APP-11145,29,High School,Salaried,5.0,35000.0,780.0,12100.0,36,10.99,Education,Own,4000.0,54,0,,0,0,34,0
+APP-10617,33,Bachelor,Salaried,4.2,43000.0,1260.0,8400.0,36,17.7,Education,Mortgage,1800.0,64,0,Vehicle,1,0,21,0
+APP-12373,32,Bachelor,Contract,3.8,47200.0,190.0,15800.0,60,19.5,Debt Consolidation,Rent,300.0,61,0,,3,0,37,0
+APP-14676,33,Associate,Contract,4.0,21300.0,240.0,8000.0,36,13.28,Home Improvement,Rent,7000.0,100,0,Fixed Deposit,0,0,18,0
+APP-13344,22,Associate,Salaried,1.0,24700.0,250.0,8400.0,36,9.32,Small Business,Rent,4800.0,80,1,Vehicle,1,0,35,0
+APP-11460,28,High School,Salaried,2.0,115600.0,2220.0,24000.0,36,12.05,Personal,Rent,6000.0,58,0,,1,0,34,0
+APP-13622,21,Bachelor,Salaried,0.5,19800.0,120.0,3500.0,24,7.5,Small Business,Rent,2100.0,67,0,,1,1,3,0
+APP-11972,33,Associate,Freelance,9.1,49900.0,880.0,15800.0,36,14.14,Small Business,Rent,6400.0,78,1,,0,0,26,1
+APP-13139,27,Master,Salaried,1.4,93300.0,300.0,38500.0,48,8.5,Personal,Rent,16300.0,81,0,,4,0,39,0
+APP-15367,27,Bachelor,Contract,0.7,66100.0,240.0,14800.0,24,20.18,Home Improvement,Rent,4400.0,67,0,Vehicle,0,0,20,0
+APP-15979,32,High School,Contract,2.9,36000.0,100.0,9900.0,36,7.5,Debt Consolidation,Own,400.0,54,0,,5,0,6,1
+APP-14272,21,Bachelor,Salaried,0.5,43200.0,450.0,14300.0,36,12.61,Personal,Rent,1000.0,74,0,Fixed Deposit,1,1,11,0
+APP-13393,28,High School,Self-Employed,1.2,48200.0,610.0,21600.0,24,11.02,Debt Consolidation,Rent,4500.0,66,0,Vehicle,1,0,9,0
+APP-13505,21,Bachelor,Contract,0.7,87500.0,1430.0,17200.0,24,12.51,Education,With Parents,14800.0,51,1,,0,1,76,0
+APP-14428,29,Associate,Salaried,0.6,54300.0,370.0,8300.0,36,10.71,Personal,Rent,3300.0,76,0,Fixed Deposit,3,0,3,0
+APP-15699,32,Master,Salaried,7.8,61200.0,420.0,24300.0,12,10.4,Debt Consolidation,Mortgage,6800.0,52,0,,6,1,81,1
+APP-14850,21,Bachelor,Salaried,0.1,24900.0,290.0,4000.0,12,10.27,Education,Rent,700.0,87,1,,1,0,20,0
+APP-10148,32,Associate,Salaried,2.0,58000.0,870.0,12700.0,12,15.68,Small Business,Rent,17400.0,56,0,,1,0,46,0
+APP-14851,45,Associate,Salaried,12.7,32900.0,270.0,10500.0,36,10.24,Debt Consolidation,Mortgage,11000.0,81,0,Vehicle,3,1,17,0
+APP-15066,29,Associate,Salaried,1.9,32600.0,520.0,9500.0,36,13.72,Small Business,Mortgage,200.0,59,1,,1,0,24,0
+APP-10278,29,High School,Self-Employed,6.6,18000.0,170.0,2600.0,60,9.44,Education,Rent,800.0,63,0,Vehicle,1,0,45,0
+APP-15547,32,High School,Salaried,8.4,37000.0,420.0,9400.0,36,12.09,Debt Consolidation,Own,2800.0,70,0,Vehicle,0,1,36,0
+APP-12225,37,Doctorate,Salaried,12.7,73500.0,940.0,20300.0,36,17.25,Personal,With Parents,19800.0,84,1,,2,0,6,0
+APP-11165,44,Bachelor,Salaried,2.2,23800.0,110.0,6500.0,48,11.46,Small Business,With Parents,5900.0,66,0,Vehicle,0,0,40,0
+APP-11203,32,Bachelor,Salaried,5.1,75000.0,480.0,12000.0,48,10.7,Personal,With Parents,3000.0,78,0,,1,0,51,0
+APP-12929,35,High School,Salaried,7.9,37600.0,150.0,13900.0,36,11.79,Personal,Rent,1600.0,88,0,Vehicle,3,0,29,0
+APP-15080,22,Bachelor,Salaried,1.2,46500.0,690.0,8600.0,36,21.54,Small Business,Rent,5200.0,69,1,,0,1,27,0
+APP-10020,38,Master,Contract,9.3,64100.0,870.0,17700.0,24,15.96,Education,Rent,25200.0,71,0,,4,3,47,1
+APP-12993,27,High School,Self-Employed,5.2,49400.0,500.0,5000.0,36,14.85,Education,Rent,16500.0,89,0,,1,0,31,0
+APP-13790,32,Associate,Salaried,4.5,46700.0,580.0,8400.0,48,9.0,Debt Consolidation,Rent,15900.0,54,0,,3,3,10,1
+APP-15351,31,Doctorate,Contract,6.0,66300.0,730.0,20200.0,48,7.5,Personal,Rent,7700.0,69,0,Fixed Deposit,0,0,5,0
+APP-12534,26,Master,Contract,0.8,78100.0,1040.0,23700.0,24,16.49,Education,Rent,21000.0,93,0,,4,0,25,0
+APP-12864,31,Bachelor,Salaried,7.2,85500.0,1270.0,22000.0,24,11.08,Personal,Rent,4800.0,63,1,,2,1,21,0
+APP-15208,22,Bachelor,Salaried,0.9,75600.0,980.0,19500.0,36,10.69,Debt Consolidation,Mortgage,8200.0,61,0,,4,0,22,1
+APP-10845,32,Bachelor,Freelance,6.1,36300.0,260.0,11300.0,60,13.55,Medical,Rent,14900.0,49,1,Vehicle,1,0,20,0
+APP-14127,40,Bachelor,Salaried,12.0,108900.0,880.0,45000.0,60,9.95,Personal,Rent,8000.0,45,0,,5,0,37,0
+APP-12456,25,High School,Salaried,2.7,36900.0,180.0,15100.0,36,12.71,Small Business,Rent,5400.0,78,0,Vehicle,0,0,9,0
+APP-12022,37,High School,Salaried,10.8,32600.0,560.0,5700.0,24,21.77,Home Improvement,Rent,4700.0,58,0,Vehicle,1,0,15,0
+APP-13165,21,High School,Self-Employed,0.3,21600.0,210.0,3000.0,36,16.32,Small Business,With Parents,700.0,61,0,,3,0,32,1
+APP-11035,39,Associate,Salaried,1.8,61900.0,1020.0,26600.0,36,17.16,Small Business,With Parents,1300.0,80,0,,3,1,13,1
+APP-13950,32,High School,Self-Employed,3.7,52400.0,580.0,18500.0,48,12.08,Home Improvement,With Parents,7600.0,77,1,,1,2,28,0
+APP-14941,27,Master,Salaried,0.2,125200.0,1500.0,29700.0,36,15.69,Debt Consolidation,Rent,12700.0,67,0,,2,1,27,0
+APP-10033,22,Associate,Salaried,1.3,76600.0,630.0,23800.0,36,17.45,Small Business,Own,13200.0,54,0,,2,0,7,1
+APP-10632,27,Bachelor,Self-Employed,1.6,116000.0,1120.0,38900.0,12,12.8,Education,With Parents,20700.0,83,0,Fixed Deposit,1,1,26,0
+APP-15018,30,Associate,Salaried,3.7,56400.0,720.0,21000.0,48,7.5,Medical,Rent,5900.0,72,1,,0,0,40,0
+APP-13977,38,Bachelor,Salaried,1.3,83500.0,860.0,30700.0,36,15.99,Personal,With Parents,25400.0,70,0,Vehicle,2,2,11,1
+APP-15072,32,Bachelor,Salaried,3.1,78800.0,570.0,22700.0,36,14.95,Personal,With Parents,200.0,85,0,,2,1,27,0
+APP-15857,25,Bachelor,Salaried,3.2,160000.0,2680.0,45000.0,36,15.32,Debt Consolidation,With Parents,24200.0,39,1,Vehicle,3,0,10,0
+APP-12036,31,Associate,Salaried,1.9,129900.0,1250.0,18300.0,36,15.85,Education,Rent,35000.0,68,0,,1,1,33,0
+APP-11942,30,High School,Salaried,4.2,36700.0,240.0,4900.0,60,10.97,Education,Own,35000.0,91,0,,0,0,62,0
+APP-12056,25,Associate,Self-Employed,0.3,21900.0,70.0,7900.0,36,16.26,Personal,Rent,200.0,65,1,,1,0,51,0
+APP-13853,21,High School,Salaried,0.3,23500.0,120.0,7200.0,48,19.9,Debt Consolidation,Rent,3700.0,85,0,,1,2,10,0
+APP-11163,21,Associate,Contract,0.2,25200.0,270.0,10700.0,36,12.18,Small Business,Rent,6000.0,70,1,Fixed Deposit,2,0,35,0
+APP-12644,21,High School,Salaried,0.5,18000.0,210.0,3800.0,48,17.03,Personal,Rent,2200.0,61,1,Vehicle,1,1,20,1
+APP-15724,26,Bachelor,Salaried,1.1,56300.0,400.0,25200.0,48,17.15,Personal,Rent,35000.0,67,1,Vehicle,0,0,16,0
+APP-10679,37,High School,Contract,3.3,19400.0,130.0,5600.0,36,10.5,Debt Consolidation,Rent,500.0,68,0,Fixed Deposit,4,2,10,0
+APP-11884,28,Associate,Salaried,4.4,29000.0,340.0,7100.0,48,7.75,Small Business,Rent,15300.0,100,0,,1,1,44,0
+APP-13304,36,High School,Freelance,9.4,39500.0,440.0,11100.0,24,9.48,Education,Rent,7100.0,67,0,,2,1,12,1
+APP-13780,28,Doctorate,Self-Employed,3.0,48500.0,370.0,20800.0,36,15.16,Debt Consolidation,With Parents,9300.0,83,0,,0,0,22,0
+APP-12268,25,High School,Salaried,2.6,20400.0,80.0,3000.0,60,10.64,Personal,With Parents,200.0,57,0,Vehicle,0,1,41,0
+APP-11565,27,High School,Salaried,1.0,33700.0,240.0,6800.0,36,10.97,Debt Consolidation,Mortgage,400.0,51,1,Vehicle,1,2,17,0
+APP-12062,31,Bachelor,Salaried,4.0,43200.0,180.0,13400.0,24,8.29,Debt Consolidation,Mortgage,8100.0,87,1,Fixed Deposit,0,1,3,0
+APP-10608,21,Bachelor,Salaried,0.6,73700.0,1780.0,9700.0,12,15.2,Personal,Mortgage,35000.0,53,1,Fixed Deposit,1,0,27,0
+APP-15881,38,Bachelor,Salaried,9.4,51800.0,150.0,13400.0,24,10.88,Small Business,Rent,9400.0,67,0,,0,0,60,0
+APP-10150,30,Master,Salaried,4.9,62400.0,710.0,7200.0,36,9.8,Debt Consolidation,Mortgage,9600.0,64,0,Fixed Deposit,2,0,35,0
+APP-11211,24,Associate,Salaried,0.7,18000.0,130.0,3500.0,48,18.32,Small Business,Mortgage,1000.0,94,1,,0,1,16,0
+APP-15199,35,Associate,Salaried,3.0,29500.0,40.0,3500.0,48,16.7,Personal,Mortgage,200.0,80,0,,1,0,8,0
+APP-12026,40,Associate,Salaried,4.1,37500.0,240.0,10500.0,24,12.01,Personal,With Parents,19200.0,39,0,Vehicle,2,0,37,0
+APP-11784,29,Associate,Salaried,5.6,24000.0,390.0,5200.0,24,17.84,Personal,Rent,3900.0,73,0,,2,1,32,1
+APP-14346,28,Bachelor,Contract,3.1,57500.0,1260.0,14100.0,24,13.75,Personal,Rent,500.0,82,0,Vehicle,2,2,22,0
+APP-13358,31,High School,Salaried,6.7,21700.0,200.0,8900.0,36,14.7,Personal,Mortgage,7400.0,67,1,,0,0,45,0
+APP-10182,22,Bachelor,Salaried,0.3,34200.0,430.0,14100.0,36,7.5,Small Business,Rent,9000.0,79,1,,1,0,31,0
+APP-15860,37,Associate,Salaried,9.7,38500.0,200.0,10200.0,12,12.33,Debt Consolidation,Rent,8600.0,50,0,,0,0,16,0
+APP-14971,28,High School,Salaried,0.3,31300.0,210.0,7900.0,36,15.76,Debt Consolidation,Rent,16900.0,72,0,,2,1,30,1
+APP-13877,30,Bachelor,Salaried,2.2,91800.0,1780.0,39800.0,36,13.95,Personal,Rent,13600.0,93,1,,0,0,32,0
+APP-12284,25,Bachelor,Contract,3.7,18000.0,240.0,4900.0,24,11.22,Debt Consolidation,Rent,4000.0,52,0,,0,0,57,0
+APP-15917,21,Master,Self-Employed,0.1,95000.0,1130.0,15100.0,60,14.42,Small Business,Mortgage,200.0,70,0,,1,0,29,1
+APP-15544,26,High School,Salaried,3.8,45900.0,250.0,18000.0,36,12.58,Debt Consolidation,Own,10700.0,66,1,,1,0,8,0
+APP-15915,23,Master,Salaried,1.0,60300.0,260.0,24400.0,36,14.1,Debt Consolidation,Own,1600.0,83,0,,1,0,44,0
+APP-14080,33,Associate,Self-Employed,0.7,22500.0,210.0,9000.0,48,13.16,Home Improvement,Rent,8500.0,58,0,,3,0,32,0
+APP-10427,33,High School,Self-Employed,7.9,32400.0,420.0,5800.0,36,14.27,Home Improvement,Rent,31600.0,79,1,,1,1,5,0
+APP-13626,23,High School,Self-Employed,1.8,50900.0,170.0,9100.0,24,16.49,Small Business,With Parents,8300.0,68,0,Vehicle,2,0,19,0
+APP-12126,21,Bachelor,Salaried,0.5,32100.0,490.0,3600.0,24,11.34,Small Business,Rent,3700.0,66,0,Vehicle,3,0,36,0
+APP-10696,31,High School,Salaried,5.1,92100.0,1520.0,17800.0,48,13.24,Personal,Mortgage,1200.0,83,0,,2,0,24,0
+APP-14470,31,High School,Salaried,6.2,38200.0,520.0,7800.0,36,14.83,Home Improvement,Rent,2600.0,88,1,,4,1,42,0
+APP-13620,21,Associate,Salaried,0.2,35200.0,50.0,3600.0,24,13.89,Education,Rent,1900.0,73,1,,2,1,46,0
+APP-13295,22,Bachelor,Salaried,1.5,73700.0,80.0,17900.0,24,19.48,Personal,Rent,6200.0,57,0,Fixed Deposit,0,1,28,0
+APP-14929,28,Bachelor,Contract,3.8,37300.0,200.0,12600.0,60,12.18,Home Improvement,With Parents,200.0,74,0,,0,0,98,0
+APP-12649,34,Bachelor,Salaried,4.1,41100.0,290.0,16300.0,36,14.48,Education,Mortgage,11600.0,82,0,,2,0,57,0
+APP-13990,21,High School,Contract,0.2,84500.0,1560.0,14800.0,36,19.12,Personal,Mortgage,25700.0,72,0,,0,0,51,0
+APP-10921,22,Bachelor,Salaried,0.8,31100.0,370.0,10100.0,48,12.22,Small Business,Rent,4600.0,94,0,,1,1,27,0
+APP-11531,21,Bachelor,Contract,0.1,27500.0,450.0,6400.0,12,17.56,Education,With Parents,8700.0,69,0,,3,2,34,1
+APP-15947,36,Associate,Salaried,9.6,40800.0,60.0,15600.0,24,15.21,Small Business,Rent,7600.0,50,0,,0,0,45,1
+APP-13810,22,Bachelor,Salaried,0.8,72900.0,1420.0,8700.0,60,17.35,Debt Consolidation,With Parents,25400.0,32,1,,2,0,20,0
+APP-13115,30,Master,Self-Employed,2.6,33800.0,410.0,10600.0,60,9.64,Debt Consolidation,Mortgage,2200.0,55,1,Vehicle,0,2,57,0
+APP-15049,27,High School,Self-Employed,2.3,43400.0,310.0,18100.0,12,11.29,Debt Consolidation,With Parents,2200.0,91,1,,0,1,33,0
+APP-11057,36,Bachelor,Salaried,10.2,45500.0,590.0,15400.0,24,16.05,Personal,Own,5400.0,80,0,,1,0,21,0
+APP-13421,28,High School,Salaried,0.9,58700.0,1150.0,16700.0,48,8.34,Personal,Mortgage,1900.0,74,0,,1,1,3,0
+APP-13724,24,Master,Salaried,2.2,36300.0,410.0,9400.0,36,10.98,Home Improvement,Rent,3300.0,85,0,Vehicle,2,0,24,0
+APP-14552,34,Associate,Self-Employed,10.5,33300.0,500.0,3800.0,24,12.12,Debt Consolidation,Rent,10400.0,81,0,,0,0,21,0
+APP-12242,41,Bachelor,Salaried,0.8,87100.0,1490.0,32400.0,24,12.53,Education,Own,8400.0,80,0,,1,0,81,0
+APP-13428,31,Bachelor,Salaried,6.5,36900.0,510.0,6100.0,24,7.5,Education,Rent,20700.0,98,0,Vehicle,0,2,32,0
+APP-14092,28,High School,Self-Employed,5.2,21500.0,170.0,7100.0,36,11.86,Personal,Rent,600.0,93,0,,3,0,33,0
+APP-15908,39,Bachelor,Contract,13.7,89000.0,1140.0,36600.0,60,10.13,Education,Rent,11600.0,49,0,Fixed Deposit,0,1,3,0
+APP-12643,24,Associate,Salaried,0.2,97600.0,1350.0,19800.0,36,13.44,Small Business,Rent,4400.0,55,0,Vehicle,1,0,17,1
+APP-12900,28,Bachelor,Salaried,1.2,75900.0,1060.0,11500.0,36,16.39,Medical,Rent,28400.0,49,0,Vehicle,4,0,63,0
+APP-10876,25,Bachelor,Salaried,3.2,42600.0,420.0,15500.0,60,13.32,Education,Mortgage,4900.0,63,0,,3,0,7,1
+APP-13785,25,Bachelor,Self-Employed,3.2,39300.0,360.0,6200.0,36,13.28,Debt Consolidation,Mortgage,200.0,74,0,Vehicle,1,0,74,0
+APP-11084,31,Associate,Self-Employed,7.0,65600.0,480.0,13700.0,24,8.75,Debt Consolidation,Rent,5700.0,77,0,Fixed Deposit,2,0,5,1
+APP-11555,31,Associate,Salaried,1.2,56600.0,330.0,11100.0,60,8.49,Education,Rent,13300.0,87,0,Vehicle,1,0,17,0
+APP-10579,36,Master,Freelance,2.8,58800.0,470.0,8400.0,36,7.89,Debt Consolidation,With Parents,2200.0,65,0,Vehicle,3,0,31,0
+APP-11689,27,Bachelor,Salaried,2.2,125200.0,700.0,38800.0,60,12.23,Debt Consolidation,Rent,11000.0,85,0,,1,1,9,0
+APP-13660,26,Master,Salaried,2.5,42200.0,940.0,17800.0,60,11.61,Education,Rent,3600.0,67,0,,1,1,32,0
+APP-13536,33,High School,Contract,8.5,48200.0,720.0,4900.0,24,9.77,Small Business,Rent,9100.0,82,1,,2,0,12,0
+APP-13689,28,High School,Contract,0.1,99400.0,150.0,18800.0,60,8.13,Personal,Rent,2900.0,53,0,,1,0,13,0
+APP-10603,37,Bachelor,Freelance,0.7,48800.0,500.0,21200.0,36,9.51,Personal,Rent,20000.0,86,0,Vehicle,0,0,50,0
+APP-14203,22,Master,Salaried,0.8,67900.0,450.0,28300.0,12,12.63,Small Business,Own,10600.0,64,0,,0,0,28,0
+APP-11187,27,Bachelor,Contract,4.1,109700.0,820.0,42800.0,36,13.32,Education,Mortgage,35000.0,84,0,,2,0,35,0
+APP-14318,30,High School,Salaried,2.0,128800.0,370.0,37400.0,12,12.31,Personal,Rent,35000.0,69,0,,0,0,44,0
+APP-12005,30,High School,Salaried,6.5,39400.0,250.0,8200.0,24,14.66,Debt Consolidation,Mortgage,29200.0,59,0,,2,0,16,0
+APP-12641,27,High School,Salaried,0.2,24100.0,50.0,5300.0,60,9.59,Home Improvement,With Parents,5500.0,64,0,,1,1,71,0
+APP-12115,25,Bachelor,Salaried,2.9,73100.0,440.0,11100.0,48,15.07,Debt Consolidation,Rent,22100.0,76,0,,2,1,6,1
+APP-11037,21,Bachelor,Salaried,0.6,67200.0,550.0,16500.0,24,10.27,Home Improvement,Mortgage,25000.0,68,0,,1,0,8,0
+APP-11159,26,High School,Freelance,3.7,22200.0,230.0,7700.0,36,16.27,Personal,Own,200.0,74,1,,3,0,31,0
+APP-10599,31,High School,Contract,5.6,31600.0,570.0,13600.0,24,20.41,Personal,Rent,200.0,63,0,,1,0,36,1
+APP-12688,33,Master,Salaried,7.3,99600.0,1020.0,17700.0,24,14.83,Personal,Rent,6600.0,82,0,,0,0,36,0
+APP-12527,32,High School,Salaried,2.8,58000.0,1160.0,15100.0,24,20.3,Small Business,Rent,6500.0,77,0,,2,1,24,0
+APP-11627,37,Associate,Salaried,2.7,58700.0,1130.0,8100.0,36,7.5,Education,With Parents,23800.0,45,0,Vehicle,1,0,38,0
+APP-12940,35,Associate,Salaried,7.4,61000.0,750.0,10900.0,48,9.7,Personal,Mortgage,9700.0,84,0,Vehicle,0,1,29,0
+APP-14622,23,Bachelor,Salaried,0.5,97100.0,1180.0,39000.0,12,10.36,Personal,Rent,12700.0,80,0,,1,0,14,0
+APP-12755,26,Master,Salaried,3.4,57800.0,180.0,20300.0,60,15.25,Personal,Rent,12500.0,38,0,,0,0,28,0
+APP-15904,23,Bachelor,Freelance,1.4,72300.0,690.0,30700.0,12,9.41,Education,Rent,4600.0,81,0,,2,0,21,1
+APP-11242,25,Master,Contract,1.0,76200.0,700.0,12500.0,36,7.5,Personal,With Parents,35000.0,85,0,,1,1,29,0
+APP-10302,33,Master,Contract,5.2,65300.0,880.0,9100.0,36,17.43,Personal,With Parents,3800.0,78,0,Vehicle,2,0,36,0
+APP-13728,21,Associate,Salaried,0.4,32900.0,140.0,9400.0,48,12.02,Education,Own,6000.0,71,0,,1,0,32,0
+APP-11065,21,High School,Self-Employed,0.3,31000.0,100.0,9400.0,12,9.65,Small Business,Rent,2700.0,73,1,,0,0,66,0
+APP-11938,36,High School,Salaried,8.5,40200.0,430.0,17200.0,36,8.95,Home Improvement,With Parents,35000.0,72,0,,2,0,18,0
+APP-13595,36,Bachelor,Salaried,3.5,64400.0,280.0,11800.0,12,17.03,Personal,Rent,6300.0,75,0,,1,0,34,0
+APP-15703,25,Bachelor,Salaried,0.6,29300.0,290.0,10200.0,36,22.3,Debt Consolidation,Rent,600.0,71,0,,2,0,34,1
+APP-12096,33,Associate,Salaried,7.6,29100.0,480.0,3100.0,48,12.06,Education,Rent,18100.0,100,0,Vehicle,2,0,18,0
+APP-13567,35,Bachelor,Self-Employed,3.6,79000.0,1720.0,19700.0,36,25.5,Debt Consolidation,Rent,21300.0,59,0,,1,0,14,0
+APP-11429,27,Master,Salaried,1.1,45700.0,380.0,5700.0,36,15.03,Education,Rent,1400.0,76,0,,0,1,60,0
+APP-13772,23,Bachelor,Self-Employed,1.9,73600.0,360.0,12300.0,36,8.97,Personal,Rent,18900.0,60,1,,1,2,15,0
+APP-10549,25,Associate,Salaried,2.3,41400.0,470.0,4600.0,36,18.42,Debt Consolidation,Rent,6600.0,54,1,Vehicle,2,1,44,0
+APP-12532,32,High School,Salaried,4.6,29000.0,270.0,12000.0,36,13.64,Small Business,Rent,16000.0,69,0,,0,0,6,0
+APP-13518,37,Bachelor,Salaried,1.3,72900.0,900.0,10700.0,24,8.73,Medical,Mortgage,4900.0,60,0,,4,0,21,0
+APP-12624,31,Master,Self-Employed,1.6,98000.0,1400.0,38200.0,36,11.56,Small Business,Mortgage,25100.0,90,0,Vehicle,1,1,22,0
+APP-10859,33,Bachelor,Contract,8.7,73200.0,1120.0,27000.0,24,14.68,Personal,Rent,5600.0,71,0,Vehicle,0,1,62,0
+APP-15124,33,Bachelor,Salaried,4.9,34600.0,530.0,3700.0,48,13.42,Education,Mortgage,4100.0,75,0,,2,0,28,1
+APP-15558,28,Associate,Salaried,4.4,29600.0,510.0,8500.0,48,12.09,Small Business,Rent,1900.0,72,0,,1,0,11,1
+APP-13223,33,High School,Salaried,3.9,54000.0,970.0,9400.0,48,14.0,Education,Rent,10300.0,53,0,,0,1,13,0
+APP-14055,30,Bachelor,Freelance,7.3,68400.0,1230.0,20000.0,36,12.06,Small Business,Own,18400.0,70,0,,1,1,47,0
+APP-13347,39,Master,Salaried,6.8,88800.0,700.0,12800.0,36,18.35,Small Business,With Parents,10800.0,79,1,,1,0,17,0
+APP-12652,32,Bachelor,Salaried,7.7,160000.0,2120.0,40100.0,12,10.96,Personal,Rent,6300.0,60,0,,1,1,23,0
+APP-15540,39,Bachelor,Salaried,2.3,58800.0,740.0,19900.0,12,14.31,Personal,Mortgage,14300.0,66,1,,2,1,31,0
+APP-12350,35,Bachelor,Salaried,7.9,29100.0,290.0,9500.0,36,9.93,Debt Consolidation,Rent,3900.0,67,0,Vehicle,4,0,34,0
+APP-10874,28,Master,Salaried,5.2,142700.0,990.0,40000.0,36,8.24,Medical,With Parents,18000.0,74,0,,0,1,21,0
+APP-10116,28,Master,Freelance,1.7,37200.0,390.0,15300.0,36,14.74,Debt Consolidation,Rent,9800.0,49,0,Vehicle,3,0,39,1
+APP-13588,37,Bachelor,Salaried,4.6,38300.0,120.0,12300.0,24,12.46,Debt Consolidation,Rent,5700.0,68,0,,0,1,46,0
+APP-15589,39,Bachelor,Salaried,5.0,76200.0,910.0,29900.0,36,10.69,Personal,Rent,10700.0,88,0,Vehicle,3,0,18,0
+APP-13014,25,Bachelor,Salaried,1.0,38500.0,370.0,9500.0,36,15.68,Small Business,With Parents,600.0,70,1,Vehicle,2,3,21,0
+APP-12246,23,Master,Salaried,1.7,28200.0,230.0,6600.0,48,12.53,Small Business,Rent,1300.0,58,1,Fixed Deposit,2,1,39,0
+APP-10449,22,Associate,Contract,0.3,54400.0,460.0,12400.0,48,12.63,Education,Rent,15100.0,62,1,,2,1,28,0
+APP-14544,31,High School,Salaried,1.5,30400.0,580.0,12500.0,24,16.57,Education,Rent,4800.0,74,0,,0,1,14,0
+APP-12981,37,High School,Salaried,12.5,23000.0,440.0,10300.0,48,15.04,Debt Consolidation,Mortgage,2500.0,79,0,,0,0,36,1
+APP-11552,23,Master,Salaried,0.2,79300.0,1260.0,26000.0,24,15.06,Education,Rent,19900.0,61,0,Vehicle,3,3,88,1
+APP-11160,21,Associate,Salaried,0.5,39200.0,370.0,16500.0,36,11.57,Small Business,Rent,11600.0,78,1,,6,0,36,1
+APP-10863,40,Associate,Freelance,1.8,26800.0,220.0,12000.0,24,16.65,Personal,Rent,10000.0,79,0,,0,0,9,0
+APP-10950,27,Bachelor,Self-Employed,0.6,52000.0,740.0,14300.0,36,17.26,Personal,Rent,22100.0,65,0,,3,0,11,0
+APP-15674,21,Bachelor,Salaried,0.4,103400.0,710.0,28700.0,24,11.29,Small Business,Own,26000.0,88,1,,2,2,33,0
+APP-11826,21,Associate,Salaried,0.3,29700.0,460.0,5400.0,24,16.27,Debt Consolidation,Own,400.0,63,1,,1,0,34,0
+APP-10245,26,Associate,Salaried,2.4,50500.0,700.0,19900.0,48,14.85,Home Improvement,Rent,7700.0,100,0,Vehicle,3,1,17,0
+APP-11934,46,Associate,Salaried,16.8,91400.0,1450.0,35700.0,24,16.17,Personal,Mortgage,32100.0,59,0,,1,0,29,1
+APP-13842,35,High School,Freelance,0.7,66100.0,1010.0,9900.0,24,10.34,Debt Consolidation,With Parents,25300.0,67,1,Fixed Deposit,1,0,18,0
+APP-11462,27,Master,Freelance,0.8,100300.0,1910.0,28300.0,36,14.78,Small Business,With Parents,18700.0,62,0,,0,0,48,1
+APP-15144,34,High School,Salaried,4.1,78300.0,490.0,26000.0,48,10.3,Personal,Mortgage,32900.0,64,1,,1,0,14,0
+APP-10868,33,High School,Contract,5.8,18000.0,250.0,6500.0,36,13.25,Education,With Parents,900.0,75,0,,2,1,17,0
+APP-13941,36,Master,Salaried,5.5,28400.0,540.0,4400.0,60,15.04,Personal,Mortgage,6500.0,68,0,Vehicle,3,1,33,1
+APP-13364,24,Associate,Self-Employed,0.3,36700.0,430.0,12400.0,36,8.45,Debt Consolidation,Rent,13500.0,77,1,Vehicle,1,1,19,0
+APP-15800,30,High School,Salaried,3.3,94000.0,1810.0,30500.0,36,11.73,Education,Mortgage,14400.0,57,1,Vehicle,1,0,54,0
+APP-12063,28,Bachelor,Self-Employed,3.7,37800.0,350.0,5600.0,36,14.27,Education,Mortgage,8400.0,55,0,,1,0,27,0
+APP-12296,31,Master,Salaried,5.8,41400.0,390.0,11300.0,48,15.53,Personal,Own,1400.0,92,0,,0,1,23,0
+APP-15900,28,Associate,Freelance,0.4,63600.0,1690.0,8300.0,36,14.66,Small Business,With Parents,11100.0,73,0,Vehicle,3,0,32,0
+APP-13841,24,Master,Salaried,0.6,45300.0,190.0,12200.0,36,10.18,Home Improvement,With Parents,1900.0,83,0,Fixed Deposit,1,0,9,0
+APP-13278,29,High School,Freelance,4.2,38800.0,260.0,17200.0,36,17.97,Personal,Own,900.0,100,0,Vehicle,1,0,69,0
+APP-12748,31,Bachelor,Salaried,3.7,31800.0,330.0,12600.0,36,21.96,Personal,Own,2600.0,99,1,Vehicle,1,1,14,1
+APP-10861,21,High School,Salaried,0.2,35000.0,310.0,12700.0,36,9.35,Debt Consolidation,Rent,3600.0,78,0,Vehicle,0,0,19,0
+APP-13340,33,Associate,Salaried,3.3,83100.0,350.0,19900.0,36,7.5,Debt Consolidation,Rent,29900.0,78,0,,5,0,15,1
+APP-11568,21,Associate,Salaried,0.1,94900.0,1670.0,11600.0,12,16.48,Home Improvement,With Parents,16300.0,95,1,,2,0,49,0
+APP-14749,29,Bachelor,Salaried,1.8,103800.0,1180.0,41200.0,12,14.41,Personal,Rent,5700.0,70,0,,1,0,28,1
+APP-14608,33,Bachelor,Salaried,6.0,46900.0,1150.0,20800.0,12,13.52,Medical,With Parents,300.0,64,0,,1,2,37,1
+APP-14517,31,Master,Salaried,5.3,93100.0,1910.0,36400.0,36,9.51,Education,Mortgage,25600.0,58,0,Fixed Deposit,1,0,56,0
+APP-12377,21,Bachelor,Salaried,0.7,47200.0,900.0,10200.0,24,17.94,Personal,Mortgage,10300.0,76,1,Vehicle,0,1,23,0
+APP-13408,27,Bachelor,Salaried,4.1,56400.0,170.0,15300.0,12,15.19,Medical,With Parents,200.0,52,0,Vehicle,1,0,69,0
+APP-15672,24,Bachelor,Salaried,1.7,73100.0,1000.0,9800.0,36,13.25,Home Improvement,Rent,35000.0,58,1,Vehicle,0,0,56,0
+APP-13051,24,Bachelor,Salaried,1.4,36200.0,190.0,7900.0,36,11.47,Debt Consolidation,Mortgage,14900.0,57,1,Vehicle,1,0,17,0
+APP-13339,40,Master,Freelance,3.3,82100.0,1200.0,31200.0,24,13.03,Education,Rent,200.0,91,0,,3,1,10,1
+APP-12533,23,Bachelor,Salaried,0.7,65800.0,740.0,28000.0,24,11.37,Personal,Rent,24100.0,76,1,,3,0,25,0
+APP-12631,32,Associate,Self-Employed,1.7,34300.0,270.0,4300.0,48,12.51,Education,Rent,5200.0,45,0,,0,1,13,0
+APP-10736,30,Master,Freelance,6.6,41400.0,570.0,7200.0,48,23.72,Personal,With Parents,4100.0,62,0,Fixed Deposit,4,1,20,0
+APP-13002,26,Bachelor,Salaried,2.3,47800.0,340.0,4800.0,24,11.98,Home Improvement,Rent,5300.0,65,0,,2,1,58,0
+APP-10828,26,Bachelor,Self-Employed,1.4,85800.0,1770.0,34500.0,36,11.97,Debt Consolidation,Rent,3400.0,72,0,,1,0,50,1
+APP-15217,25,High School,Salaried,1.3,33100.0,350.0,12200.0,48,12.01,Small Business,Rent,13900.0,93,1,,1,0,51,0
+APP-15833,34,Bachelor,Salaried,3.6,68000.0,1150.0,28900.0,36,7.5,Debt Consolidation,With Parents,700.0,90,0,,1,0,20,0
+APP-10005,27,Associate,Salaried,2.0,44700.0,380.0,6200.0,60,15.04,Debt Consolidation,With Parents,1500.0,67,0,,1,0,9,1
+APP-12592,28,Bachelor,Self-Employed,0.5,73800.0,860.0,23000.0,12,23.81,Debt Consolidation,Rent,8000.0,76,0,,1,0,35,1
+APP-15343,25,Master,Salaried,3.6,68100.0,340.0,8100.0,24,17.04,Personal,With Parents,29300.0,64,1,Vehicle,2,0,20,0
+APP-15549,37,High School,Salaried,3.4,66500.0,1000.0,20500.0,24,19.24,Education,Own,1300.0,76,0,Vehicle,2,0,18,0
+APP-10565,26,Associate,Contract,0.8,21500.0,230.0,5500.0,36,10.86,Debt Consolidation,With Parents,4600.0,72,1,,0,1,55,0
+APP-14165,34,Associate,Salaried,3.9,90000.0,820.0,11400.0,36,18.6,Debt Consolidation,With Parents,20100.0,76,0,Vehicle,3,1,32,0
+APP-13131,28,High School,Salaried,5.2,34500.0,490.0,10300.0,36,14.24,Small Business,Own,9500.0,77,1,Vehicle,2,0,38,1
+APP-12380,22,High School,Self-Employed,0.7,18600.0,490.0,2000.0,24,11.41,Personal,With Parents,1900.0,81,0,,1,2,4,0
+APP-12450,23,Bachelor,Salaried,1.0,42200.0,530.0,4400.0,24,19.99,Education,Own,4000.0,65,1,,1,0,16,1
+APP-14511,35,Bachelor,Contract,6.9,43700.0,880.0,17100.0,48,12.62,Home Improvement,Mortgage,32900.0,67,0,,2,0,15,0
+APP-10199,21,Master,Salaried,0.1,51100.0,730.0,7000.0,24,18.54,Education,Rent,4600.0,88,1,,0,1,30,0
+APP-12214,25,Bachelor,Self-Employed,1.4,95900.0,660.0,9700.0,60,11.0,Small Business,Mortgage,25100.0,76,0,,1,0,26,0
+APP-11327,28,Bachelor,Freelance,0.7,76800.0,1050.0,20100.0,48,13.73,Debt Consolidation,Rent,15300.0,77,1,,0,0,28,0
+APP-15088,29,High School,Contract,4.5,42700.0,230.0,6200.0,24,12.35,Education,Rent,28900.0,71,0,,0,0,10,0
+APP-11663,25,Bachelor,Salaried,0.8,48100.0,300.0,12200.0,36,22.84,Home Improvement,Rent,9400.0,70,0,,0,0,5,1
+APP-11871,27,High School,Salaried,1.5,22700.0,200.0,3800.0,48,8.08,Personal,With Parents,6400.0,66,0,Fixed Deposit,2,1,8,0
+APP-11093,29,Bachelor,Salaried,2.3,55300.0,170.0,15500.0,36,11.71,Debt Consolidation,Mortgage,1700.0,100,0,Vehicle,0,0,20,0
+APP-14376,21,Associate,Self-Employed,0.2,91400.0,610.0,28900.0,36,10.83,Education,Rent,4500.0,71,0,,5,1,46,0
+APP-15662,29,High School,Salaried,2.2,54000.0,600.0,19600.0,60,13.82,Personal,Mortgage,12800.0,81,1,,1,0,18,1
+APP-11618,26,Bachelor,Salaried,2.1,37900.0,800.0,11200.0,12,12.14,Personal,Rent,1800.0,85,0,,1,0,30,1
+APP-13538,28,Bachelor,Self-Employed,1.4,98000.0,1620.0,35700.0,24,14.07,Education,Rent,200.0,90,0,Vehicle,3,2,25,1
+APP-10467,33,Associate,Salaried,4.9,50200.0,910.0,17500.0,36,12.5,Debt Consolidation,With Parents,12100.0,74,0,,0,0,70,0
+APP-11398,36,Associate,Salaried,11.4,47400.0,180.0,16300.0,36,9.63,Small Business,Rent,20200.0,68,0,,3,1,15,0
+APP-13314,26,Associate,Self-Employed,0.4,45500.0,280.0,13000.0,36,16.28,Debt Consolidation,Rent,2200.0,55,0,Fixed Deposit,1,0,8,0
+APP-11451,40,High School,Salaried,4.9,34200.0,320.0,10400.0,36,16.15,Home Improvement,Mortgage,3900.0,83,0,Fixed Deposit,2,1,12,1
+APP-13801,21,Associate,Salaried,0.5,35800.0,380.0,4100.0,60,16.73,Debt Consolidation,Rent,13100.0,52,0,Fixed Deposit,2,1,10,0
+APP-15777,26,Associate,Contract,2.0,60800.0,1140.0,20200.0,60,15.85,Personal,Mortgage,10500.0,55,0,,0,1,21,0
+APP-13984,30,Associate,Salaried,2.6,23000.0,180.0,9500.0,36,13.94,Education,With Parents,1200.0,96,0,Vehicle,0,0,45,0
+APP-13829,32,Master,Salaried,3.0,109500.0,2070.0,31500.0,24,10.29,Debt Consolidation,With Parents,8900.0,56,0,Vehicle,0,0,17,0
+APP-12633,31,High School,Salaried,2.4,25000.0,300.0,5200.0,36,9.06,Personal,Rent,8700.0,86,0,Vehicle,1,0,23,0
+APP-15729,28,Associate,Salaried,4.3,66100.0,1270.0,17400.0,48,9.95,Small Business,Mortgage,7700.0,71,0,Vehicle,2,1,16,0
+APP-13404,31,Master,Salaried,2.4,60100.0,310.0,13400.0,24,8.73,Personal,With Parents,5700.0,88,1,,1,2,27,1
+APP-13734,34,Associate,Self-Employed,9.5,77800.0,540.0,33200.0,24,10.96,Education,With Parents,1800.0,53,0,,0,1,43,1
+APP-12133,32,High School,Self-Employed,2.7,35700.0,650.0,3800.0,48,8.19,Personal,Mortgage,5500.0,88,1,,1,1,6,0
+APP-12299,21,High School,Salaried,0.3,25500.0,430.0,10700.0,24,14.71,Debt Consolidation,Rent,4100.0,100,0,Fixed Deposit,3,0,15,0
+APP-10268,26,Bachelor,Salaried,0.7,68000.0,650.0,28300.0,36,13.14,Debt Consolidation,Rent,2900.0,52,0,Fixed Deposit,0,1,10,0
+APP-12693,28,Bachelor,Salaried,4.8,42200.0,700.0,15000.0,48,19.0,Personal,With Parents,1800.0,47,1,,1,1,16,0
+APP-11683,31,Bachelor,Contract,2.6,55900.0,360.0,17700.0,36,10.47,Medical,Mortgage,1100.0,83,0,,0,0,19,0
+APP-11846,37,Master,Salaried,8.7,75200.0,500.0,18600.0,36,7.75,Small Business,Rent,500.0,55,0,,2,0,31,0
+APP-12443,33,Bachelor,Salaried,2.4,55800.0,990.0,8500.0,36,13.24,Medical,Rent,800.0,72,0,Vehicle,0,0,28,0
+APP-14507,30,High School,Salaried,1.8,50200.0,720.0,22300.0,12,10.27,Debt Consolidation,Rent,5900.0,44,0,Vehicle,2,1,9,1
+APP-11275,29,Associate,Salaried,3.4,33200.0,260.0,7500.0,24,16.16,Debt Consolidation,Rent,2300.0,65,0,,1,1,40,1
+APP-15472,26,Associate,Salaried,4.3,38200.0,290.0,13400.0,48,10.48,Personal,Rent,11100.0,69,0,Vehicle,1,0,47,0
+APP-12376,26,Master,Salaried,1.4,71600.0,1530.0,20900.0,24,12.46,Personal,Rent,3700.0,90,0,,1,0,33,0
+APP-14115,26,Bachelor,Contract,4.0,54000.0,440.0,6600.0,36,12.24,Small Business,Rent,35000.0,89,0,,2,0,39,0
+APP-14528,28,Bachelor,Contract,3.5,30900.0,160.0,5100.0,12,15.27,Education,Rent,4700.0,65,1,Vehicle,1,2,16,0
+APP-13701,38,High School,Salaried,8.8,65600.0,930.0,7000.0,36,10.75,Education,With Parents,35000.0,79,0,,2,3,29,0
+APP-11691,25,High School,Salaried,1.6,54000.0,220.0,10100.0,60,9.48,Debt Consolidation,Own,6400.0,73,0,,0,1,3,0
+APP-15180,30,Bachelor,Freelance,2.8,50800.0,1010.0,7700.0,48,16.23,Education,Mortgage,2300.0,68,0,,0,1,16,0
+APP-13058,21,High School,Salaried,0.6,22700.0,330.0,6700.0,48,15.83,Personal,Mortgage,1500.0,61,0,,1,0,9,0
+APP-14593,21,Bachelor,Salaried,0.2,62200.0,380.0,13800.0,36,11.32,Small Business,Rent,4900.0,72,1,,1,0,48,0
+APP-15345,39,Associate,Self-Employed,4.4,74100.0,600.0,16300.0,36,16.06,Personal,Own,4500.0,77,0,,1,0,11,0
+APP-15840,31,Bachelor,Salaried,0.1,72300.0,680.0,29900.0,24,14.04,Small Business,Rent,5400.0,75,0,,1,2,9,1
+APP-13388,34,Master,Salaried,8.9,63400.0,200.0,16300.0,12,22.96,Education,Rent,8900.0,75,0,,5,0,7,0
+APP-12855,25,Master,Self-Employed,1.3,74600.0,360.0,14600.0,48,13.54,Home Improvement,Rent,13700.0,69,1,,1,0,28,0
+APP-12435,26,Bachelor,Contract,2.0,53900.0,400.0,23400.0,36,7.81,Education,With Parents,7800.0,57,0,,3,0,15,1
+APP-14479,35,Bachelor,Salaried,8.5,38000.0,140.0,9300.0,36,13.41,Medical,Rent,16900.0,92,0,,2,0,8,1
+APP-14498,21,Bachelor,Salaried,0.6,88000.0,430.0,37100.0,36,20.39,Personal,Rent,3900.0,72,0,,1,3,3,1
+APP-11045,34,Bachelor,Self-Employed,2.3,33900.0,260.0,13300.0,36,14.4,Personal,With Parents,8100.0,78,1,,1,0,9,0
+APP-15936,36,High School,Freelance,2.0,74500.0,580.0,29500.0,36,12.81,Personal,Rent,35000.0,96,1,Vehicle,0,1,32,0
+APP-12711,38,High School,Salaried,2.8,27100.0,80.0,10700.0,24,10.75,Small Business,Rent,4000.0,85,0,,2,1,18,0
+APP-12997,21,High School,Salaried,0.7,27600.0,290.0,6200.0,36,18.29,Education,Rent,900.0,53,0,,3,1,53,0
+APP-14648,21,Associate,Salaried,0.5,59200.0,120.0,18500.0,36,16.75,Personal,Own,29400.0,61,0,,1,0,21,0
+APP-15940,21,Master,Contract,0.6,38500.0,520.0,6400.0,36,14.15,Education,Rent,5900.0,62,0,Vehicle,1,1,13,1
+APP-14472,37,Bachelor,Salaried,10.8,79700.0,2260.0,13000.0,36,16.25,Debt Consolidation,With Parents,2200.0,63,1,Vehicle,3,0,11,0
+APP-15302,34,Bachelor,Salaried,6.6,130300.0,2390.0,16800.0,36,7.5,Education,With Parents,35000.0,68,0,,1,1,38,0
+APP-13565,29,Bachelor,Salaried,5.3,31300.0,200.0,12400.0,36,16.72,Small Business,Mortgage,4100.0,83,1,,0,2,41,0
+APP-12198,24,Bachelor,Salaried,0.1,33800.0,270.0,9600.0,36,16.63,Debt Consolidation,Rent,1000.0,81,0,,2,1,23,1
+APP-15545,21,Associate,Salaried,0.7,80200.0,400.0,15000.0,60,9.56,Home Improvement,Rent,5300.0,60,1,Vehicle,4,0,27,0
+APP-12810,28,Bachelor,Self-Employed,3.4,63300.0,600.0,12500.0,24,12.03,Education,With Parents,2000.0,86,0,,1,1,33,0
+APP-11542,39,Bachelor,Self-Employed,10.0,84000.0,1150.0,31200.0,12,16.79,Personal,Rent,12500.0,76,1,,1,0,6,1
+APP-15108,22,High School,Salaried,0.6,36700.0,450.0,7100.0,24,17.51,Debt Consolidation,Rent,1500.0,73,0,Fixed Deposit,1,0,35,0
+APP-11407,38,High School,Contract,4.1,42200.0,140.0,11500.0,36,9.47,Small Business,Rent,2500.0,76,0,,2,2,3,0
+APP-10781,21,High School,Salaried,0.1,42800.0,240.0,11700.0,36,12.67,Personal,Rent,3400.0,55,0,Vehicle,0,0,17,0
+APP-13871,30,Bachelor,Salaried,5.9,54800.0,110.0,20900.0,36,12.36,Debt Consolidation,Rent,17900.0,84,0,Vehicle,1,0,7,0
+APP-13610,29,Bachelor,Salaried,0.1,69100.0,750.0,20900.0,60,15.32,Personal,Rent,700.0,88,0,,1,2,18,0
+APP-13282,21,Master,Salaried,0.6,98400.0,1230.0,26900.0,36,15.21,Personal,Rent,2700.0,57,0,,1,0,8,1
+APP-11197,32,Master,Salaried,1.7,110800.0,350.0,44200.0,36,12.76,Personal,Own,22000.0,47,0,,1,0,48,0
+APP-13540,31,Master,Salaried,8.1,45700.0,680.0,11500.0,24,7.5,Home Improvement,Rent,7000.0,61,0,,2,1,87,0
+APP-15570,28,Associate,Self-Employed,2.9,20100.0,250.0,2700.0,60,16.56,Personal,Rent,3500.0,69,0,,0,0,39,0
+APP-10239,34,Bachelor,Salaried,0.8,154500.0,1420.0,23100.0,12,15.35,Education,Mortgage,35000.0,81,0,Vehicle,3,1,16,0
+APP-11951,37,Bachelor,Contract,4.9,81100.0,1480.0,15500.0,36,13.75,Education,Mortgage,24300.0,68,0,,3,2,29,0
+APP-14103,34,High School,Self-Employed,10.4,28700.0,540.0,10100.0,48,13.44,Home Improvement,Rent,200.0,59,0,Vehicle,0,0,5,0
+APP-13932,34,Bachelor,Salaried,9.1,78800.0,1270.0,32900.0,48,14.73,Education,Own,4000.0,71,0,,3,1,33,1
+APP-14860,25,Bachelor,Salaried,2.4,123100.0,1500.0,24100.0,36,12.56,Personal,Rent,35000.0,76,0,,2,0,57,0
+APP-14273,21,High School,Self-Employed,0.5,25800.0,70.0,6200.0,24,7.5,Debt Consolidation,Own,800.0,78,0,,4,0,12,0
+APP-13897,33,Master,Self-Employed,2.1,69900.0,1280.0,23800.0,24,8.73,Personal,Rent,23200.0,91,1,Vehicle,1,0,30,0
+APP-11672,26,Bachelor,Freelance,1.3,31800.0,200.0,4100.0,12,19.51,Debt Consolidation,Rent,1700.0,68,0,,1,0,18,0
+APP-10780,30,Bachelor,Salaried,6.9,51400.0,80.0,13400.0,36,15.3,Debt Consolidation,With Parents,11300.0,97,0,Vehicle,1,0,67,0
+APP-12704,30,Master,Salaried,1.0,100900.0,1550.0,21100.0,24,10.1,Small Business,Rent,33400.0,55,0,Vehicle,1,0,18,0
+APP-15946,25,Bachelor,Freelance,0.5,33800.0,610.0,10800.0,36,25.5,Small Business,With Parents,2700.0,71,1,Fixed Deposit,1,2,22,0
+APP-14108,27,High School,Salaried,4.1,21800.0,160.0,6500.0,24,8.81,Small Business,Rent,5500.0,86,0,,0,1,23,0
+APP-11332,27,Bachelor,Salaried,4.3,55400.0,1450.0,6600.0,36,16.28,Education,Rent,10900.0,73,0,,0,1,10,0
+APP-10932,21,Bachelor,Salaried,0.5,34100.0,780.0,8600.0,12,13.43,Personal,Rent,800.0,68,1,,0,0,90,1
+APP-15440,25,Doctorate,Salaried,1.3,89900.0,700.0,39400.0,36,10.77,Small Business,Rent,500.0,47,1,Vehicle,1,0,7,0
+APP-12944,31,Bachelor,Salaried,6.2,145000.0,2260.0,45000.0,48,17.35,Personal,Rent,35000.0,81,1,Fixed Deposit,2,1,15,0
+APP-13646,30,Associate,Salaried,0.6,42300.0,460.0,14800.0,60,15.29,Home Improvement,Mortgage,1900.0,78,0,,1,1,17,0
+APP-12424,21,Master,Contract,0.5,62800.0,1030.0,14700.0,60,15.59,Debt Consolidation,Rent,12700.0,55,1,,0,0,32,0
+APP-10471,21,Bachelor,Salaried,0.4,110800.0,1580.0,26900.0,12,15.73,Personal,Rent,35000.0,65,1,Fixed Deposit,0,0,35,0
+APP-11935,21,Bachelor,Self-Employed,0.2,70900.0,670.0,17400.0,24,9.48,Home Improvement,Own,2500.0,72,0,Fixed Deposit,3,2,29,0
+APP-13972,31,High School,Salaried,0.9,31300.0,330.0,9900.0,12,10.32,Medical,With Parents,3500.0,71,0,,0,3,23,1
+APP-13003,41,Bachelor,Salaried,11.2,160000.0,2200.0,33600.0,12,12.25,Debt Consolidation,With Parents,25600.0,97,1,,3,0,60,0
+APP-15229,35,Bachelor,Salaried,8.6,111100.0,650.0,19400.0,48,9.98,Education,Mortgage,20300.0,73,1,Vehicle,0,0,36,0
+APP-12971,28,Bachelor,Salaried,3.2,72600.0,260.0,31200.0,36,16.33,Education,With Parents,5900.0,30,0,,1,0,21,0
+APP-12025,30,Bachelor,Self-Employed,0.9,49400.0,480.0,19400.0,60,12.78,Debt Consolidation,Own,8000.0,80,0,,1,1,21,0
+APP-11854,35,Bachelor,Salaried,8.6,49000.0,620.0,15200.0,24,8.49,Education,Mortgage,3100.0,72,1,,2,3,51,0
+APP-10569,26,Bachelor,Salaried,0.2,69600.0,240.0,17000.0,60,13.89,Debt Consolidation,Rent,12500.0,51,1,,2,0,3,0
+APP-12130,31,Associate,Salaried,2.0,70900.0,510.0,19900.0,24,10.01,Education,Rent,15300.0,79,0,,1,0,3,0
+APP-10633,26,Bachelor,Contract,3.6,90900.0,730.0,15800.0,36,20.26,Education,Rent,24700.0,70,1,,3,1,17,1
+APP-14949,31,Bachelor,Salaried,3.6,95800.0,210.0,13400.0,48,18.36,Debt Consolidation,With Parents,9700.0,63,0,Vehicle,0,0,78,0
+APP-11498,35,High School,Salaried,7.5,37900.0,1100.0,7300.0,36,18.08,Personal,Rent,2400.0,86,0,,1,2,23,0
+APP-14352,27,Master,Salaried,3.3,26200.0,190.0,4500.0,36,16.4,Debt Consolidation,Rent,6100.0,92,0,,2,0,44,0
+APP-13591,32,Master,Self-Employed,0.8,76800.0,250.0,34100.0,12,7.75,Personal,Mortgage,22300.0,81,0,Fixed Deposit,1,2,24,0
+APP-14890,23,Bachelor,Salaried,1.5,46600.0,340.0,6200.0,24,15.83,Home Improvement,Own,11500.0,68,1,,3,1,48,0
+APP-10813,30,Associate,Salaried,6.1,18000.0,80.0,3400.0,48,10.46,Personal,With Parents,2900.0,77,1,,0,1,9,0
+APP-13083,21,High School,Salaried,0.7,57100.0,770.0,13900.0,24,11.43,Home Improvement,Rent,35000.0,78,0,,1,0,28,0
+APP-15253,21,Master,Salaried,0.4,85200.0,1240.0,33600.0,36,8.24,Personal,With Parents,4800.0,51,0,Vehicle,4,0,63,0
+APP-15045,35,Bachelor,Self-Employed,7.0,53500.0,350.0,12900.0,48,13.29,Personal,Own,14100.0,99,0,Vehicle,1,1,24,0
+APP-15336,25,Associate,Salaried,1.4,29300.0,450.0,6500.0,12,10.53,Education,With Parents,3200.0,74,1,,2,0,40,0
+APP-10482,21,Master,Freelance,0.6,33800.0,580.0,13700.0,36,8.72,Medical,Own,6500.0,82,0,Vehicle,0,1,8,1
+APP-12962,25,Bachelor,Salaried,1.0,31200.0,80.0,9100.0,36,12.46,Personal,Mortgage,3000.0,53,0,,0,0,35,1
+APP-15041,21,Master,Self-Employed,0.2,56000.0,570.0,9700.0,36,13.74,Education,Mortgage,19200.0,75,1,,2,0,28,0
+APP-15426,35,High School,Salaried,9.0,47200.0,350.0,7000.0,12,13.18,Personal,Own,19200.0,66,0,,0,1,3,0
+APP-10363,31,Bachelor,Salaried,6.7,35800.0,90.0,6700.0,60,11.77,Personal,Own,200.0,100,1,Vehicle,2,2,47,0
+APP-13054,40,Master,Contract,11.2,38600.0,190.0,4800.0,36,8.12,Education,With Parents,3400.0,81,0,Vehicle,0,1,3,0
+APP-12007,23,Master,Salaried,0.8,49400.0,610.0,6700.0,48,14.87,Personal,Rent,5900.0,67,0,,1,0,16,1
+APP-12422,27,High School,Salaried,0.4,28400.0,280.0,6300.0,48,12.54,Personal,With Parents,1600.0,91,0,Vehicle,1,0,15,0
+APP-13715,27,High School,Salaried,3.7,55500.0,310.0,15000.0,36,15.93,Education,Rent,21100.0,90,0,,1,1,5,0
+APP-13450,25,High School,Self-Employed,0.9,44300.0,180.0,12700.0,24,13.02,Personal,Rent,2000.0,63,0,Vehicle,4,0,7,0
+APP-14833,33,Bachelor,Salaried,0.4,29200.0,130.0,12800.0,36,9.86,Medical,Rent,4700.0,82,0,,1,0,6,0
+APP-10919,30,Bachelor,Salaried,7.4,76900.0,1130.0,31700.0,12,10.98,Education,Own,3100.0,90,1,Fixed Deposit,2,1,3,0
+APP-12264,33,Associate,Self-Employed,4.6,36300.0,440.0,11500.0,60,16.34,Education,Rent,4300.0,69,0,Vehicle,1,1,66,0
+APP-12505,23,Bachelor,Freelance,1.8,62500.0,1430.0,13300.0,60,10.29,Education,Rent,300.0,76,1,,3,0,28,1
+APP-11422,26,Associate,Salaried,1.5,48700.0,650.0,21100.0,24,14.42,Debt Consolidation,Rent,23700.0,57,0,,0,0,33,0
+APP-10036,30,High School,Salaried,5.2,57600.0,670.0,15000.0,48,13.3,Small Business,Mortgage,11000.0,61,0,Fixed Deposit,0,2,43,0
+APP-10746,30,High School,Salaried,7.0,18000.0,100.0,7200.0,24,15.64,Debt Consolidation,Rent,1600.0,71,1,Vehicle,2,1,74,0
+APP-15380,25,Bachelor,Salaried,3.2,49600.0,590.0,19500.0,24,10.7,Education,With Parents,6100.0,76,0,,1,0,15,0
+APP-11467,31,Bachelor,Salaried,0.3,49000.0,990.0,20300.0,36,14.71,Small Business,Rent,5900.0,69,0,,0,0,52,1
+APP-10624,39,Bachelor,Salaried,11.8,18000.0,280.0,6400.0,36,11.58,Education,With Parents,6100.0,88,0,,0,0,14,0
+APP-12814,40,Bachelor,Salaried,9.7,145000.0,2570.0,45000.0,24,7.5,Education,Rent,20200.0,74,0,,0,0,57,0
+APP-11530,29,Bachelor,Salaried,1.2,47800.0,100.0,18600.0,24,15.62,Education,Own,3800.0,80,0,,0,0,42,0
+APP-13553,45,Associate,Salaried,6.0,54400.0,240.0,18600.0,36,22.08,Personal,Rent,3000.0,53,1,,0,1,12,0
+APP-13244,27,Bachelor,Self-Employed,1.6,92100.0,1170.0,11900.0,36,10.36,Debt Consolidation,Rent,6200.0,62,1,Vehicle,2,0,9,0
+APP-13319,44,Bachelor,Salaried,9.0,64000.0,700.0,19200.0,60,10.78,Small Business,Rent,35000.0,44,0,,1,0,13,0
+APP-14059,27,Bachelor,Salaried,1.3,28400.0,380.0,5900.0,36,13.58,Debt Consolidation,With Parents,3100.0,67,0,Vehicle,0,2,74,0
+APP-13960,24,High School,Self-Employed,2.1,32900.0,110.0,9100.0,24,16.21,Medical,Own,8100.0,70,0,,0,0,89,1
+APP-12883,31,High School,Salaried,2.5,33100.0,170.0,6000.0,24,19.97,Small Business,With Parents,12600.0,70,0,,0,2,4,0
+APP-13747,30,High School,Salaried,6.7,35800.0,400.0,4700.0,24,16.95,Personal,With Parents,1600.0,80,0,,1,0,27,0
+APP-10719,28,Master,Salaried,4.6,46800.0,240.0,18300.0,48,7.5,Education,Rent,2700.0,59,1,Fixed Deposit,1,1,13,0
+APP-10997,33,Bachelor,Contract,6.9,42000.0,690.0,9100.0,60,11.92,Education,Mortgage,3400.0,86,0,,1,1,11,0
+APP-14005,32,Master,Salaried,1.1,129100.0,2160.0,37900.0,36,7.5,Debt Consolidation,Rent,35000.0,73,0,Vehicle,1,0,14,0
+APP-11254,36,Master,Salaried,5.2,47300.0,190.0,12500.0,24,13.18,Personal,Rent,1900.0,92,0,,2,0,15,1
+APP-11605,22,Bachelor,Salaried,1.2,98500.0,260.0,28100.0,24,13.77,Personal,Rent,35000.0,81,1,,0,1,29,0
+APP-14212,34,Master,Contract,4.0,46000.0,320.0,14800.0,60,8.91,Home Improvement,Rent,21300.0,81,0,,4,0,37,0
+APP-14955,21,Master,Salaried,0.6,104100.0,1140.0,22900.0,24,15.13,Home Improvement,Rent,1600.0,54,1,,0,0,8,1
+APP-11707,41,High School,Contract,11.9,29800.0,430.0,10500.0,48,10.98,Medical,Rent,7700.0,57,1,Fixed Deposit,0,0,25,1
+APP-10444,21,Master,Self-Employed,0.5,116200.0,860.0,25600.0,36,8.68,Debt Consolidation,Rent,18000.0,76,1,,3,2,61,1
+APP-12336,32,Associate,Salaried,6.2,86800.0,850.0,21700.0,36,11.26,Debt Consolidation,Rent,15000.0,95,0,,0,0,3,0
+APP-15138,24,High School,Salaried,0.2,42300.0,710.0,13400.0,60,12.56,Small Business,Rent,15700.0,60,1,,1,1,25,0
+APP-14551,34,High School,Self-Employed,3.6,42900.0,190.0,7500.0,36,17.76,Medical,Rent,800.0,100,0,,1,0,15,0
+APP-13471,28,Bachelor,Contract,3.7,57500.0,210.0,9800.0,24,12.79,Education,Rent,6200.0,69,0,,0,1,36,0
+APP-12392,21,Associate,Salaried,0.6,47200.0,430.0,10000.0,12,8.42,Debt Consolidation,Own,6700.0,72,0,,2,0,15,1
+APP-13349,28,Bachelor,Salaried,1.8,37500.0,570.0,10800.0,36,11.27,Home Improvement,With Parents,8700.0,71,1,,2,1,19,0
+APP-15064,33,Bachelor,Salaried,5.0,86800.0,890.0,32400.0,36,13.48,Education,Mortgage,3800.0,76,0,,0,0,53,0
+APP-12768,25,High School,Salaried,0.3,33100.0,170.0,11600.0,12,19.47,Medical,Rent,2300.0,98,1,,1,0,17,0
+APP-13844,39,High School,Salaried,0.2,18100.0,420.0,5500.0,48,19.97,Education,With Parents,700.0,71,0,,0,0,66,1
+APP-10806,30,High School,Salaried,4.7,47600.0,430.0,11500.0,36,21.24,Personal,Mortgage,7300.0,78,0,,2,0,13,0
+APP-10894,37,Associate,Salaried,0.9,95800.0,1580.0,31100.0,36,13.5,Personal,Rent,7400.0,75,0,Vehicle,0,0,68,0
+APP-12690,22,High School,Salaried,0.4,56000.0,80.0,9100.0,36,13.68,Education,Rent,5300.0,58,1,Fixed Deposit,4,0,3,0
+APP-10631,38,High School,Salaried,4.1,58400.0,550.0,5900.0,48,14.45,Personal,Rent,8900.0,68,0,Vehicle,0,1,71,0
+APP-12496,27,Bachelor,Self-Employed,0.5,41300.0,590.0,10400.0,36,18.09,Debt Consolidation,Mortgage,6100.0,74,0,,0,0,17,0
+APP-10436,39,Bachelor,Salaried,1.0,31500.0,270.0,8600.0,12,11.71,Small Business,Rent,600.0,63,0,,6,1,42,0
+APP-12612,27,Bachelor,Contract,1.4,72100.0,1870.0,22200.0,48,12.46,Small Business,Rent,9100.0,83,0,,2,1,40,0
+APP-11887,31,Bachelor,Self-Employed,5.7,32300.0,300.0,3600.0,60,11.74,Small Business,Rent,2100.0,73,1,,2,1,32,0
+APP-11048,38,Bachelor,Self-Employed,2.0,60300.0,930.0,25600.0,36,15.34,Debt Consolidation,Rent,11600.0,78,0,,3,0,38,0
+APP-11031,21,Bachelor,Salaried,0.2,61400.0,60.0,10200.0,60,17.48,Education,Rent,7000.0,83,0,,0,1,32,0
+APP-11744,22,Master,Salaried,1.4,53500.0,360.0,7600.0,48,10.56,Education,Own,1200.0,47,1,Vehicle,1,1,11,0
+APP-11982,24,Bachelor,Self-Employed,1.8,54600.0,1380.0,9200.0,48,10.32,Debt Consolidation,Rent,8000.0,46,0,,3,1,42,0
+APP-11816,21,Master,Freelance,0.2,105500.0,760.0,20400.0,12,19.38,Education,Own,5000.0,65,0,,0,0,26,0
+APP-14919,37,High School,Salaried,0.6,30700.0,130.0,11100.0,12,16.01,Personal,With Parents,2300.0,73,0,Fixed Deposit,2,1,19,0
+APP-14699,25,Master,Self-Employed,2.0,62100.0,1140.0,12000.0,24,16.09,Personal,Rent,7800.0,83,1,,2,0,74,0
+APP-14595,30,Bachelor,Contract,5.6,53000.0,700.0,17700.0,36,22.49,Home Improvement,Rent,2200.0,73,1,,1,0,22,0
+APP-14844,36,High School,Self-Employed,2.0,19800.0,160.0,2200.0,24,13.29,Debt Consolidation,Mortgage,1600.0,65,0,,0,0,24,0
+APP-15150,43,High School,Salaried,1.4,44500.0,170.0,13700.0,36,13.46,Debt Consolidation,Rent,1200.0,95,0,,1,2,64,0
+APP-14834,21,Master,Freelance,0.2,61300.0,310.0,12100.0,24,16.89,Personal,Rent,1000.0,72,0,,1,1,15,1
+APP-12559,35,Associate,Freelance,4.7,45600.0,390.0,15600.0,12,15.37,Personal,Rent,9100.0,68,0,,0,0,46,0
+APP-11301,35,Doctorate,Salaried,1.4,65900.0,810.0,8400.0,24,21.79,Home Improvement,Rent,15500.0,78,0,Vehicle,1,0,84,0
+APP-11238,32,Master,Salaried,7.3,61600.0,1030.0,22200.0,48,19.27,Personal,Rent,1700.0,67,0,,1,0,13,1
+APP-10178,27,Associate,Self-Employed,2.3,33500.0,340.0,3700.0,36,11.06,Education,Rent,3300.0,79,0,,0,1,27,0
+APP-15931,23,Associate,Salaried,1.2,19000.0,220.0,7100.0,48,14.5,Personal,Rent,500.0,74,1,,3,0,28,1
+APP-12175,42,Master,Salaried,15.6,45600.0,620.0,15700.0,24,20.03,Education,Rent,1100.0,88,0,,3,1,36,1
+APP-15043,23,High School,Salaried,0.5,18000.0,120.0,7200.0,12,16.83,Medical,Rent,2800.0,83,0,,2,1,38,0
+APP-11540,28,Bachelor,Freelance,5.8,69700.0,850.0,10400.0,36,19.45,Personal,Rent,3700.0,70,0,Vehicle,1,1,61,0
+APP-11129,31,High School,Contract,0.4,48700.0,190.0,19900.0,36,14.22,Small Business,Own,1700.0,52,0,Vehicle,2,1,41,0
+APP-13129,26,Bachelor,Salaried,0.8,27900.0,390.0,9000.0,24,14.44,Education,Rent,600.0,55,0,Fixed Deposit,1,0,23,0
+APP-11198,30,Bachelor,Salaried,6.8,58700.0,1400.0,15300.0,48,14.09,Personal,With Parents,1500.0,76,0,,1,0,32,1
+APP-13517,31,Bachelor,Salaried,3.0,109300.0,2820.0,31800.0,48,24.31,Home Improvement,Rent,16900.0,79,0,Fixed Deposit,0,0,37,0
+APP-11533,28,High School,Freelance,0.6,55300.0,330.0,22700.0,24,7.5,Education,Mortgage,9700.0,56,0,,2,0,81,0
+APP-11417,30,Associate,Contract,6.2,36700.0,480.0,5600.0,36,12.75,Debt Consolidation,Rent,20400.0,53,0,,4,0,23,0
+APP-13679,28,Associate,Salaried,2.9,58700.0,570.0,26200.0,36,13.81,Education,Rent,1100.0,74,1,,0,0,14,0
+APP-12436,28,Bachelor,Salaried,4.4,31000.0,570.0,9100.0,36,12.83,Personal,With Parents,6700.0,84,1,Vehicle,2,1,31,0
+APP-10459,21,Associate,Salaried,0.5,58300.0,1270.0,13800.0,36,13.66,Medical,Rent,7400.0,77,1,,0,1,14,0
+APP-13547,38,Associate,Salaried,11.5,46200.0,800.0,18800.0,48,12.69,Personal,With Parents,5100.0,52,1,Vehicle,2,0,12,0
+APP-12270,31,Bachelor,Salaried,7.9,48800.0,1100.0,21100.0,36,14.15,Small Business,Rent,3900.0,46,0,Vehicle,0,1,31,0
+APP-12167,21,Bachelor,Salaried,0.4,67800.0,1120.0,28800.0,48,14.97,Education,Rent,35000.0,95,1,Vehicle,1,0,26,0
+APP-14373,29,High School,Salaried,2.4,44700.0,50.0,6200.0,24,20.13,Small Business,Own,7800.0,76,1,Vehicle,1,1,22,0
+APP-14899,32,Master,Salaried,7.3,74400.0,1080.0,19100.0,36,9.66,Debt Consolidation,With Parents,11800.0,71,0,Fixed Deposit,0,0,48,0
+APP-13444,33,Bachelor,Salaried,5.8,64300.0,80.0,11900.0,24,16.37,Personal,With Parents,6400.0,49,0,Fixed Deposit,1,0,13,0
+APP-12068,38,Master,Salaried,1.2,59100.0,710.0,11400.0,36,12.58,Home Improvement,Rent,11800.0,63,0,Vehicle,2,2,35,0
+APP-15213,31,Bachelor,Salaried,0.9,37600.0,360.0,11800.0,36,8.79,Education,Rent,2100.0,80,0,,2,2,23,0
+APP-10867,31,Bachelor,Salaried,6.7,58000.0,940.0,10800.0,36,18.06,Personal,Mortgage,16100.0,90,1,Fixed Deposit,0,1,14,0
+APP-11840,28,Associate,Salaried,5.2,27900.0,360.0,12000.0,36,15.56,Home Improvement,With Parents,900.0,88,1,,3,3,15,1
+APP-10160,22,High School,Self-Employed,1.2,23100.0,270.0,6500.0,48,12.56,Small Business,Own,11200.0,86,1,Fixed Deposit,0,1,9,0
+APP-14166,27,Doctorate,Freelance,3.6,36900.0,330.0,6400.0,36,14.83,Personal,Rent,5500.0,88,0,,1,0,61,0
+APP-10072,28,Master,Freelance,5.1,119400.0,740.0,13600.0,48,13.32,Debt Consolidation,Rent,29100.0,71,1,Fixed Deposit,3,1,18,0
+APP-10293,34,Associate,Contract,1.2,27000.0,110.0,11100.0,36,12.27,Personal,Rent,500.0,78,1,Vehicle,0,1,13,0
+APP-12780,34,Master,Salaried,9.9,61300.0,1210.0,19900.0,24,10.77,Personal,Rent,5100.0,56,0,Vehicle,1,0,5,0
+APP-15307,23,Bachelor,Salaried,1.2,37100.0,600.0,10100.0,36,20.07,Debt Consolidation,Rent,2300.0,68,0,,0,0,9,0
+APP-10787,31,Bachelor,Salaried,3.7,72900.0,380.0,26400.0,60,14.29,Education,Rent,7700.0,78,0,,2,0,44,1
+APP-15329,21,High School,Contract,0.7,27900.0,190.0,7000.0,36,19.97,Home Improvement,Rent,10400.0,72,1,,0,1,38,0
+APP-15786,28,High School,Freelance,2.3,42300.0,670.0,4500.0,36,18.55,Debt Consolidation,With Parents,2800.0,66,0,,0,0,20,0
+APP-12520,30,Bachelor,Contract,3.8,31300.0,390.0,10400.0,24,15.81,Personal,Mortgage,600.0,82,0,,2,0,20,0
+APP-14196,36,Doctorate,Freelance,4.1,52400.0,460.0,9400.0,24,15.21,Education,Rent,7100.0,66,1,Vehicle,0,0,31,0
+APP-10010,25,Doctorate,Salaried,3.0,76800.0,980.0,34200.0,24,13.62,Personal,Rent,7400.0,79,0,,1,1,10,0
+APP-15671,29,Master,Salaried,3.5,89600.0,800.0,25900.0,36,15.95,Home Improvement,Rent,35000.0,56,0,,2,0,3,0
+APP-12361,21,High School,Self-Employed,0.5,46600.0,70.0,13100.0,48,20.99,Education,Rent,6200.0,67,0,Vehicle,0,0,19,0
+APP-14191,30,Associate,Self-Employed,4.7,30000.0,110.0,13000.0,60,12.09,Debt Consolidation,Rent,10000.0,87,0,Vehicle,1,0,45,0
+APP-14290,32,Bachelor,Salaried,5.2,89500.0,770.0,19900.0,36,15.56,Small Business,Rent,4100.0,51,1,,2,1,44,0
+APP-14641,29,Doctorate,Salaried,4.9,62200.0,880.0,15200.0,24,7.58,Personal,Rent,14400.0,83,0,,1,1,24,0
+APP-14962,28,Master,Salaried,0.5,69500.0,290.0,8100.0,48,9.01,Education,Rent,3900.0,65,0,Vehicle,0,0,9,0
+APP-11641,38,Associate,Salaried,2.3,29600.0,200.0,4600.0,24,16.22,Debt Consolidation,Rent,700.0,70,0,Vehicle,2,1,22,0
+APP-13629,24,Master,Salaried,2.2,160000.0,3360.0,45000.0,36,18.22,Debt Consolidation,Rent,20800.0,100,1,,1,3,43,0
+APP-11418,38,Bachelor,Salaried,5.4,65600.0,460.0,23900.0,36,10.79,Home Improvement,Own,3000.0,67,0,Vehicle,1,0,8,0
+APP-13124,28,Bachelor,Salaried,2.8,47500.0,380.0,17000.0,36,20.42,Home Improvement,With Parents,12300.0,71,0,,0,0,32,0
+APP-13526,27,Bachelor,Freelance,5.1,36900.0,50.0,11200.0,12,16.43,Personal,Mortgage,200.0,82,1,Vehicle,3,1,49,0
+APP-15207,25,High School,Salaried,3.2,21000.0,410.0,3100.0,24,18.66,Personal,With Parents,2300.0,87,1,,0,1,38,0
+APP-15484,21,High School,Salaried,0.3,59100.0,650.0,9200.0,36,15.84,Debt Consolidation,Rent,11300.0,96,0,,3,0,50,0
+APP-12654,24,Bachelor,Contract,0.6,23800.0,180.0,5600.0,24,17.84,Medical,Rent,3200.0,95,0,Vehicle,0,0,15,0
+APP-12074,24,Associate,Salaried,2.0,56100.0,1000.0,20500.0,60,18.3,Education,Mortgage,21200.0,73,0,,0,0,19,0
+APP-10290,27,Associate,Freelance,4.8,60000.0,760.0,22000.0,60,14.73,Education,Rent,19200.0,53,0,Fixed Deposit,1,0,29,0
+APP-12645,23,Bachelor,Salaried,1.6,42400.0,300.0,14900.0,60,11.0,Personal,Mortgage,5400.0,94,0,,2,1,10,0
+APP-13043,30,Bachelor,Salaried,3.6,21400.0,200.0,2900.0,60,11.07,Debt Consolidation,With Parents,200.0,94,1,,2,1,55,1
+APP-11119,35,High School,Salaried,2.7,23000.0,300.0,6700.0,36,11.13,Education,With Parents,600.0,90,0,,2,1,28,0
+APP-15990,32,High School,Self-Employed,2.6,87100.0,780.0,37300.0,24,11.69,Medical,Rent,3800.0,71,0,Vehicle,0,1,44,1
+APP-15288,25,Bachelor,Salaried,2.2,40400.0,400.0,14400.0,60,13.14,Debt Consolidation,Rent,18000.0,55,0,,2,0,5,0
+APP-15033,32,Bachelor,Self-Employed,1.5,46400.0,530.0,11500.0,36,13.44,Personal,Rent,4100.0,63,0,,0,0,25,1
+APP-10269,29,Associate,Salaried,2.5,89800.0,720.0,31400.0,48,15.57,Home Improvement,With Parents,18100.0,59,0,,2,2,16,0
+APP-15669,37,Bachelor,Salaried,9.5,49800.0,210.0,16100.0,24,15.97,Small Business,Rent,800.0,55,1,,1,0,21,0
+APP-14495,39,Bachelor,Salaried,8.7,49300.0,600.0,10200.0,48,16.88,Personal,Rent,11200.0,75,0,Fixed Deposit,1,0,45,0
+APP-13572,31,Bachelor,Freelance,5.0,52300.0,360.0,8200.0,60,11.74,Education,Rent,13300.0,73,0,,1,0,20,0
+APP-12460,29,Bachelor,Salaried,6.2,25100.0,410.0,7100.0,60,15.04,Small Business,Mortgage,1600.0,82,0,Vehicle,2,1,7,0
+APP-14329,26,Bachelor,Salaried,1.9,51400.0,200.0,20000.0,24,9.7,Education,Rent,15600.0,79,0,Vehicle,5,1,41,0
+APP-11306,29,High School,Salaried,3.4,41300.0,600.0,8600.0,36,15.09,Personal,With Parents,1400.0,76,0,Vehicle,2,0,52,0
+APP-15757,26,Bachelor,Salaried,3.3,38200.0,190.0,10900.0,36,16.65,Personal,Rent,4200.0,72,1,,1,2,14,0
+APP-14099,29,Doctorate,Salaried,6.6,43700.0,160.0,12100.0,36,15.12,Small Business,Rent,2500.0,52,0,,2,1,107,1
+APP-14653,33,Bachelor,Salaried,3.3,108500.0,1580.0,15700.0,36,11.06,Personal,Rent,2800.0,78,0,,3,0,32,0
+APP-13141,21,High School,Salaried,0.3,21700.0,320.0,3800.0,36,18.5,Education,With Parents,4000.0,51,0,,0,0,15,0
+APP-13073,39,Master,Salaried,2.3,46000.0,590.0,11500.0,48,14.91,Education,Rent,1800.0,44,0,,2,0,18,0
+APP-11476,28,Associate,Salaried,2.0,81700.0,1430.0,21500.0,24,12.12,Medical,Rent,18900.0,72,0,Fixed Deposit,4,1,65,0
+APP-14895,28,Bachelor,Salaried,5.2,67100.0,1040.0,20500.0,36,16.52,Debt Consolidation,With Parents,600.0,68,0,Vehicle,5,1,8,0
+APP-11831,30,Bachelor,Salaried,1.5,20900.0,90.0,5500.0,48,18.74,Personal,With Parents,1500.0,74,0,,1,2,17,1
+APP-13576,23,Bachelor,Salaried,0.3,41800.0,390.0,4300.0,24,10.21,Personal,Mortgage,16900.0,86,0,,0,0,44,0
+APP-11002,29,Bachelor,Salaried,2.5,45900.0,690.0,11600.0,12,7.5,Medical,Rent,1500.0,60,0,,2,0,32,0
+APP-13618,36,Bachelor,Salaried,5.2,67900.0,320.0,17900.0,36,19.68,Education,Mortgage,14500.0,72,0,,0,0,22,0
+APP-11869,26,Master,Salaried,1.2,28400.0,340.0,4000.0,24,18.49,Education,Mortgage,400.0,38,0,Fixed Deposit,1,2,55,1
+APP-10023,21,Bachelor,Salaried,0.2,27100.0,300.0,3800.0,48,7.5,Small Business,Rent,700.0,75,0,Vehicle,1,2,10,0
+APP-14074,26,Bachelor,Self-Employed,2.7,35700.0,40.0,8900.0,36,15.61,Debt Consolidation,Rent,1700.0,75,0,,2,1,35,1
+APP-15994,34,Bachelor,Salaried,6.4,35900.0,250.0,11500.0,24,15.38,Education,Rent,1800.0,58,0,Vehicle,1,1,16,0
+APP-13848,28,Bachelor,Freelance,4.2,56000.0,610.0,11400.0,60,8.58,Education,Rent,3000.0,52,0,Vehicle,3,1,43,0
+APP-10229,33,Bachelor,Contract,3.8,63100.0,550.0,25100.0,48,9.27,Education,With Parents,1300.0,96,0,,0,0,38,0
+APP-14913,30,Master,Salaried,2.7,48900.0,730.0,20200.0,12,12.58,Education,Rent,2500.0,90,0,Vehicle,2,1,36,0
+APP-12609,37,Associate,Self-Employed,9.5,107100.0,1350.0,26000.0,36,10.33,Personal,Rent,3300.0,88,0,Vehicle,2,1,6,0
+APP-15393,29,High School,Salaried,0.5,51800.0,360.0,21200.0,48,14.63,Small Business,With Parents,16900.0,71,0,,2,0,16,1
+APP-15051,31,Bachelor,Freelance,1.1,111900.0,870.0,37400.0,60,7.5,Education,Rent,19900.0,61,0,,2,0,32,0
+APP-11062,36,Master,Salaried,1.0,33200.0,440.0,14100.0,36,19.56,Debt Consolidation,Mortgage,800.0,79,0,,1,0,66,0
+APP-13942,25,High School,Salaried,3.2,79400.0,890.0,10600.0,24,13.17,Debt Consolidation,With Parents,2100.0,71,0,,0,0,61,0
+APP-14587,34,Bachelor,Salaried,4.6,37600.0,410.0,4000.0,60,15.47,Personal,Mortgage,4500.0,100,0,,0,1,39,0
+APP-13136,35,Bachelor,Salaried,5.4,76000.0,1140.0,31700.0,60,15.42,Small Business,With Parents,700.0,50,1,Vehicle,2,1,9,0
+APP-14554,28,Bachelor,Contract,4.7,50100.0,370.0,20700.0,36,9.4,Personal,Mortgage,1100.0,65,1,,0,1,56,0
+APP-13478,36,Master,Self-Employed,4.4,36000.0,210.0,5700.0,48,12.63,Personal,Rent,800.0,90,0,,0,0,40,0
+APP-15403,29,Bachelor,Self-Employed,3.5,62100.0,1220.0,21500.0,36,18.02,Personal,Rent,18200.0,70,0,,1,0,35,0
+APP-15265,23,High School,Salaried,0.7,59700.0,1130.0,13500.0,36,13.89,Education,Rent,14600.0,100,0,,1,0,60,0
+APP-11805,21,High School,Salaried,0.6,48000.0,120.0,12600.0,12,14.68,Debt Consolidation,Rent,8400.0,78,1,,0,1,11,0
+APP-10794,21,Bachelor,Salaried,0.7,160000.0,130.0,45000.0,48,10.82,Education,Rent,26200.0,82,0,,3,1,15,1
+APP-13711,21,Master,Salaried,0.3,52600.0,340.0,10900.0,36,12.99,Personal,Own,24400.0,83,0,Vehicle,2,2,55,0
+APP-14828,35,Bachelor,Salaried,5.3,65700.0,1050.0,24100.0,24,7.5,Home Improvement,Rent,1200.0,80,0,,2,4,66,1
+APP-15079,38,High School,Salaried,11.5,53100.0,690.0,7800.0,60,10.19,Personal,Rent,4400.0,89,0,Fixed Deposit,1,0,48,0
+APP-15725,21,Master,Contract,0.7,45500.0,520.0,9600.0,48,14.27,Personal,Mortgage,7300.0,73,1,Vehicle,1,0,42,0
+APP-13564,35,Master,Salaried,8.4,92600.0,1250.0,25800.0,60,14.59,Small Business,Rent,7500.0,63,0,Vehicle,1,0,21,0
+APP-15935,31,Master,Salaried,4.9,144600.0,1430.0,42000.0,36,7.5,Education,Rent,2400.0,98,0,Fixed Deposit,2,0,30,0
+APP-15528,27,Master,Salaried,2.5,61900.0,550.0,12100.0,36,12.55,Small Business,Rent,12300.0,89,0,Vehicle,3,0,28,0
+APP-11091,28,Bachelor,Salaried,3.8,65200.0,1220.0,17900.0,36,12.27,Education,Rent,7600.0,76,0,Fixed Deposit,2,1,34,0
+APP-15432,29,Bachelor,Self-Employed,6.5,36600.0,320.0,6800.0,36,10.05,Personal,With Parents,25400.0,85,0,,1,1,7,0
+APP-12013,22,High School,Contract,0.4,26100.0,200.0,4100.0,24,11.63,Debt Consolidation,With Parents,300.0,85,1,,0,1,23,0
+APP-11958,35,Bachelor,Salaried,6.9,56700.0,550.0,24100.0,36,9.57,Education,Rent,35000.0,88,0,,2,0,27,1
+APP-15202,29,Associate,Salaried,0.5,24200.0,260.0,7400.0,12,7.76,Personal,Mortgage,400.0,83,0,,2,1,3,1
+APP-13668,28,Associate,Salaried,1.2,52100.0,330.0,11100.0,36,13.07,Home Improvement,Rent,4600.0,75,0,Vehicle,0,0,23,0
+APP-11411,32,Bachelor,Self-Employed,8.5,57800.0,280.0,12300.0,48,10.48,Education,Mortgage,700.0,45,1,,1,1,11,0
+APP-15196,35,Bachelor,Salaried,7.0,72900.0,690.0,28000.0,60,10.41,Small Business,Rent,4500.0,82,0,,3,0,18,0
+APP-15120,21,Bachelor,Salaried,0.7,56200.0,970.0,14200.0,36,17.53,Personal,Mortgage,7200.0,86,0,,2,0,30,0
+APP-15497,24,Bachelor,Salaried,2.9,160000.0,2180.0,45000.0,24,7.5,Small Business,Rent,10600.0,80,1,Vehicle,0,2,31,0
+APP-14883,32,High School,Salaried,0.2,83300.0,260.0,15600.0,48,11.03,Education,With Parents,400.0,45,0,Vehicle,3,0,51,0
+APP-10803,25,Doctorate,Self-Employed,2.7,91600.0,1330.0,13200.0,60,12.59,Debt Consolidation,Own,23400.0,71,0,,1,1,30,0
+APP-10042,28,High School,Salaried,1.9,31000.0,800.0,7500.0,60,15.86,Debt Consolidation,Rent,5400.0,86,0,Vehicle,5,0,24,1
+APP-15933,21,Master,Salaried,0.5,112700.0,290.0,17600.0,36,7.5,Home Improvement,With Parents,35000.0,75,1,,3,0,40,0
+APP-10684,21,High School,Salaried,0.4,27900.0,110.0,8000.0,12,11.96,Education,With Parents,2700.0,54,0,,1,0,9,0
+APP-14138,34,High School,Freelance,0.8,51300.0,900.0,16800.0,36,8.46,Debt Consolidation,Rent,4900.0,59,0,Fixed Deposit,2,0,15,0
+APP-11767,27,Associate,Self-Employed,3.4,45700.0,200.0,13000.0,24,7.58,Small Business,With Parents,10200.0,62,0,,1,0,3,0
+APP-12076,33,Bachelor,Self-Employed,1.8,31400.0,170.0,9400.0,60,19.64,Education,Rent,6800.0,62,0,Vehicle,1,0,22,0
+APP-10386,31,High School,Contract,7.4,18000.0,260.0,3600.0,48,12.04,Personal,With Parents,5000.0,88,1,,1,0,20,0
+APP-11453,45,Master,Salaried,8.9,82000.0,580.0,28400.0,36,15.42,Small Business,With Parents,17200.0,69,0,,0,0,3,0
+APP-11246,29,Bachelor,Salaried,6.2,36600.0,380.0,10500.0,36,18.28,Debt Consolidation,Rent,17700.0,87,0,,1,0,19,0
+APP-15189,40,Bachelor,Contract,14.8,59800.0,950.0,8700.0,12,15.13,Personal,Mortgage,6100.0,81,0,,1,1,24,1
+APP-14217,25,Associate,Self-Employed,3.1,61700.0,320.0,19000.0,60,16.92,Education,With Parents,4000.0,72,1,,2,1,7,0
+APP-15685,21,High School,Contract,0.5,22800.0,470.0,9100.0,36,19.92,Home Improvement,Rent,10600.0,61,0,,3,0,24,1
+APP-12726,35,High School,Salaried,11.0,59300.0,1290.0,11100.0,60,16.57,Personal,Mortgage,12300.0,79,0,Vehicle,1,1,36,0
+APP-10249,31,Associate,Contract,7.0,45500.0,160.0,5000.0,36,11.47,Personal,Mortgage,8600.0,75,0,,0,0,32,0
+APP-11214,27,High School,Salaried,4.6,42400.0,460.0,15400.0,60,12.13,Home Improvement,Rent,4100.0,82,1,Vehicle,0,0,23,0
+APP-14304,21,High School,Salaried,0.2,86400.0,1880.0,17700.0,12,21.48,Debt Consolidation,Rent,23500.0,80,1,,1,2,32,0
+APP-12928,39,Associate,Salaried,4.8,46200.0,660.0,12800.0,60,13.62,Personal,Own,3700.0,100,0,,0,0,30,0
+APP-12640,40,Doctorate,Self-Employed,12.9,63200.0,600.0,25400.0,48,9.48,Home Improvement,With Parents,19000.0,55,1,Vehicle,2,0,51,0
+APP-13793,27,Bachelor,Self-Employed,2.7,48400.0,730.0,7500.0,24,19.6,Home Improvement,Rent,800.0,65,0,Vehicle,2,0,52,0
+APP-12983,30,Bachelor,Self-Employed,7.5,56800.0,730.0,24700.0,48,17.91,Personal,Rent,35000.0,63,0,,2,2,31,0
+APP-11646,27,Bachelor,Salaried,1.4,26300.0,70.0,4400.0,60,17.57,Debt Consolidation,With Parents,8600.0,100,0,Fixed Deposit,4,2,14,0
+APP-15742,29,Master,Salaried,4.6,109800.0,1200.0,15300.0,48,20.75,Personal,Rent,6900.0,59,1,,2,1,33,0
+APP-12239,33,Associate,Self-Employed,6.5,37900.0,460.0,15700.0,12,7.5,Small Business,Rent,5900.0,73,0,,2,1,34,0
+APP-10691,36,Bachelor,Self-Employed,1.1,45000.0,720.0,7900.0,24,15.8,Personal,Rent,6800.0,93,0,,1,1,101,0
+APP-10282,39,High School,Self-Employed,2.3,50800.0,720.0,19300.0,24,13.33,Education,Rent,10600.0,88,1,,2,0,61,0
+APP-15219,21,High School,Contract,0.1,81500.0,510.0,17400.0,60,7.5,Home Improvement,Rent,15200.0,100,0,,1,2,8,0
+APP-11955,37,Bachelor,Salaried,1.6,38800.0,770.0,4000.0,36,12.3,Education,Rent,3400.0,71,0,Vehicle,0,0,39,0
+APP-12002,23,Bachelor,Salaried,1.6,84200.0,430.0,37000.0,48,17.84,Personal,Own,5800.0,91,0,,2,1,11,1
+APP-13494,32,Bachelor,Salaried,6.8,106700.0,1130.0,37300.0,36,7.5,Debt Consolidation,With Parents,4100.0,57,1,,1,0,63,0
+APP-14809,26,Bachelor,Contract,2.6,41100.0,110.0,13800.0,36,17.97,Personal,Own,10400.0,78,0,,1,1,21,0
+APP-15522,33,Bachelor,Salaried,4.7,61400.0,770.0,21500.0,12,17.69,Small Business,Mortgage,23000.0,69,0,,0,0,11,0
+APP-11449,29,Associate,Self-Employed,3.8,24400.0,220.0,2800.0,36,12.58,Education,Rent,10200.0,83,0,Vehicle,0,1,12,1
+APP-12876,22,High School,Salaried,1.0,18100.0,130.0,4600.0,24,13.23,Personal,With Parents,12300.0,83,0,Vehicle,1,1,23,0
+APP-14421,21,Associate,Self-Employed,0.7,46300.0,330.0,15100.0,24,13.04,Personal,With Parents,5700.0,62,0,,2,0,3,0
+APP-15952,24,High School,Salaried,2.4,41100.0,650.0,10400.0,36,11.1,Small Business,Rent,5200.0,65,0,Vehicle,2,0,68,0
+APP-15841,21,High School,Salaried,0.7,74900.0,1320.0,30900.0,48,8.47,Personal,Mortgage,14100.0,81,1,,3,1,11,0
+APP-12446,30,Bachelor,Contract,4.4,64500.0,1170.0,12100.0,48,8.73,Debt Consolidation,Mortgage,1800.0,92,1,,1,0,17,0
+APP-14967,36,Associate,Self-Employed,10.8,42000.0,420.0,11300.0,60,18.06,Personal,Rent,16300.0,80,0,,2,1,25,0
+APP-15115,32,Master,Self-Employed,3.7,136400.0,1120.0,45000.0,24,7.5,Personal,With Parents,1900.0,76,0,,0,2,34,0
+APP-11063,21,High School,Contract,0.4,46100.0,540.0,16100.0,36,18.81,Personal,With Parents,3700.0,77,0,Vehicle,0,0,18,0
+APP-11437,39,High School,Salaried,10.9,34300.0,390.0,9800.0,12,8.8,Education,With Parents,400.0,80,0,,0,0,42,1
+APP-14588,26,Bachelor,Self-Employed,3.0,73100.0,1500.0,9400.0,48,9.24,Education,Mortgage,13100.0,74,0,,4,0,37,1
+APP-15008,24,High School,Salaried,0.6,19700.0,200.0,4400.0,12,16.84,Debt Consolidation,Rent,1200.0,69,0,,2,1,54,0
+APP-14613,25,High School,Self-Employed,3.5,69900.0,620.0,28900.0,36,13.02,Small Business,Rent,1700.0,77,1,,2,0,11,0
+APP-14271,25,Master,Salaried,2.4,53300.0,1360.0,23100.0,36,12.42,Small Business,Rent,11700.0,68,0,,3,0,16,1
+APP-11276,44,Bachelor,Salaried,15.9,34900.0,340.0,13400.0,24,18.43,Small Business,Rent,200.0,83,1,,0,1,17,1
+APP-14369,30,Master,Salaried,7.4,66500.0,650.0,10900.0,36,16.41,Personal,Rent,35000.0,77,1,Fixed Deposit,3,0,3,0
+APP-11234,23,Associate,Salaried,0.7,50500.0,810.0,18800.0,36,7.5,Personal,Rent,2300.0,53,0,Vehicle,2,2,22,1
+APP-13401,32,Associate,Self-Employed,8.5,44300.0,590.0,17800.0,36,10.85,Personal,Rent,8800.0,60,0,Vehicle,1,0,13,0
+APP-13461,41,Bachelor,Contract,2.3,44000.0,290.0,14700.0,36,14.67,Small Business,Rent,8700.0,65,0,Vehicle,1,0,19,0
+APP-10941,34,High School,Self-Employed,9.7,27500.0,500.0,10500.0,36,13.66,Home Improvement,Mortgage,5100.0,84,0,Vehicle,2,0,28,0
+APP-13186,21,High School,Salaried,0.7,54100.0,1130.0,15800.0,24,10.94,Home Improvement,Rent,2600.0,63,0,,0,0,103,0
+APP-15470,38,Bachelor,Salaried,4.8,49700.0,240.0,16300.0,36,7.5,Personal,Rent,35000.0,72,0,,1,0,60,0
+APP-10576,30,Associate,Salaried,3.8,72600.0,720.0,15100.0,36,17.16,Education,Own,9700.0,89,0,,0,0,45,0
+APP-15396,30,High School,Self-Employed,3.8,86100.0,1910.0,20200.0,60,14.41,Education,Rent,11800.0,79,0,,2,1,72,0
+APP-15816,23,Master,Salaried,2.1,59500.0,710.0,9700.0,24,10.32,Debt Consolidation,Mortgage,5200.0,74,0,Vehicle,1,2,15,0
+APP-10930,25,Bachelor,Contract,0.2,70800.0,250.0,9800.0,24,9.31,Personal,Rent,800.0,60,0,,3,0,33,0
+APP-12499,31,Bachelor,Self-Employed,4.4,46600.0,540.0,18100.0,36,11.06,Medical,Mortgage,2300.0,83,0,,2,0,19,1
+APP-14279,31,Associate,Salaried,1.1,47000.0,210.0,18000.0,24,13.47,Debt Consolidation,Rent,26300.0,55,1,,0,1,37,0
+APP-14420,37,Bachelor,Contract,2.7,118600.0,560.0,20400.0,36,19.59,Debt Consolidation,Mortgage,9000.0,66,1,Vehicle,3,1,62,0
+APP-11634,26,Bachelor,Salaried,0.1,70200.0,1230.0,29600.0,36,18.89,Debt Consolidation,Rent,17100.0,65,0,,0,0,5,0
+APP-13516,23,High School,Salaried,0.1,37700.0,690.0,4400.0,48,15.52,Education,Rent,3700.0,74,0,,1,1,38,0
+APP-13233,41,Bachelor,Contract,13.7,42400.0,780.0,18700.0,24,15.28,Debt Consolidation,Rent,8200.0,64,0,Vehicle,1,1,20,0
+APP-15416,26,Bachelor,Salaried,1.4,68900.0,1280.0,14200.0,24,14.88,Debt Consolidation,Rent,3200.0,87,0,Vehicle,3,0,39,0
+APP-13350,25,Bachelor,Contract,0.3,24200.0,280.0,9900.0,60,16.91,Education,Mortgage,3200.0,67,0,,2,1,36,0
+APP-11996,28,Bachelor,Salaried,0.4,44700.0,170.0,17400.0,36,12.1,Personal,Rent,11100.0,57,0,,1,0,45,1
+APP-14094,37,High School,Salaried,12.0,39400.0,120.0,8200.0,24,12.62,Medical,With Parents,19000.0,48,0,,1,1,37,0
+APP-14545,32,Bachelor,Salaried,5.4,49500.0,990.0,7000.0,24,8.31,Debt Consolidation,Rent,2300.0,73,0,,3,1,7,1
+APP-11285,21,Bachelor,Self-Employed,0.7,45300.0,110.0,15000.0,36,13.65,Personal,With Parents,2200.0,76,0,,0,1,28,0
+APP-15756,32,Associate,Salaried,6.7,32300.0,480.0,7500.0,36,9.1,Small Business,With Parents,1900.0,84,0,Vehicle,2,1,21,0
+APP-15109,29,Bachelor,Salaried,5.5,80500.0,400.0,20200.0,12,10.54,Small Business,Mortgage,3800.0,77,0,,1,1,109,1
+APP-12394,28,High School,Salaried,2.9,29900.0,460.0,7400.0,36,14.89,Personal,Mortgage,4200.0,85,0,Vehicle,0,0,13,0
+APP-12448,23,Bachelor,Salaried,0.7,74600.0,1280.0,26500.0,36,7.5,Small Business,Own,8900.0,51,1,,1,1,43,0
+APP-12086,25,Bachelor,Salaried,0.8,42800.0,570.0,13400.0,36,11.51,Education,Mortgage,14100.0,90,0,,2,0,18,0
+APP-15914,27,High School,Salaried,1.2,33900.0,50.0,6100.0,36,9.07,Education,Rent,6200.0,78,0,,3,1,37,0
+APP-11144,27,Associate,Salaried,1.6,101600.0,2050.0,15100.0,36,9.12,Personal,With Parents,28600.0,77,1,Vehicle,0,1,17,0
+APP-13062,28,Master,Salaried,5.8,74600.0,660.0,13700.0,60,11.01,Small Business,Rent,6600.0,69,1,Vehicle,2,2,51,0
+APP-14536,30,Bachelor,Salaried,1.3,97300.0,750.0,20200.0,60,14.34,Home Improvement,Rent,3000.0,71,0,Vehicle,1,0,25,0
+APP-12280,21,High School,Salaried,0.7,33400.0,380.0,5600.0,36,19.96,Debt Consolidation,Own,1300.0,91,1,,2,0,31,0
+APP-12695,38,Doctorate,Salaried,9.9,80700.0,520.0,8900.0,36,20.66,Small Business,Rent,35000.0,89,0,,1,0,33,0
+APP-12434,30,Associate,Salaried,5.4,87500.0,620.0,21700.0,36,14.27,Education,With Parents,30300.0,84,0,,1,0,16,0
+APP-10123,21,High School,Salaried,0.4,63300.0,1040.0,14800.0,24,11.05,Personal,Rent,3200.0,59,0,,1,1,17,0
+APP-12247,21,Bachelor,Salaried,0.7,26900.0,430.0,3600.0,24,16.77,Education,Rent,12200.0,69,1,,0,0,5,0
+APP-14997,49,Bachelor,Salaried,9.9,63700.0,510.0,18200.0,12,11.11,Personal,Rent,9200.0,68,1,Vehicle,2,0,26,0
+APP-15492,26,High School,Contract,0.8,55300.0,1240.0,23400.0,36,16.3,Home Improvement,Rent,4700.0,73,0,Vehicle,4,0,42,0
+APP-12088,26,Associate,Contract,2.4,42200.0,370.0,16500.0,12,10.95,Personal,Own,3400.0,73,0,,1,0,8,0
+APP-13224,30,Associate,Salaried,2.9,62700.0,630.0,14800.0,36,10.08,Education,Rent,12200.0,79,0,,0,2,19,0
+APP-10730,30,Bachelor,Salaried,4.2,46100.0,420.0,18400.0,24,14.19,Debt Consolidation,Rent,2700.0,82,0,,0,0,46,0
+APP-10461,29,Bachelor,Salaried,4.1,67800.0,290.0,28700.0,48,18.77,Home Improvement,Rent,800.0,47,0,,1,2,10,0
+APP-12796,32,Doctorate,Contract,2.8,48200.0,230.0,12600.0,36,11.65,Education,Own,2400.0,32,0,Vehicle,0,0,32,0
+APP-15575,21,High School,Freelance,0.4,34100.0,260.0,13200.0,24,17.65,Personal,Rent,10100.0,89,1,,2,2,26,0
+APP-14081,24,Bachelor,Self-Employed,2.2,57200.0,120.0,25000.0,24,15.15,Debt Consolidation,Rent,7900.0,83,1,Vehicle,0,0,19,0
+APP-13750,25,Bachelor,Self-Employed,3.1,28500.0,520.0,11600.0,36,7.66,Personal,Rent,6300.0,76,1,Fixed Deposit,1,1,15,0
+APP-12513,27,Associate,Self-Employed,0.2,48100.0,330.0,14000.0,60,16.75,Personal,Rent,9500.0,90,0,,1,0,18,0
+APP-13365,41,Bachelor,Freelance,9.4,128800.0,1720.0,29900.0,24,13.61,Education,Rent,18400.0,63,1,Fixed Deposit,2,0,16,0
+APP-12519,23,Master,Salaried,2.2,106300.0,940.0,27000.0,36,14.26,Small Business,Mortgage,1400.0,65,0,,2,0,13,0
+APP-15314,24,Bachelor,Self-Employed,0.4,57300.0,240.0,21300.0,36,11.41,Personal,Mortgage,3700.0,72,0,Vehicle,3,0,14,0
+APP-12112,29,Bachelor,Salaried,3.7,42400.0,120.0,14000.0,60,11.98,Personal,Mortgage,900.0,68,0,Fixed Deposit,2,0,3,0
+APP-13582,41,Bachelor,Salaried,11.6,29700.0,550.0,9300.0,36,14.6,Education,Mortgage,1100.0,84,0,Vehicle,1,0,5,0
+APP-13737,27,Master,Self-Employed,0.9,46900.0,400.0,20300.0,36,7.5,Debt Consolidation,Own,6500.0,56,0,,0,1,39,0
+APP-14575,27,Bachelor,Salaried,0.5,75600.0,1200.0,25300.0,36,9.55,Personal,With Parents,3800.0,80,1,Vehicle,1,1,35,0
+APP-10315,29,High School,Salaried,5.0,55700.0,870.0,8600.0,12,12.83,Personal,With Parents,7500.0,71,0,Vehicle,1,0,36,0
+APP-11567,32,High School,Self-Employed,6.6,55000.0,560.0,5900.0,48,12.81,Home Improvement,With Parents,4600.0,65,0,,1,0,34,0
+APP-14566,34,Bachelor,Contract,6.7,57000.0,500.0,18700.0,36,7.5,Small Business,With Parents,200.0,97,0,Vehicle,0,1,47,0
+APP-12584,36,High School,Freelance,2.8,79300.0,1230.0,32100.0,36,18.43,Education,Rent,9500.0,65,0,,3,0,52,0
+APP-12906,26,Bachelor,Contract,2.2,105200.0,440.0,14100.0,48,7.5,Home Improvement,Rent,13400.0,54,0,,1,0,102,0
+APP-12708,26,Bachelor,Salaried,3.3,38100.0,720.0,13800.0,24,16.09,Personal,Rent,5300.0,60,0,,0,1,11,1
+APP-12497,27,Associate,Salaried,2.0,46600.0,240.0,13500.0,36,17.2,Personal,Rent,8100.0,53,0,,0,0,36,0
+APP-15551,31,High School,Salaried,5.5,77200.0,540.0,9300.0,36,10.41,Personal,Rent,35000.0,58,0,,2,0,3,0
+APP-14933,36,Bachelor,Freelance,9.8,56000.0,710.0,11000.0,36,9.11,Education,Own,900.0,63,0,Vehicle,0,0,17,0
+APP-10487,21,Master,Self-Employed,0.5,115900.0,1300.0,34700.0,36,17.9,Debt Consolidation,With Parents,27200.0,100,1,,3,1,18,0
+APP-10811,26,High School,Salaried,1.5,67800.0,710.0,26100.0,12,13.14,Debt Consolidation,Rent,11300.0,86,1,,3,0,41,0
+APP-12229,35,Associate,Salaried,4.6,23300.0,280.0,6700.0,60,10.55,Education,Rent,7200.0,74,1,,0,1,5,0
+APP-13948,27,Master,Salaried,2.7,122600.0,1860.0,13900.0,36,19.6,Home Improvement,Mortgage,3700.0,79,1,,2,0,36,0
+APP-14875,22,High School,Self-Employed,0.6,35400.0,410.0,8500.0,36,18.29,Home Improvement,Rent,1100.0,90,1,Fixed Deposit,1,0,28,0
+APP-12285,32,Bachelor,Salaried,7.7,51600.0,480.0,9400.0,48,16.53,Medical,Mortgage,14400.0,89,0,Fixed Deposit,1,0,88,0
+APP-11307,28,Bachelor,Salaried,3.7,100100.0,1500.0,24400.0,48,9.81,Personal,Rent,12100.0,74,0,,2,3,42,0
+APP-12820,27,High School,Salaried,2.7,40100.0,160.0,9900.0,36,16.5,Small Business,Rent,3400.0,83,0,Vehicle,0,2,3,0
+APP-13910,21,Bachelor,Freelance,0.5,64700.0,570.0,13700.0,36,16.77,Personal,Rent,23900.0,61,1,Vehicle,2,0,13,0
+APP-14681,25,High School,Salaried,1.6,40400.0,220.0,17900.0,36,11.33,Debt Consolidation,Own,1600.0,75,1,Vehicle,1,0,15,0
+APP-11038,30,Bachelor,Contract,0.6,35400.0,310.0,10500.0,48,13.36,Debt Consolidation,Rent,5900.0,72,1,Vehicle,1,0,27,0
+APP-14989,44,Bachelor,Salaried,13.5,19200.0,40.0,7500.0,24,12.93,Debt Consolidation,Rent,200.0,67,0,Vehicle,1,0,24,0
+APP-12348,33,Bachelor,Self-Employed,8.9,43300.0,270.0,6900.0,24,9.13,Medical,Rent,4800.0,66,0,Vehicle,1,2,23,0
+APP-12423,28,Doctorate,Salaried,3.6,113200.0,440.0,21800.0,60,7.5,Home Improvement,Rent,1700.0,64,0,,2,0,63,0
+APP-12118,21,Bachelor,Salaried,0.5,26700.0,370.0,9100.0,24,8.82,Education,With Parents,13600.0,70,1,,1,1,29,1
+APP-14169,24,Bachelor,Salaried,1.1,151800.0,1040.0,24000.0,48,13.24,Personal,Rent,35000.0,72,0,Vehicle,1,1,9,0
+APP-11580,30,Master,Salaried,2.3,54000.0,260.0,20700.0,48,12.55,Small Business,Rent,2600.0,71,0,,0,0,31,1
+APP-11416,29,Bachelor,Salaried,5.7,49900.0,640.0,10200.0,12,16.18,Debt Consolidation,Rent,700.0,64,1,Fixed Deposit,0,0,4,0
+APP-13400,32,Bachelor,Freelance,3.9,59100.0,920.0,7500.0,12,24.54,Small Business,With Parents,10200.0,83,0,Fixed Deposit,2,0,12,0
+APP-10238,24,Bachelor,Self-Employed,0.6,83400.0,800.0,37500.0,12,17.21,Small Business,With Parents,14800.0,84,0,,2,1,9,1
+APP-15572,26,High School,Contract,3.8,23200.0,280.0,4100.0,48,14.43,Home Improvement,Rent,4800.0,77,1,,2,1,31,0
+APP-15236,21,Bachelor,Salaried,0.1,147500.0,1410.0,25100.0,36,9.98,Home Improvement,Rent,35000.0,78,1,,1,1,26,0
+APP-15112,28,Bachelor,Contract,2.9,54900.0,760.0,11100.0,24,15.72,Education,Rent,11700.0,73,0,,2,1,21,0
+APP-15347,21,Bachelor,Contract,0.3,56300.0,560.0,21000.0,24,7.5,Personal,With Parents,28400.0,53,1,,0,1,16,0
+APP-12325,33,High School,Salaried,6.7,150500.0,1630.0,18900.0,36,10.49,Medical,Rent,5400.0,63,1,,1,0,27,0
+APP-11670,27,High School,Salaried,1.2,24400.0,280.0,10200.0,36,14.91,Debt Consolidation,Rent,5800.0,100,0,,1,0,79,0
+APP-12939,26,Master,Salaried,2.1,24900.0,440.0,5500.0,24,12.1,Small Business,Rent,900.0,73,0,,1,0,40,0
+APP-14880,35,Associate,Self-Employed,3.0,77600.0,420.0,23500.0,12,7.79,Personal,Mortgage,5500.0,57,0,Fixed Deposit,2,0,53,1
+APP-14430,21,Bachelor,Self-Employed,0.4,52500.0,260.0,12200.0,36,13.67,Home Improvement,Rent,1200.0,79,1,Vehicle,2,1,36,0
+APP-13913,23,High School,Salaried,1.9,18200.0,230.0,6600.0,36,15.91,Small Business,Rent,200.0,52,0,,0,0,8,0
+APP-14233,32,Bachelor,Salaried,0.8,78000.0,1450.0,33400.0,48,15.42,Education,Rent,12800.0,69,0,Fixed Deposit,0,0,65,0
+APP-10146,21,Associate,Salaried,0.7,30100.0,210.0,7800.0,24,11.04,Education,Rent,900.0,52,1,,1,0,26,0
+APP-14358,32,Master,Contract,2.1,52700.0,820.0,14700.0,24,9.03,Home Improvement,With Parents,800.0,66,1,Fixed Deposit,0,2,8,0
+APP-14691,30,Associate,Self-Employed,6.0,22900.0,80.0,6200.0,12,13.48,Home Improvement,With Parents,900.0,87,0,,2,1,28,1
+APP-11598,29,Bachelor,Self-Employed,4.8,73400.0,960.0,22200.0,36,18.03,Debt Consolidation,Mortgage,35000.0,83,1,,0,0,22,0
+APP-10620,23,Bachelor,Salaried,1.3,58300.0,230.0,23800.0,60,15.5,Education,Mortgage,800.0,100,0,Fixed Deposit,1,0,25,0
+APP-15785,32,Master,Salaried,8.7,37900.0,360.0,4700.0,36,13.48,Small Business,Rent,4300.0,65,0,,1,2,24,0
+APP-15795,28,Bachelor,Self-Employed,4.2,93500.0,780.0,28100.0,36,15.15,Education,Rent,5700.0,86,0,,2,0,48,0
+APP-15276,21,High School,Contract,0.6,34700.0,540.0,12100.0,24,14.27,Home Improvement,Rent,600.0,81,1,,0,0,26,0
+APP-10683,32,Bachelor,Salaried,7.3,47900.0,920.0,7100.0,12,12.52,Personal,Mortgage,3800.0,75,0,Vehicle,0,0,48,0
+APP-15985,25,Master,Salaried,2.0,114600.0,810.0,27100.0,24,7.5,Personal,Own,27200.0,74,0,Vehicle,1,0,52,0
+APP-10415,24,Bachelor,Salaried,2.1,44700.0,60.0,8800.0,24,19.29,Debt Consolidation,Mortgage,3000.0,66,1,,1,0,17,0
+APP-12286,34,Bachelor,Salaried,7.0,50600.0,730.0,17100.0,36,15.45,Debt Consolidation,Mortgage,14700.0,86,0,,0,1,4,0
+APP-13409,42,Master,Salaried,7.2,93800.0,860.0,10100.0,48,13.97,Education,Rent,900.0,47,0,,0,1,42,1
+APP-10755,46,Bachelor,Contract,19.3,71400.0,1050.0,26400.0,36,10.17,Education,With Parents,21200.0,71,0,,2,1,23,0
+APP-14915,30,Bachelor,Freelance,6.9,48100.0,310.0,15300.0,12,10.47,Education,Rent,7200.0,77,1,,1,0,7,0
+APP-13779,28,Bachelor,Salaried,5.9,69800.0,1390.0,17600.0,24,9.37,Personal,Rent,4900.0,75,0,Fixed Deposit,0,0,13,0
+APP-15645,21,Associate,Salaried,0.5,89100.0,690.0,34400.0,36,11.37,Personal,Rent,35000.0,72,1,,2,2,11,0
+APP-13639,31,Associate,Self-Employed,4.0,51300.0,630.0,16400.0,24,17.24,Personal,Rent,5100.0,100,0,Fixed Deposit,3,0,71,0
+APP-10368,29,Master,Salaried,0.2,56500.0,370.0,24500.0,24,10.26,Debt Consolidation,Rent,2500.0,51,0,,2,0,39,1
+APP-15001,26,Master,Salaried,4.3,82000.0,750.0,32400.0,24,14.89,Small Business,Rent,13100.0,78,0,,2,0,21,0
+APP-10931,41,Master,Salaried,11.8,160000.0,3130.0,38300.0,36,15.2,Personal,Rent,4500.0,76,0,,2,0,18,1
+APP-11007,33,Master,Contract,1.3,106000.0,1050.0,42500.0,12,8.5,Personal,Rent,8400.0,63,0,,1,1,26,0
+APP-13556,33,Associate,Contract,7.7,38300.0,690.0,15400.0,48,14.86,Personal,Rent,29400.0,69,0,Vehicle,1,2,7,0
+APP-11696,22,Bachelor,Self-Employed,0.2,79700.0,180.0,17200.0,12,11.79,Personal,Rent,7300.0,90,0,Vehicle,0,0,34,0
+APP-12408,34,High School,Freelance,8.4,81100.0,890.0,16600.0,24,13.25,Personal,Rent,2900.0,94,0,Fixed Deposit,0,1,26,0
+APP-13995,29,Bachelor,Salaried,5.9,86400.0,780.0,35000.0,24,16.16,Personal,Rent,17100.0,96,1,Vehicle,0,0,17,0
+APP-13729,21,High School,Salaried,0.6,25000.0,410.0,9600.0,24,7.5,Small Business,Mortgage,7900.0,84,1,Vehicle,3,0,38,0
+APP-14231,37,High School,Self-Employed,5.4,27100.0,200.0,5700.0,36,9.07,Home Improvement,Mortgage,8400.0,56,1,,0,1,23,0
+APP-10846,30,Master,Salaried,4.7,94800.0,1410.0,41800.0,24,10.52,Personal,With Parents,1000.0,63,0,Vehicle,0,0,21,1
+APP-13130,28,Associate,Contract,0.1,51800.0,690.0,19700.0,12,13.73,Education,With Parents,900.0,79,0,,1,0,9,1
+APP-13607,36,Associate,Salaried,4.6,30400.0,460.0,3200.0,36,9.68,Small Business,Rent,800.0,81,0,Vehicle,1,1,44,0
+APP-14241,34,Doctorate,Contract,3.5,89400.0,830.0,25100.0,24,12.62,Education,Rent,200.0,100,0,Vehicle,1,1,47,0
+APP-10477,31,Bachelor,Salaried,4.4,35700.0,270.0,15200.0,12,11.32,Debt Consolidation,Own,2800.0,73,0,Vehicle,0,0,28,0
+APP-14162,27,High School,Self-Employed,1.1,30100.0,80.0,6800.0,48,11.87,Personal,Rent,3000.0,41,0,,3,0,28,0
+APP-12521,48,Bachelor,Salaried,8.4,71600.0,350.0,23500.0,36,17.69,Education,Rent,2100.0,76,0,,1,0,34,0
+APP-15375,33,Master,Salaried,4.9,44300.0,380.0,9200.0,36,16.97,Education,Rent,2300.0,74,0,,1,1,17,0
+APP-14262,33,Doctorate,Salaried,3.7,120100.0,1680.0,45000.0,36,11.19,Personal,Rent,18600.0,84,0,,3,0,41,0
+APP-15664,25,High School,Salaried,1.4,20400.0,110.0,3300.0,48,14.07,Small Business,Own,1900.0,67,0,,0,0,12,0
+APP-12340,33,Bachelor,Salaried,6.1,66800.0,690.0,8300.0,48,14.59,Personal,With Parents,12300.0,56,0,,1,0,3,0
+APP-15233,27,Bachelor,Freelance,1.3,26500.0,340.0,4300.0,48,14.88,Personal,Own,200.0,80,0,Vehicle,2,1,12,0
+APP-12099,34,Bachelor,Salaried,3.3,70600.0,530.0,13500.0,24,8.84,Personal,Own,35000.0,52,1,,2,1,15,0
+APP-12463,21,Bachelor,Salaried,0.7,100200.0,350.0,30700.0,60,7.71,Personal,Rent,300.0,66,1,,2,0,20,0
+APP-10152,24,Bachelor,Salaried,2.2,127300.0,470.0,40800.0,24,9.91,Home Improvement,Rent,31200.0,78,0,,2,1,89,0
+APP-13935,31,Bachelor,Freelance,7.9,32100.0,50.0,12700.0,36,13.13,Medical,Rent,5200.0,80,1,Vehicle,0,1,5,0
+APP-13323,30,Associate,Salaried,0.6,58000.0,840.0,10400.0,36,19.49,Personal,Rent,1300.0,75,0,,0,1,29,0
+APP-15642,21,Bachelor,Self-Employed,0.6,36700.0,840.0,10400.0,24,21.56,Home Improvement,With Parents,3400.0,65,0,Vehicle,0,0,12,0
+APP-11346,21,Associate,Salaried,0.4,49900.0,330.0,11400.0,24,15.0,Debt Consolidation,With Parents,1200.0,90,0,,1,3,51,1
+APP-13586,24,High School,Salaried,1.3,45400.0,960.0,10100.0,36,20.4,Home Improvement,Rent,300.0,87,0,,1,0,29,0
+APP-14379,23,High School,Contract,1.4,38000.0,70.0,7400.0,12,12.78,Personal,With Parents,4400.0,42,0,,0,1,14,0
+APP-15965,29,Bachelor,Salaried,2.3,36300.0,550.0,6300.0,24,11.17,Debt Consolidation,Rent,5300.0,65,0,,0,2,56,0
+APP-14061,30,High School,Salaried,4.9,47600.0,370.0,10900.0,24,13.61,Personal,Mortgage,1800.0,62,0,,1,0,12,1
+APP-15235,42,High School,Salaried,10.4,35900.0,500.0,6300.0,60,8.5,Personal,Rent,12200.0,99,1,Vehicle,3,0,24,0
+APP-12049,30,High School,Freelance,0.2,31300.0,540.0,6800.0,24,17.36,Small Business,Mortgage,20500.0,72,0,,2,0,68,0
+APP-12384,29,Bachelor,Freelance,2.9,101500.0,1480.0,44700.0,36,12.52,Personal,Rent,13500.0,49,0,Fixed Deposit,0,1,46,1
+APP-13413,23,High School,Salaried,0.4,35100.0,460.0,4400.0,36,12.07,Debt Consolidation,Mortgage,17000.0,64,1,Fixed Deposit,1,1,25,0
+APP-14395,21,Bachelor,Self-Employed,0.7,49200.0,520.0,17200.0,60,11.49,Personal,With Parents,12200.0,50,0,,3,0,12,1
+APP-15181,26,Associate,Salaried,0.8,32100.0,240.0,7900.0,48,13.14,Personal,Rent,800.0,67,0,,2,1,19,1
+APP-11574,32,High School,Self-Employed,0.7,43900.0,170.0,15800.0,36,17.67,Education,Rent,15800.0,79,0,Vehicle,0,0,42,0
+APP-12805,21,Associate,Self-Employed,0.5,68800.0,510.0,7800.0,36,14.55,Small Business,Rent,6100.0,90,1,,1,1,14,0
+APP-13577,24,Doctorate,Salaried,1.9,79300.0,280.0,28100.0,24,15.08,Education,With Parents,12800.0,69,1,Vehicle,3,3,5,1
+APP-11587,26,High School,Salaried,0.9,40700.0,760.0,7900.0,24,16.77,Education,Rent,14300.0,58,0,,1,2,33,0
+APP-10244,21,Bachelor,Freelance,0.1,38300.0,410.0,12300.0,48,10.58,Medical,With Parents,200.0,66,1,Vehicle,2,0,23,0
+APP-10911,30,Master,Salaried,3.8,114400.0,2090.0,45000.0,36,9.71,Debt Consolidation,Rent,6000.0,66,0,,0,0,18,0
+APP-15582,39,Bachelor,Self-Employed,13.0,103900.0,370.0,34600.0,36,16.4,Education,Own,12800.0,88,0,,1,2,18,0
+APP-12020,29,High School,Contract,3.6,55900.0,810.0,21500.0,60,9.76,Education,Rent,15900.0,76,0,Vehicle,1,0,15,0
+APP-15706,35,Bachelor,Salaried,6.5,22900.0,190.0,7300.0,36,16.95,Education,With Parents,4900.0,57,1,Vehicle,0,1,35,0
+APP-14625,37,High School,Salaried,2.6,41500.0,380.0,8200.0,60,13.42,Home Improvement,Own,4200.0,75,0,,4,0,15,1
+APP-10243,34,Bachelor,Salaried,2.6,49100.0,640.0,10800.0,12,12.1,Personal,Mortgage,7400.0,84,0,Fixed Deposit,4,1,54,0
+APP-11087,30,Bachelor,Salaried,2.9,44600.0,450.0,17100.0,24,13.71,Education,Rent,4400.0,75,1,,0,0,53,0
+APP-10167,41,High School,Freelance,8.2,82100.0,1070.0,19700.0,36,10.91,Education,With Parents,15600.0,59,0,,1,0,21,0
+APP-11481,26,Bachelor,Salaried,3.0,48700.0,390.0,9900.0,24,15.72,Personal,Mortgage,1500.0,73,0,,2,1,3,1
+APP-13686,45,High School,Salaried,17.3,46100.0,760.0,19900.0,36,12.62,Small Business,Rent,20500.0,69,0,,1,0,28,0
+APP-13735,28,Master,Salaried,4.7,78400.0,1070.0,32400.0,48,10.82,Debt Consolidation,Own,35000.0,82,0,Vehicle,3,0,17,0
+APP-14277,22,High School,Salaried,1.3,43300.0,490.0,5000.0,36,10.57,Education,With Parents,18000.0,82,1,,1,1,20,0
+APP-15287,37,High School,Self-Employed,5.2,56100.0,360.0,22000.0,24,7.5,Personal,Own,4500.0,86,0,,0,0,29,0
+APP-11243,22,Bachelor,Self-Employed,1.0,48600.0,200.0,12800.0,36,15.44,Education,Rent,1900.0,67,1,Vehicle,4,0,9,0
+APP-13417,30,Bachelor,Salaried,5.7,59200.0,380.0,8000.0,48,13.06,Education,Rent,35000.0,87,1,,1,0,45,0
+APP-10885,41,Master,Salaried,9.4,160000.0,2770.0,23000.0,36,9.68,Education,Rent,15000.0,86,0,Fixed Deposit,2,0,37,0
+APP-13287,27,High School,Self-Employed,1.3,33700.0,490.0,4800.0,48,12.17,Medical,Mortgage,6500.0,81,1,,1,1,26,0
+APP-15992,22,High School,Salaried,0.3,59700.0,750.0,26100.0,24,12.94,Small Business,Rent,13200.0,68,1,,0,0,16,0
+APP-14725,21,Master,Salaried,0.5,53400.0,560.0,20000.0,48,9.21,Personal,Rent,1000.0,64,1,Vehicle,1,2,22,0
+APP-10163,23,Bachelor,Contract,2.1,87100.0,680.0,13500.0,24,11.17,Medical,Rent,27200.0,83,1,,3,1,81,0
+APP-14789,27,High School,Salaried,2.4,46100.0,1100.0,19600.0,36,8.46,Small Business,Mortgage,200.0,95,0,,0,1,35,1
+APP-13219,33,Master,Salaried,8.3,41800.0,490.0,11400.0,48,12.93,Education,Rent,9600.0,71,0,,0,0,44,0
+APP-15237,36,Associate,Contract,4.3,27900.0,370.0,4500.0,48,9.0,Small Business,Rent,1300.0,84,0,,0,2,6,0
+APP-14583,34,Associate,Self-Employed,7.5,35500.0,450.0,12100.0,36,11.28,Education,Rent,3400.0,64,0,,2,2,13,0
+APP-13145,32,Bachelor,Salaried,7.2,45600.0,630.0,16100.0,36,14.63,Personal,With Parents,9200.0,69,0,,0,2,13,0
+APP-11147,21,Master,Self-Employed,0.2,24100.0,170.0,10500.0,12,12.97,Personal,Rent,17300.0,61,1,,1,1,15,0
+APP-11590,22,Bachelor,Salaried,1.1,31700.0,170.0,4400.0,48,7.5,Small Business,Rent,13100.0,72,0,Vehicle,1,3,13,1
+APP-13412,41,Bachelor,Salaried,11.6,59200.0,540.0,22500.0,48,10.89,Personal,Mortgage,15800.0,50,0,,2,1,52,0
+APP-11107,22,Master,Salaried,1.1,75000.0,1180.0,26500.0,24,10.91,Medical,Rent,7900.0,81,0,,3,2,33,1
+APP-10420,42,Bachelor,Salaried,3.7,44100.0,230.0,18800.0,48,12.57,Personal,With Parents,4500.0,94,0,,4,2,30,1
+APP-14411,28,High School,Salaried,1.2,101200.0,310.0,26700.0,60,11.99,Personal,With Parents,15700.0,65,0,,1,0,17,0
+APP-14493,26,Associate,Salaried,2.8,49800.0,160.0,6900.0,48,9.76,Debt Consolidation,Mortgage,19300.0,79,0,Vehicle,0,0,21,0
+APP-13303,22,Bachelor,Self-Employed,0.6,70100.0,960.0,12900.0,48,7.5,Home Improvement,Rent,4300.0,83,0,,2,0,28,0
+APP-14920,39,Bachelor,Salaried,2.2,24600.0,220.0,10800.0,12,18.55,Personal,Rent,600.0,92,0,,1,0,26,1
+APP-14819,27,Bachelor,Salaried,4.6,50900.0,130.0,13800.0,48,14.05,Medical,Rent,3900.0,81,0,,2,0,40,0
+APP-13368,31,Master,Salaried,6.7,56900.0,820.0,21400.0,36,11.33,Debt Consolidation,Rent,11300.0,60,0,,1,0,23,0
+APP-15204,44,Associate,Salaried,6.8,120400.0,1220.0,39300.0,60,10.47,Education,Rent,2100.0,81,0,Vehicle,0,1,19,0
+APP-12683,33,High School,Salaried,8.2,39200.0,250.0,6100.0,36,10.68,Debt Consolidation,With Parents,8400.0,65,0,,1,0,19,1
+APP-12411,38,Associate,Freelance,3.7,35900.0,390.0,9700.0,36,17.44,Small Business,Rent,5700.0,88,1,,0,0,34,0
+APP-14200,30,High School,Salaried,2.4,34000.0,610.0,13100.0,36,8.58,Debt Consolidation,Rent,1900.0,88,0,,2,1,20,0
+APP-13662,31,High School,Salaried,4.3,49800.0,450.0,8900.0,36,14.28,Home Improvement,With Parents,15100.0,62,0,Vehicle,1,1,43,0
+APP-15820,29,Associate,Salaried,2.4,30300.0,290.0,10200.0,60,10.31,Personal,Rent,6100.0,62,1,Vehicle,1,2,30,1
+APP-11885,30,High School,Salaried,7.1,31300.0,230.0,5600.0,36,19.44,Debt Consolidation,Mortgage,1500.0,64,0,Vehicle,1,0,28,0
+APP-12171,28,Bachelor,Freelance,0.2,93800.0,430.0,31100.0,36,10.21,Debt Consolidation,Own,20200.0,66,0,,1,0,54,0
+APP-11817,24,Bachelor,Salaried,2.4,55600.0,380.0,7900.0,36,15.15,Debt Consolidation,Rent,3800.0,81,0,Fixed Deposit,1,0,32,0
+APP-10634,22,High School,Contract,1.4,33500.0,400.0,4800.0,36,12.06,Home Improvement,Rent,17400.0,94,0,,2,1,20,0
+APP-10001,28,High School,Salaried,3.6,57300.0,1010.0,18800.0,36,15.29,Personal,Own,2600.0,62,0,,2,0,17,1
+APP-15308,24,Associate,Salaried,1.9,35600.0,400.0,7800.0,12,14.76,Personal,Rent,1000.0,81,0,Vehicle,4,0,64,1
+APP-11377,35,Bachelor,Salaried,1.0,46000.0,810.0,6600.0,24,21.06,Small Business,Rent,15200.0,72,1,Vehicle,1,1,40,0
+APP-12677,21,High School,Salaried,0.6,49700.0,550.0,11900.0,12,18.05,Personal,Rent,22600.0,57,0,,1,0,47,1
+APP-13930,33,Bachelor,Freelance,0.1,53900.0,410.0,8700.0,60,16.12,Medical,With Parents,800.0,53,0,,1,0,73,0
+APP-13100,24,Bachelor,Salaried,0.7,23600.0,610.0,10200.0,36,8.99,Education,With Parents,8400.0,80,0,Fixed Deposit,1,0,21,0
+APP-12289,38,Bachelor,Contract,0.7,38100.0,580.0,16500.0,36,9.7,Small Business,Rent,31100.0,87,0,Fixed Deposit,1,1,50,0
+APP-13294,21,Bachelor,Salaried,0.7,52300.0,510.0,18800.0,36,19.61,Personal,Rent,15200.0,75,1,,3,1,22,1
+APP-15166,25,Bachelor,Salaried,0.3,33700.0,500.0,5900.0,36,12.59,Personal,Mortgage,300.0,88,0,,2,0,36,1
+APP-11328,21,High School,Self-Employed,0.3,24800.0,240.0,6400.0,24,14.36,Small Business,Rent,2300.0,75,1,Vehicle,4,0,21,1
+APP-12793,22,Associate,Self-Employed,0.2,23000.0,240.0,4300.0,24,16.36,Debt Consolidation,Rent,7800.0,75,1,,3,0,36,0
+APP-14170,21,Master,Salaried,0.4,50300.0,850.0,17600.0,24,17.36,Small Business,With Parents,1000.0,87,0,Vehicle,2,0,20,1
+APP-10652,27,High School,Salaried,4.4,27300.0,250.0,9800.0,24,11.21,Personal,Rent,4500.0,64,0,,0,1,73,0
+APP-14867,28,Associate,Salaried,2.7,55000.0,680.0,14200.0,36,13.58,Personal,Mortgage,1200.0,47,0,,1,0,28,0
+APP-13791,26,Bachelor,Freelance,0.8,88600.0,980.0,23800.0,36,16.69,Personal,Rent,14500.0,56,0,Vehicle,1,2,10,0
+APP-13479,38,Bachelor,Salaried,5.6,26600.0,140.0,10600.0,36,11.01,Home Improvement,Mortgage,6400.0,51,0,Vehicle,2,2,140,0
+APP-13117,24,Associate,Contract,2.5,39300.0,230.0,14700.0,36,12.58,Debt Consolidation,Own,10300.0,51,0,,3,1,24,0
+APP-15441,24,Bachelor,Salaried,1.9,65200.0,820.0,21300.0,24,16.31,Education,Rent,31300.0,79,1,,0,0,23,0
+APP-13207,34,Bachelor,Salaried,6.9,51700.0,830.0,6900.0,60,10.94,Personal,With Parents,21100.0,83,0,,1,0,40,0
+APP-13212,39,Bachelor,Salaried,2.4,106200.0,700.0,40000.0,48,15.41,Personal,Mortgage,24600.0,100,1,,1,1,17,0
+APP-11514,28,Bachelor,Salaried,3.1,42000.0,890.0,17700.0,12,18.02,Debt Consolidation,Mortgage,300.0,72,1,,1,0,25,1
+APP-12177,30,Bachelor,Salaried,4.2,35200.0,340.0,10600.0,60,16.79,Personal,Mortgage,4400.0,100,1,Fixed Deposit,2,0,61,0
+APP-12145,38,Bachelor,Salaried,2.7,45500.0,360.0,6400.0,24,10.45,Education,Mortgage,3200.0,52,0,Vehicle,1,1,13,0
+APP-13039,27,Master,Salaried,1.2,72400.0,1430.0,30800.0,24,20.58,Personal,Rent,35000.0,68,1,,1,0,50,0
+APP-12899,30,Bachelor,Salaried,5.9,44000.0,380.0,4700.0,36,16.39,Personal,Rent,18300.0,73,1,,3,0,19,0
+APP-15962,29,High School,Salaried,4.1,24300.0,470.0,4100.0,24,13.68,Personal,With Parents,9500.0,81,0,Vehicle,2,0,13,1
+APP-12256,34,Bachelor,Salaried,5.5,30100.0,580.0,9200.0,12,20.02,Debt Consolidation,Mortgage,800.0,69,0,Fixed Deposit,2,0,9,1
+APP-13312,42,Bachelor,Self-Employed,13.7,64000.0,1400.0,15000.0,24,11.81,Education,Own,2600.0,59,0,Fixed Deposit,2,2,22,0
+APP-11375,27,Bachelor,Salaried,4.1,106200.0,330.0,34200.0,12,8.92,Personal,Rent,3600.0,62,0,Fixed Deposit,1,2,27,0
+APP-11497,36,Associate,Contract,1.7,24900.0,410.0,8000.0,36,12.86,Debt Consolidation,Rent,8200.0,97,0,,3,1,9,0
+APP-15942,29,Associate,Salaried,1.8,18000.0,260.0,2000.0,48,15.1,Debt Consolidation,With Parents,2900.0,68,0,,0,0,36,0
+APP-14246,30,Bachelor,Salaried,1.3,83100.0,320.0,14800.0,36,14.72,Small Business,Own,24600.0,58,0,,0,0,55,0
+APP-13549,28,High School,Salaried,2.9,33400.0,660.0,8400.0,24,12.19,Personal,With Parents,300.0,65,0,,2,2,20,0
+APP-10318,31,Master,Salaried,7.9,36100.0,530.0,6800.0,36,18.32,Education,Rent,13100.0,56,0,Vehicle,0,0,32,0
+APP-11525,36,Associate,Salaried,7.8,53000.0,660.0,19800.0,12,15.41,Personal,Mortgage,12900.0,76,1,Vehicle,3,0,28,0
+APP-12444,25,Master,Salaried,1.8,69100.0,280.0,9600.0,48,13.02,Medical,With Parents,35000.0,63,1,,3,2,31,0
+APP-13752,37,Bachelor,Salaried,9.3,45700.0,730.0,14700.0,24,11.63,Education,Mortgage,12800.0,60,0,Vehicle,1,1,6,0
+APP-10497,27,Bachelor,Salaried,0.8,96200.0,1000.0,38900.0,48,12.92,Small Business,Rent,21600.0,73,0,,1,0,52,0
+APP-12216,26,Bachelor,Salaried,1.4,79700.0,1160.0,35600.0,48,14.77,Personal,Rent,35000.0,52,0,,1,0,33,0
+APP-10067,35,Bachelor,Salaried,4.9,68800.0,480.0,26200.0,12,17.14,Small Business,Rent,10800.0,58,0,,3,1,6,0
+APP-11620,29,Associate,Contract,0.8,65200.0,160.0,28000.0,36,16.56,Debt Consolidation,Rent,20100.0,66,0,,0,1,59,0
+APP-12776,27,Master,Contract,1.2,55500.0,270.0,18900.0,36,8.79,Education,Mortgage,27200.0,61,0,,1,0,24,0
+APP-12583,36,Associate,Salaried,2.3,26800.0,440.0,10200.0,36,16.86,Education,With Parents,200.0,57,0,,3,0,48,1
+APP-11379,40,Master,Self-Employed,8.3,57500.0,690.0,6900.0,36,7.5,Personal,With Parents,5900.0,88,1,,0,0,37,0
+APP-14991,33,Bachelor,Salaried,1.3,31300.0,390.0,10100.0,24,18.08,Education,Mortgage,7100.0,85,0,Fixed Deposit,0,0,16,0
+APP-10967,40,High School,Salaried,9.2,23500.0,300.0,7600.0,24,12.11,Small Business,Rent,7400.0,79,0,,2,0,47,0
+APP-10434,38,High School,Salaried,9.6,35300.0,260.0,13800.0,36,19.1,Medical,Mortgage,18300.0,83,0,Vehicle,1,0,44,0
+APP-10647,28,Master,Contract,3.7,114000.0,2410.0,25600.0,12,13.31,Debt Consolidation,Rent,600.0,71,1,,1,2,47,1
+APP-11662,21,Associate,Salaried,0.4,50200.0,1030.0,16000.0,60,13.22,Personal,Mortgage,14000.0,78,0,,1,1,10,0
+APP-11059,26,High School,Salaried,2.1,32900.0,660.0,14200.0,24,19.65,Debt Consolidation,With Parents,16900.0,63,0,Fixed Deposit,1,1,46,0
+APP-13830,27,Master,Salaried,0.4,54000.0,430.0,17900.0,24,17.42,Personal,Rent,9200.0,79,1,,4,0,64,1
+APP-10403,29,Bachelor,Contract,0.3,67500.0,1130.0,23700.0,36,13.33,Debt Consolidation,Rent,4700.0,69,0,Vehicle,1,0,13,0
+APP-12487,28,Associate,Freelance,3.6,27900.0,240.0,9300.0,60,11.26,Small Business,Own,200.0,100,0,,2,1,11,0
+APP-13765,29,Bachelor,Self-Employed,4.8,56300.0,550.0,25000.0,48,7.83,Home Improvement,Mortgage,15700.0,100,0,,4,0,5,0
+APP-10900,31,Master,Freelance,1.8,49400.0,310.0,16200.0,24,10.91,Personal,Mortgage,3600.0,90,0,,0,0,13,1
+APP-14083,21,Bachelor,Salaried,0.2,57700.0,430.0,10000.0,24,11.1,Debt Consolidation,With Parents,17000.0,59,0,Vehicle,0,1,22,0
+APP-14542,21,Bachelor,Self-Employed,0.5,60200.0,420.0,23200.0,36,13.55,Small Business,Rent,33300.0,69,0,Vehicle,3,0,29,0
+APP-15983,31,Bachelor,Salaried,6.5,36300.0,450.0,9000.0,36,11.79,Education,Own,200.0,67,0,Vehicle,1,0,81,0
+APP-13811,31,Bachelor,Salaried,4.7,59300.0,600.0,21000.0,24,7.5,Debt Consolidation,Rent,29300.0,64,0,Vehicle,4,0,36,1
+APP-15506,22,Bachelor,Salaried,0.2,41300.0,410.0,15000.0,36,13.95,Personal,Rent,4700.0,68,0,Vehicle,0,0,37,0
+APP-15037,24,Bachelor,Salaried,2.5,136400.0,790.0,15900.0,24,14.46,Small Business,Own,7200.0,72,0,,0,0,16,0
+APP-14020,43,Associate,Salaried,7.9,58900.0,640.0,16900.0,12,14.23,Home Improvement,Rent,10600.0,90,0,Fixed Deposit,0,2,37,0
+APP-12009,35,Master,Self-Employed,0.6,52600.0,750.0,18500.0,24,10.52,Education,Own,1700.0,61,0,,0,0,21,1
+APP-15076,29,Bachelor,Salaried,1.4,113000.0,370.0,30900.0,60,16.94,Education,Rent,10900.0,71,0,,1,0,20,0
+APP-15893,21,Bachelor,Salaried,0.4,73300.0,1260.0,14300.0,36,16.28,Education,With Parents,12700.0,55,0,,1,1,24,0
+APP-10306,37,High School,Salaried,1.2,18000.0,200.0,3600.0,12,17.65,Debt Consolidation,With Parents,4900.0,58,0,Vehicle,2,0,59,0
+APP-13147,24,Bachelor,Salaried,2.1,68400.0,1020.0,10600.0,24,15.0,Personal,Rent,10900.0,86,0,,2,0,37,0
+APP-11309,32,Bachelor,Salaried,6.5,38200.0,420.0,9300.0,36,9.44,Medical,Rent,4200.0,69,0,,2,0,45,0
+APP-14873,30,Master,Freelance,1.8,61900.0,170.0,25800.0,36,16.04,Personal,Rent,25100.0,86,0,,0,1,20,0
+APP-10193,21,High School,Salaried,0.1,44900.0,370.0,4600.0,48,13.13,Small Business,Rent,19400.0,52,0,Vehicle,0,0,14,0
+APP-15097,21,Master,Salaried,0.4,60600.0,470.0,12200.0,36,13.65,Personal,Rent,10900.0,83,1,,0,0,9,0
+APP-12464,34,Bachelor,Freelance,2.2,95000.0,1810.0,29900.0,24,8.9,Education,Mortgage,25100.0,74,1,,1,1,29,0
+APP-15516,32,High School,Contract,4.7,49700.0,460.0,15500.0,36,19.02,Home Improvement,Mortgage,10300.0,100,1,Fixed Deposit,2,0,45,0
+APP-14008,25,Associate,Salaried,0.8,38100.0,310.0,11700.0,12,12.09,Personal,Rent,3000.0,76,1,Vehicle,4,0,43,0
+APP-15191,28,Bachelor,Freelance,5.2,70400.0,190.0,14500.0,60,15.93,Small Business,Mortgage,8600.0,69,1,Vehicle,1,0,33,0
+APP-13181,32,Associate,Freelance,8.3,32200.0,240.0,7300.0,36,7.5,Personal,Own,2900.0,61,0,,1,0,41,0
+APP-15318,27,Bachelor,Self-Employed,1.7,58800.0,1120.0,14700.0,60,7.5,Personal,With Parents,5800.0,52,1,,1,0,13,0
+APP-13441,25,High School,Salaried,3.5,43800.0,350.0,18300.0,36,8.76,Debt Consolidation,Rent,2000.0,65,0,Vehicle,1,1,33,0
+APP-12606,25,Master,Salaried,3.3,38500.0,460.0,10100.0,60,12.2,Debt Consolidation,Own,5800.0,79,1,,1,1,26,0
+APP-15479,36,Master,Contract,5.9,70000.0,280.0,22500.0,48,13.51,Education,Mortgage,12200.0,82,0,Vehicle,1,0,38,0
+APP-14735,35,Bachelor,Self-Employed,5.0,23700.0,310.0,8300.0,24,18.5,Home Improvement,Rent,200.0,78,0,Vehicle,2,0,45,0
+APP-15054,21,Bachelor,Salaried,0.5,69500.0,40.0,22900.0,60,12.2,Debt Consolidation,Rent,15000.0,95,0,,0,1,54,0
+APP-13439,30,Associate,Contract,3.9,51900.0,460.0,14000.0,48,10.3,Personal,Rent,4100.0,48,0,Fixed Deposit,2,0,8,0
+APP-12989,44,Bachelor,Salaried,14.8,42000.0,390.0,4900.0,60,15.74,Personal,With Parents,600.0,72,0,Vehicle,2,1,18,0
+APP-14523,42,Associate,Salaried,15.9,47800.0,100.0,19700.0,36,17.1,Personal,Rent,16700.0,69,0,Vehicle,3,0,46,0
+APP-14904,33,High School,Contract,3.0,25300.0,370.0,10900.0,36,14.68,Personal,Mortgage,5200.0,88,1,Vehicle,2,1,39,0
+APP-12094,35,Bachelor,Salaried,10.3,78600.0,550.0,20700.0,36,12.93,Education,Rent,8700.0,82,0,Vehicle,0,0,9,0
+APP-12087,28,Bachelor,Salaried,5.8,49100.0,80.0,19100.0,24,7.5,Debt Consolidation,Rent,800.0,58,0,Vehicle,1,0,20,0
+APP-11896,27,Associate,Self-Employed,4.4,68200.0,350.0,30300.0,36,14.21,Home Improvement,Rent,9400.0,83,0,Vehicle,4,0,43,0
+APP-14624,31,High School,Self-Employed,1.5,64800.0,280.0,21500.0,36,17.84,Personal,With Parents,4100.0,43,1,Vehicle,1,1,20,0
+APP-12849,25,Associate,Self-Employed,3.5,97800.0,360.0,20000.0,48,11.44,Personal,With Parents,9200.0,56,0,,0,0,32,0
+APP-15373,28,Bachelor,Contract,1.8,47100.0,180.0,9000.0,48,12.12,Debt Consolidation,Rent,14600.0,68,1,Vehicle,2,0,21,0
+APP-12710,23,Bachelor,Salaried,1.5,77800.0,350.0,31600.0,36,13.25,Debt Consolidation,Mortgage,21500.0,46,0,Fixed Deposit,1,1,62,0
+APP-12462,32,Master,Salaried,2.8,42300.0,960.0,14300.0,24,21.92,Small Business,Mortgage,3700.0,82,0,,0,0,3,0
+APP-15020,28,Bachelor,Freelance,5.6,56100.0,990.0,19600.0,36,16.89,Education,Rent,9500.0,65,0,,3,0,10,0
+APP-11543,26,Bachelor,Contract,4.2,28600.0,330.0,6500.0,36,17.41,Personal,Rent,200.0,97,0,Fixed Deposit,2,0,103,0
+APP-15556,29,Associate,Self-Employed,4.9,57000.0,430.0,20400.0,48,7.5,Home Improvement,Mortgage,200.0,75,0,Vehicle,3,1,22,0
+APP-14300,26,Bachelor,Salaried,2.6,59800.0,600.0,15100.0,24,13.74,Personal,Mortgage,2900.0,55,1,Vehicle,3,0,15,0
+APP-15227,31,Bachelor,Contract,1.2,66000.0,810.0,28300.0,24,12.82,Small Business,Rent,13300.0,63,0,Vehicle,1,1,22,1
+APP-15461,33,Bachelor,Salaried,5.1,160000.0,1110.0,24500.0,36,10.75,Personal,Own,35000.0,88,0,,2,2,20,0
+APP-14063,31,High School,Self-Employed,6.5,33600.0,320.0,14600.0,48,18.21,Home Improvement,Rent,20900.0,83,0,,2,0,25,0
+APP-13015,35,Master,Contract,1.2,59300.0,890.0,12100.0,24,15.88,Personal,With Parents,12800.0,81,0,Vehicle,1,2,13,0
+APP-10084,23,Associate,Self-Employed,0.2,39600.0,200.0,15200.0,24,7.68,Education,Rent,4700.0,78,1,,2,1,126,0
+APP-15319,32,Bachelor,Salaried,4.6,26100.0,230.0,10500.0,36,12.23,Medical,Mortgage,200.0,74,0,Vehicle,3,1,54,1
+APP-15774,31,Bachelor,Contract,3.3,45300.0,470.0,7200.0,12,12.9,Education,Mortgage,4900.0,88,0,,1,1,25,0
+APP-12678,29,Bachelor,Freelance,5.6,57700.0,440.0,11000.0,48,8.95,Personal,With Parents,9200.0,93,1,,2,0,5,0
+APP-11086,35,Bachelor,Salaried,7.8,57500.0,610.0,11600.0,24,14.47,Small Business,Rent,7600.0,100,1,,0,1,58,0
+APP-14466,34,Bachelor,Salaried,6.7,37200.0,640.0,9300.0,24,19.75,Education,With Parents,5100.0,78,1,Vehicle,2,1,27,0
+APP-14785,27,Master,Salaried,0.6,43800.0,340.0,8700.0,36,15.01,Home Improvement,Mortgage,1900.0,66,1,,0,2,13,0
+APP-13298,21,Bachelor,Salaried,0.3,63400.0,1010.0,9700.0,36,13.15,Personal,Rent,14500.0,56,1,,1,1,9,0
+APP-10770,33,Bachelor,Salaried,3.1,48000.0,690.0,12200.0,24,9.0,Small Business,Rent,33100.0,55,0,Fixed Deposit,1,0,17,0
+APP-15274,26,Bachelor,Salaried,0.7,105300.0,1050.0,45000.0,24,19.19,Debt Consolidation,With Parents,26700.0,62,1,,0,2,19,1
+APP-14266,30,Bachelor,Self-Employed,5.5,76700.0,1200.0,19400.0,60,16.66,Personal,With Parents,12500.0,86,0,,1,0,10,0
+APP-12029,25,High School,Salaried,0.7,72800.0,1010.0,19300.0,12,16.22,Medical,With Parents,4100.0,76,0,,1,0,47,0
+APP-10651,36,Bachelor,Salaried,6.1,33900.0,420.0,14200.0,36,12.4,Personal,Rent,1200.0,54,1,,1,1,45,1
+APP-11217,30,Associate,Salaried,2.3,70600.0,930.0,25000.0,24,10.03,Personal,Mortgage,15400.0,55,0,Vehicle,2,0,57,0
+APP-10309,27,High School,Self-Employed,1.2,33000.0,380.0,13000.0,36,13.88,Personal,Rent,9600.0,60,0,Vehicle,2,0,46,0
+APP-13380,43,Master,Contract,7.0,49600.0,670.0,18500.0,24,14.64,Debt Consolidation,With Parents,7800.0,82,1,,0,0,31,0
+APP-13184,23,Bachelor,Freelance,1.0,98400.0,1920.0,38300.0,12,7.5,Personal,Rent,16300.0,72,0,,0,0,13,0
+APP-15095,26,Bachelor,Self-Employed,3.4,40300.0,170.0,7600.0,36,15.67,Personal,Rent,6600.0,88,0,,2,0,29,1
+APP-15475,39,Bachelor,Contract,10.8,76700.0,1330.0,25400.0,48,13.46,Personal,Rent,6200.0,67,0,,2,0,16,0
+APP-14694,27,Associate,Salaried,4.6,79600.0,300.0,21100.0,36,11.11,Education,With Parents,1700.0,48,1,,2,0,53,0
+APP-10014,21,High School,Contract,0.3,33800.0,530.0,12900.0,12,13.43,Debt Consolidation,Rent,11800.0,77,1,Vehicle,1,1,25,0
+APP-11314,29,Bachelor,Contract,1.7,86100.0,760.0,22600.0,24,12.16,Home Improvement,With Parents,5400.0,79,0,,0,0,27,0
+APP-15421,21,Associate,Salaried,0.3,99600.0,630.0,32600.0,24,10.49,Personal,Rent,5500.0,67,1,,1,2,19,1
+APP-10503,32,Associate,Salaried,7.5,68300.0,640.0,9000.0,36,7.5,Education,Rent,600.0,84,0,,0,1,10,0
+APP-14347,21,Master,Self-Employed,0.4,38300.0,460.0,13000.0,36,17.8,Education,Rent,10600.0,69,1,Fixed Deposit,1,2,13,0
+APP-10009,32,Bachelor,Salaried,2.7,47700.0,660.0,17100.0,24,15.18,Personal,Mortgage,6000.0,85,0,Fixed Deposit,0,0,23,0
+APP-11623,24,High School,Salaried,0.4,59100.0,1060.0,11600.0,60,17.76,Personal,Own,12200.0,86,1,,2,0,13,0
+APP-12290,40,Bachelor,Salaried,1.6,53700.0,740.0,14800.0,36,12.33,Personal,Rent,14300.0,68,0,Vehicle,1,1,55,0
+APP-10674,21,Master,Self-Employed,0.5,62000.0,660.0,20200.0,60,14.48,Education,Own,9000.0,54,1,,1,0,59,1
+APP-12251,38,High School,Salaried,1.6,39000.0,870.0,8400.0,36,10.0,Personal,Rent,8100.0,71,1,,1,0,14,0
+APP-12037,25,Bachelor,Freelance,3.7,95500.0,1300.0,40100.0,60,15.39,Home Improvement,Rent,300.0,91,0,Vehicle,0,1,14,0
+APP-13048,31,Bachelor,Salaried,1.8,124200.0,930.0,39800.0,60,10.96,Education,Own,19600.0,61,1,,1,1,24,0
+APP-14027,27,Associate,Salaried,2.0,20400.0,260.0,7600.0,12,11.48,Education,Rent,6200.0,100,1,,1,1,68,0
+APP-12545,31,High School,Salaried,1.4,23500.0,410.0,2500.0,48,9.77,Debt Consolidation,Rent,3900.0,61,0,,1,0,18,0
+APP-11026,29,Associate,Salaried,1.0,49500.0,120.0,6100.0,24,17.96,Personal,Mortgage,6200.0,98,0,Vehicle,0,0,37,0
+APP-10734,35,High School,Salaried,5.0,56900.0,840.0,15200.0,48,11.38,Personal,Own,24700.0,60,1,Vehicle,1,1,4,0
+APP-12341,31,Bachelor,Self-Employed,5.5,42900.0,420.0,4300.0,36,13.77,Personal,Rent,7800.0,69,0,Fixed Deposit,1,1,35,0
+APP-15099,29,Bachelor,Contract,4.9,122200.0,1050.0,28800.0,36,14.98,Medical,With Parents,1400.0,89,0,,1,0,24,0
+APP-14739,33,Bachelor,Self-Employed,1.8,57800.0,870.0,7000.0,24,10.12,Medical,Rent,2200.0,81,0,,1,0,21,1
+APP-13463,35,Master,Salaried,4.5,49400.0,780.0,15600.0,36,9.3,Personal,Rent,16400.0,74,1,,4,0,11,0
+APP-15026,22,Bachelor,Salaried,0.5,47800.0,230.0,13000.0,24,15.17,Small Business,Rent,500.0,74,1,,2,0,23,0
+APP-13802,21,High School,Salaried,0.2,55300.0,820.0,23000.0,24,10.72,Personal,Rent,7500.0,67,1,,2,1,48,0
+APP-11164,35,Bachelor,Salaried,7.0,55400.0,620.0,14000.0,36,7.5,Debt Consolidation,Own,8100.0,81,0,Fixed Deposit,4,0,55,1
+APP-10595,25,Associate,Contract,0.6,35900.0,490.0,6900.0,48,10.14,Small Business,With Parents,5900.0,100,1,Vehicle,0,0,16,0
+APP-15103,29,High School,Self-Employed,0.9,22800.0,270.0,10100.0,36,16.24,Education,Own,8900.0,79,0,Fixed Deposit,0,1,10,0
+APP-12659,32,Associate,Salaried,7.3,40700.0,750.0,8500.0,24,7.5,Small Business,With Parents,3700.0,70,0,Vehicle,2,0,55,0
+APP-13075,40,Bachelor,Contract,3.9,67800.0,900.0,21800.0,36,8.46,Medical,Rent,11100.0,91,0,,0,0,4,0
+APP-11898,32,High School,Self-Employed,8.0,35000.0,580.0,6500.0,36,15.45,Small Business,Rent,500.0,79,0,,3,0,35,0
+APP-13193,24,Bachelor,Self-Employed,2.4,54600.0,250.0,14900.0,24,13.21,Education,Rent,31800.0,82,0,Vehicle,0,1,23,0
+APP-11788,31,High School,Salaried,5.2,83900.0,490.0,17600.0,24,16.77,Education,Own,29100.0,86,0,,3,0,9,0
+APP-14357,26,Bachelor,Self-Employed,2.2,58100.0,350.0,6800.0,48,13.37,Debt Consolidation,Own,18400.0,71,1,,0,0,20,0
+APP-11262,32,Master,Salaried,6.0,71800.0,690.0,8500.0,24,11.53,Debt Consolidation,Rent,8400.0,65,0,Vehicle,3,1,15,0
+APP-14057,31,Associate,Salaried,7.1,48200.0,440.0,10000.0,36,23.0,Debt Consolidation,With Parents,32800.0,98,0,Vehicle,2,1,10,0
+APP-10606,23,Associate,Salaried,1.9,60300.0,590.0,21100.0,36,13.56,Debt Consolidation,With Parents,1800.0,57,0,,4,0,18,0
+APP-11766,43,High School,Salaried,9.6,40200.0,1050.0,12300.0,24,10.94,Education,Mortgage,2900.0,74,0,Vehicle,1,2,12,1
+APP-10702,24,Bachelor,Salaried,1.0,64500.0,1060.0,12900.0,36,14.76,Education,Own,35000.0,59,0,,1,2,36,0
+APP-15383,39,Bachelor,Salaried,3.1,26100.0,340.0,6000.0,48,20.16,Personal,Rent,7500.0,72,0,Vehicle,5,0,60,0
+APP-10050,31,Bachelor,Salaried,7.2,50700.0,150.0,21100.0,36,12.09,Home Improvement,Rent,11600.0,81,1,,1,0,45,0
+APP-14976,37,High School,Self-Employed,3.2,73000.0,490.0,25400.0,36,14.83,Medical,Rent,21800.0,59,0,Vehicle,1,1,31,0
+APP-13835,26,Bachelor,Salaried,3.8,39700.0,270.0,7200.0,24,10.84,Education,Own,7600.0,51,0,Vehicle,4,0,64,0
+APP-13658,30,Bachelor,Salaried,1.9,41800.0,170.0,10400.0,36,18.22,Personal,With Parents,4100.0,59,0,Fixed Deposit,1,1,37,1
+APP-14186,44,Bachelor,Contract,3.5,68600.0,480.0,17700.0,24,13.03,Small Business,Rent,16100.0,100,1,Vehicle,2,1,13,0
+APP-11051,31,Master,Freelance,1.5,81800.0,1840.0,13700.0,24,11.3,Personal,With Parents,4100.0,54,0,,1,1,22,1
