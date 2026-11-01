@@ -1,21 +1,34 @@
 """
 Master Pipeline Orchestrator for Bank Loan Default Hybrid Model System.
+Domain: Machine Learning & Predictive Analytics
+Project: Design and Development of a Working Prototype for Bank loan default Using A Logistic Regression and Decision Tree hybrid model
+Developer: PAIDI VENKAT
+Currency: Indian Rupee (INR / ₹)
+
 Executes end-to-end workflow:
-1. Synthetic / Anonymized Data Generation
+1. Synthetic / Anonymized Indian Banking Dataset Generation (INR ₹)
 2. Preprocessing & Stratified Train/Test Partitioning
 3. Model Training (Logistic Regression, Decision Tree, Hybrid Model, Stacking)
-4. Comprehensive Credit Risk Metric Evaluation
-5. Report & Diagnostic Visualizations Generation
+4. Comprehensive Credit Risk Metric Evaluation (Basel III / RBI aligned)
+5. Diagnostic Visualizations & Reporting
 """
 import sys
+import argparse
 from pathlib import Path
+
+# Ensure UTF-8 console output on Windows
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 # Ensure project root is in sys.path
 BASE_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(BASE_DIR))
 
 from config import (
-    RAW_DATA_PATH, TARGET_COLUMN
+    RAW_DATA_PATH, TARGET_COLUMN, PROJECT_TITLE, DOMAIN, AUTHOR,
+    CURRENCY_CODE, CURRENCY_SYMBOL
 )
 from src.data_generator import generate_and_save_dataset
 from src.preprocessing import run_preprocessing_pipeline
@@ -23,15 +36,18 @@ from src.models import train_and_save_all_models
 from src.evaluate import run_full_evaluation
 
 
-def run_complete_pipeline():
-    print("=================================================================")
-    print("  BANK LOAN DEFAULT HYBRID MODEL: END-TO-END WORKFLOW PIPELINE   ")
-    print("=================================================================")
+def run_complete_pipeline(force_regenerate: bool = False):
+    print("=" * 80)
+    print("   BHARAT CREDIT INTELLIGENCE: BANK LOAN DEFAULT HYBRID MODEL PIPELINE")
+    print(f"   Project: {PROJECT_TITLE}")
+    print(f"   Domain: {DOMAIN} | Developer: {AUTHOR}")
+    print(f"   Standard Currency: {CURRENCY_CODE} ({CURRENCY_SYMBOL})")
+    print("=" * 80)
     
-    # 1. Dataset Generation
-    print("\n[Step 1/4] Checking / Generating Applicant Dataset...")
-    if not RAW_DATA_PATH.exists():
-        generate_and_save_dataset()
+    # 1. Dataset Generation in Indian Rupees
+    print("\n[Step 1/4] Checking / Generating Indian Retail Applicant Dataset (INR ₹)...")
+    if force_regenerate or not RAW_DATA_PATH.exists():
+        generate_and_save_dataset(num_samples=6000)
     else:
         print(f"Using existing dataset: {RAW_DATA_PATH}")
         
@@ -49,9 +65,9 @@ def run_complete_pipeline():
     print("\n[Step 4/4] Evaluating Models & Rendering Visualizations...")
     metrics = run_full_evaluation()
     
-    print("\n=================================================================")
-    print("                       BENCHMARK SUMMARY                         ")
-    print("=================================================================")
+    print("\n" + "=" * 80)
+    print("                             BENCHMARK SUMMARY")
+    print("=" * 80)
     print(f"{'Model':<35} | {'ROC-AUC':<8} | {'Gini':<8} | {'KS Stat':<8} | {'Recall':<8} | {'Loss Pts':<8}")
     print("-" * 85)
     for name, m in metrics.items():
@@ -59,9 +75,13 @@ def run_complete_pipeline():
             f"{name:<35} | {m['roc_auc']:<8.4f} | {m['gini_coefficient']:<8.4f} | "
             f"{m['ks_statistic']:<8.4f} | {m['recall_sensitivity']:<8.2%} | {m['financial_loss_cost']:<8.0f}"
         )
-    print("=================================================================")
+    print("=" * 80)
     print("Pipeline execution complete! Ready for Loan Officer Decision-Support Tool.")
 
 
 if __name__ == "__main__":
-    run_complete_pipeline()
+    parser = argparse.ArgumentParser(description="Run complete ML pipeline")
+    parser.add_argument("--regenerate", action="store_true", help="Force regenerate dataset in INR")
+    args = parser.parse_args()
+    
+    run_complete_pipeline(force_regenerate=args.regenerate)

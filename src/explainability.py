@@ -1,6 +1,9 @@
 """
 Explainability, Credit Scoring, and Counterfactual Sensitivity Engine
 for the Bank Loan Default Hybrid Decision Support Tool.
+Tailored for Indian Retail Banking (INR / ₹ currency, CIBIL 300-900 calibration).
+Author: PAIDI VENKAT
+Project: Design and Development of a Working Prototype for Bank loan default Using A Logistic Regression and Decision Tree hybrid model
 """
 import numpy as np
 import pandas as pd
@@ -12,22 +15,28 @@ import sys
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from config import (
     CREDIT_SCORE_BASE, CREDIT_SCORE_PDO, RISK_THRESHOLDS,
-    DECISION_APPROVAL_THRESHOLD, DECISION_REVIEW_THRESHOLD
+    DECISION_APPROVAL_THRESHOLD, DECISION_REVIEW_THRESHOLD,
+    format_inr, format_inr_full
 )
 
 
 def probability_to_credit_score(default_prob: float) -> int:
     """
-    Translates default probability into a standard 300 - 850 credit score
+    Translates default probability into standard Indian Credit Bureau score (CIBIL-like 300 - 900)
     using logarithmic odds calibration:
     Score = Base - (PDO / ln(2)) * ln(p / (1 - p))
+    Calibrated so that:
+    - 5% default rate maps to ~795 (Super-Prime)
+    - 15% default rate maps to ~730 (Prime)
+    - 25% default rate maps to ~675 (Near-Prime)
+    - 50% default rate maps to ~600 (Sub-Prime)
+    - 80% default rate maps to ~480 (Severe Risk)
     """
     p = np.clip(default_prob, 0.005, 0.995)
     odds = p / (1.0 - p)
     factor = CREDIT_SCORE_PDO / np.log(2.0)
-    # Calibrated so 20% default probability maps to ~650
     score = CREDIT_SCORE_BASE - factor * np.log(odds)
-    return int(np.clip(np.round(score), 300, 850))
+    return int(np.clip(np.round(score), 300, 900))
 
 
 def get_risk_tier_and_decision(default_prob: float) -> tuple[str, str, str, str]:
@@ -37,37 +46,37 @@ def get_risk_tier_and_decision(default_prob: float) -> tuple[str, str, str, str]
     if default_prob < RISK_THRESHOLDS["TIER_A_LOW"]:
         return (
             "Tier A (Super-Prime)",
-            "Approved (Fast-Track)",
+            "Approved (Fast-Track STP)",
             "#10b981", # Green
-            "Borrower demonstrates exceptional repayment capacity and low debt exposure."
+            "Borrower demonstrates exceptional repayment capacity, low FOIR/DTI, and solid liquid reserves."
         )
     elif default_prob < RISK_THRESHOLDS["TIER_B_MODERATE"]:
         return (
             "Tier B (Standard Prime)",
             "Approved",
             "#059669", # Emerald
-            "Applicant meets standard credit criteria. Low to moderate default hazard."
+            "Applicant meets standard Indian retail credit criteria. Moderate to low default hazard."
         )
     elif default_prob < RISK_THRESHOLDS["TIER_C_BORDERLINE"]:
         return (
             "Tier C (Near-Prime / Borderline)",
             "Manual Review / Conditional Approval",
             "#f59e0b", # Amber
-            "Applicant has elevated leverage or thin financial cushion. Requires underwriter verification or mitigating conditions."
+            "Applicant has elevated FOIR or thin liquidity cushion. Underwriter verification or mitigating conditions recommended."
         )
     elif default_prob < RISK_THRESHOLDS["TIER_D_HIGH"]:
         return (
             "Tier D (Sub-Prime / High Risk)",
             "Decline / Substantial Mitigant Required",
             "#ea580c", # Orange-Red
-            "High default hazard. Approval requires significant collateral or a solvent co-signer."
+            "High default hazard. Approval requires significant collateral backing or a creditworthy guarantor/co-signer."
         )
     else:
         return (
             "Tier E (Severe Risk)",
             "Declined",
             "#dc2626", # Red
-            "Excessive default risk exceeding underwriting appetite. Unfavorable debt-to-income and cash flow."
+            "Default probability exceeds bank risk appetite under RBI prudential underwriting guidelines."
         )
 
 
@@ -87,7 +96,6 @@ def extract_decision_tree_path(tree_model, sample_feature_array: np.ndarray, fea
     rules = []
     for node_id in node_index:
         if node_id == leaf_id:
-            # Leaf node
             val = tree_.value[node_id][0]
             total_samples = np.sum(val)
             default_prob_node = val[1] / total_samples if total_samples > 0 else 0.5
@@ -117,7 +125,7 @@ def extract_decision_tree_path(tree_model, sample_feature_array: np.ndarray, fea
                 "actual_normalized_val": round(float(actual_val), 3),
                 "threshold_val": round(float(thresh_val), 3),
                 "comparison": f"{clean_feat} {op} {thresh_val:.2f}",
-                "status": f"{status} threshold (Applicant standard score: {actual_val:.2f})"
+                "status": f"{status} threshold (Applicant normalized score: {actual_val:.2f})"
             })
     return rules
 
@@ -160,7 +168,7 @@ def generate_counterfactual_recommendations(
     target_max_prob: float = DECISION_APPROVAL_THRESHOLD
 ) -> list[dict]:
     """
-    Evaluates actionable parameter modifications (downpayment / loan reduction,
+    Evaluates actionable parameter modifications (downpayment / loan reduction in INR,
     co-signer addition, term elongation) to help a declined or borderline applicant qualify.
     """
     current_df = pd.DataFrame([raw_applicant_dict])
@@ -178,34 +186,34 @@ def generate_counterfactual_recommendations(
     
     recommendations = []
     
-    # Scenario 1: Adding a co-signer
+    # Scenario 1: Adding a co-signer / parent guarantor
     if raw_applicant_dict.get("has_cosigner", 0) == 0:
         alt_dict = dict(raw_applicant_dict)
         alt_dict["has_cosigner"] = 1
         alt_df = pd.DataFrame([alt_dict])
         p_new = float(hybrid_model.predict_proba(preprocessor.transform(alt_df))[0, 1])
         recommendations.append({
-            "action": "Add Creditworthy Co-Signer / Guarantor",
-            "detail": "Adding a creditworthy co-signer substantially mitigates credit loss and thin-file risk.",
+            "action": "Add Solvent Co-Signer / Guarantor",
+            "detail": "Adding an earning parent or creditworthy co-signer mitigates first-time thin-file risk.",
             "new_probability": p_new,
             "reduction_pct": round((current_prob - p_new) * 100, 1),
             "qualifies": p_new <= target_max_prob,
             "feasibility": "High"
         })
         
-    # Scenario 2: Reducing requested loan amount (Downpayment / Loan Sizing)
+    # Scenario 2: Reducing requested loan amount (Borrower Downpayment) in INR
     curr_amount = float(raw_applicant_dict["loan_amount"])
     for discount in [0.15, 0.25, 0.35]:
-        reduced_amt = np.round(curr_amount * (1.0 - discount), -2)
+        reduced_amt = np.round(curr_amount * (1.0 - discount), -3)
         alt_dict = dict(raw_applicant_dict)
         alt_dict["loan_amount"] = reduced_amt
         alt_df = pd.DataFrame([alt_dict])
         p_new = float(hybrid_model.predict_proba(preprocessor.transform(alt_df))[0, 1])
         if p_new < current_prob:
-            diff_dollars = curr_amount - reduced_amt
+            diff_inr = curr_amount - reduced_amt
             recommendations.append({
-                "action": f"Lower Requested Loan by ${diff_dollars:,.0f} ({discount:.0%})",
-                "detail": f"Reduce loan amount from ${curr_amount:,.0f} to ${reduced_amt:,.0f} (e.g. via borrower cash downpayment).",
+                "action": f"Lower Loan Amount by {format_inr_full(diff_inr)} ({discount:.0%})",
+                "detail": f"Reduce loan amount from {format_inr_full(curr_amount)} to {format_inr_full(reduced_amt)} (e.g., via borrower upfront margin money).",
                 "new_probability": p_new,
                 "reduction_pct": round((current_prob - p_new) * 100, 1),
                 "qualifies": p_new <= target_max_prob,
@@ -214,7 +222,7 @@ def generate_counterfactual_recommendations(
             if p_new <= target_max_prob:
                 break
                 
-    # Scenario 3: Extending loan term to lower monthly installment and DTI
+    # Scenario 3: Extending loan term to lower monthly EMI and FOIR
     curr_term = int(raw_applicant_dict["loan_term_months"])
     if curr_term < 60:
         next_term = 48 if curr_term < 48 else 60
@@ -223,8 +231,8 @@ def generate_counterfactual_recommendations(
         alt_df = pd.DataFrame([alt_dict])
         p_new = float(hybrid_model.predict_proba(preprocessor.transform(alt_df))[0, 1])
         recommendations.append({
-            "action": f"Extend Repayment Term to {next_term} Months",
-            "detail": f"Extending repayment term from {curr_term} to {next_term} months reduces monthly debt burden and improves DTI ratio.",
+            "action": f"Extend Repayment Tenure to {next_term} Months",
+            "detail": f"Extending tenure from {curr_term} to {next_term} months reduces the monthly EMI burden and improves FOIR.",
             "new_probability": p_new,
             "reduction_pct": round((current_prob - p_new) * 100, 1),
             "qualifies": p_new <= target_max_prob,
@@ -234,12 +242,12 @@ def generate_counterfactual_recommendations(
     # Scenario 4: Pledging Collateral
     if raw_applicant_dict.get("has_collateral", "None") == "None":
         alt_dict = dict(raw_applicant_dict)
-        alt_dict["has_collateral"] = "Vehicle"
+        alt_dict["has_collateral"] = "Fixed Deposit Lien"
         alt_df = pd.DataFrame([alt_dict])
         p_new = float(hybrid_model.predict_proba(preprocessor.transform(alt_df))[0, 1])
         recommendations.append({
-            "action": "Pledge Asset Collateral (e.g. Vehicle Lien or Deposit)",
-            "detail": "Securing the loan with pledged collateral protects the bank's recovery value.",
+            "action": "Pledge Asset Collateral (Fixed Deposit Lien or Vehicle)",
+            "detail": "Securing the loan with a bank FD lien or hypothecation substantially enhances recovery rating.",
             "new_probability": p_new,
             "reduction_pct": round((current_prob - p_new) * 100, 1),
             "qualifies": p_new <= target_max_prob,

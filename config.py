@@ -1,8 +1,70 @@
 """
 Configuration file for Bank Loan Default Hybrid Model System.
-Defines dataset schemas, model parameters, underwriting thresholds, and paths.
+Project: Design and Development of a Working Prototype for Bank loan default Using A Logistic Regression and Decision Tree hybrid model
+Domain: Machine Learning & Predictive Analytics
+Author / Lead Investigator: PAIDI VENKAT
+Currency: Indian Rupee (INR / ₹)
 """
 from pathlib import Path
+
+# Project Metadata
+PROJECT_TITLE = "Design and Development of a Working Prototype for Bank loan default Using A Logistic Regression and Decision Tree hybrid model"
+DOMAIN = "Machine Learning & Predictive Analytics"
+AUTHOR = "PAIDI VENKAT"
+ABSTRACT = (
+    "This project develops a Logistic Regression and Decision Tree hybrid model to assess "
+    "creditworthiness of first-time borrowers, addressing the problem of bank loan default "
+    "through a data-driven approach. The pipeline draws on anonymized loan applicant datasets, "
+    "applying suitable pre-processing before training and testing the model on held-out data. "
+    "The project culminates in a loan officer decision-support tool, bridging the gap between "
+    "the underlying model and everyday use."
+)
+KEYWORDS = ["bank", "loan", "default", "logistic", "regression", "decision"]
+
+# Currency Specification: Indian Rupee (INR / ₹)
+CURRENCY_SYMBOL = "₹"
+CURRENCY_CODE = "INR"
+
+def format_inr(number: float, include_symbol: bool = True) -> str:
+    """
+    Formats a number into the Indian numbering system (Lakhs and Crores).
+    E.g.: 125000 -> ₹1,25,000  |  12500000 -> ₹1.25 Cr
+    """
+    sym = "₹ " if include_symbol else ""
+    if abs(number) >= 10000000:
+        return f"{sym}{number / 10000000:.2f} Cr"
+    elif abs(number) >= 100000:
+        return f"{sym}{number / 100000:.2f} L"
+    else:
+        # Standard Indian comma placement for numbers < 1 Lakh
+        s = f"{int(round(number)):,}"
+        return f"{sym}{s}"
+
+def format_inr_full(number: float, include_symbol: bool = True) -> str:
+    """
+    Formats a number into full Indian comma style (e.g., ₹12,34,567).
+    """
+    sym = "₹" if include_symbol else ""
+    num_int = int(round(number))
+    sign = "-" if num_int < 0 else ""
+    num_str = str(abs(num_int))
+    
+    if len(num_str) <= 3:
+        return f"{sym}{sign}{num_str}"
+    
+    last3 = num_str[-3:]
+    remaining = num_str[:-3]
+    
+    # Insert commas every 2 digits from right to left
+    parts = []
+    while len(remaining) > 2:
+        parts.insert(0, remaining[-2:])
+        remaining = remaining[:-2]
+    if remaining:
+        parts.insert(0, remaining)
+        
+    formatted = ",".join(parts) + "," + last3
+    return f"{sym}{sign}{formatted}"
 
 # Paths
 BASE_DIR = Path(__file__).resolve().parent
@@ -25,7 +87,7 @@ REPORTS_DIR = BASE_DIR / "reports"
 # Random Seed for Reproducibility
 RANDOM_SEED = 42
 
-# Underwriting Risk Tiers & Thresholds (Default Probability)
+# Underwriting Risk Tiers & Thresholds (Probability of Default)
 RISK_THRESHOLDS = {
     "TIER_A_LOW": 0.12,          # < 12%: Tier A (Automatic Approval)
     "TIER_B_MODERATE": 0.22,     # 12% - 22%: Tier B (Standard Approval)
@@ -38,9 +100,9 @@ RISK_THRESHOLDS = {
 DECISION_APPROVAL_THRESHOLD = 0.22   # Below 22% = Approved
 DECISION_REVIEW_THRESHOLD = 0.35     # 22% - 35% = Manual Review / Conditional
 
-# Credit Score Mapping Constants (FICO-like 300 to 850 range)
-CREDIT_SCORE_BASE = 680
-CREDIT_SCORE_PDO = 45   # Points to Double the Odds
+# Indian Credit Bureau Score Mapping Constants (CIBIL-like 300 to 900 range)
+CREDIT_SCORE_BASE = 720
+CREDIT_SCORE_PDO = 50   # Points to Double the Odds
 
 # Features Definition
 NUMERICAL_FEATURES = [
@@ -71,13 +133,13 @@ ENGINEERED_FEATURES = [
     "debt_to_income_ratio",       # Total debt obligations / gross monthly income
     "loan_to_income_ratio",       # Requested loan / annual income
     "savings_to_loan_ratio",      # Liquid savings / loan amount
-    "monthly_installment",        # Calculated amortized monthly installment
-    "net_monthly_surplus"         # Monthly income - existing debt - new installment
+    "monthly_installment",        # Calculated amortized monthly installment (EMI) in ₹
+    "net_monthly_surplus"         # Monthly income - existing debt - new installment in ₹
 ]
 
 TARGET_COLUMN = "loan_default"
 
-# Cost Matrix for Banking Decisions
-# Default cost is much higher than missed opportunity cost
+# Cost Matrix for Banking Decisions (RBI / Indian Commercial Bank standard)
+# Default cost is significantly higher than missed interest margin
 COST_FALSE_NEGATIVE = 5.0   # Default accepted (bank loses principal & recovery costs)
 COST_FALSE_POSITIVE = 1.0   # Good customer rejected (bank loses net interest margin)

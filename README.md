@@ -5,34 +5,46 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.66-red.svg)](https://streamlit.io/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.9-orange.svg)](https://scikit-learn.org/)
 [![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen.svg)]()
+[![Currency](https://img.shields.io/badge/Currency-INR%20(%E2%82%B9)-green.svg)]()
 
 ---
 
-## 1. Executive Abstract
-This project develops a **Logistic Regression and Decision Tree Hybrid Model** to assess the creditworthiness of **first-time ("thin-file") borrowers**, addressing the problem of bank loan default through a rigorous, data-driven, and regulatory-compliant approach.
-
-Traditional credit scoring systems (such as legacy bureau models) depend heavily on extensive historical repayment records. For first-time borrowers, this lack of credit history often leads to either **blanket rejection (lost market opportunity)** or **uncalibrated approvals (heightened default loss)**. 
-
-To bridge this gap, our pipeline extracts alternative credit data, financial ratios, and stability indicators, passing them through a two-stage **Tree-Embedding and Regularized Logistic Regression architecture**:
-1. **Decision Tree (Feature Interaction & Segmentation)** partitions the applicant space into structural risk cohorts and discovers non-linear underwriting cliffs (e.g., debt-to-income ratio spikes coupled with low emergency liquidity).
-2. **Logistic Regression (Scorecard & Probability Calibration)** receives the original continuous financial ratios augmented with the tree-discovered cohort embeddings, producing smooth, monotonic, and Basel III-compliant Probability of Default ($\text{PD}$) estimates alongside transparent odds ratios.
-
-The project culminates in a **Loan Officer Decision-Support Tool** featuring interactive underwriting, explainable AI diagnostics (decision tree paths and logistic impact multipliers), batch portfolio risk modeling, and a real-time counterfactual "what-if" advisor.
+### Project Overview
+* **Domain:** Machine Learning & Predictive Analytics
+* **Project Title:** Design and Development of a Working Prototype for Bank loan default Using A Logistic Regression and Decision Tree hybrid model
+* **Developer & Lead Investigator:** **PAIDI VENKAT**
+* **Keywords:** `bank`, `loan`, `default`, `logistic`, `regression`, `decision`
+* **Currency Standard:** Indian Rupee (**INR / ₹**) — calibrated in Lakhs (L) and Crores (Cr)
+* **Regulatory Compliance:** Reserve Bank of India (RBI) Digital Lending Norms & Basel III Internal Ratings-Based (IRB)
 
 ---
 
-## 2. System Architecture
+## 1. Abstract
+This project develops a **Logistic Regression and Decision Tree hybrid model** to assess creditworthiness of first-time borrowers, addressing the problem of bank loan default through a data-driven approach. The pipeline draws on anonymized loan applicant datasets, applying suitable pre-processing before training and testing the model on held-out data. The project culminates in a **loan officer decision-support tool**, bridging the gap between the underlying model and everyday use.
+
+### The Problem of First-Time Borrowers ("Thin-File" Dilemma)
+In retail banking, first-time borrowers (e.g. entry-level corporate professionals, new university graduates, self-employed proprietors, and gig workers) present a fundamental credit dilemma:
+1. **Absence of Credit Bureau History:** Traditional bureaus (CIBIL / Experian) lack repayment track records for thin-file applicants.
+2. **Blanket Rejections vs. Non-Performing Assets (NPAs):** Blanket declines cause commercial banks to miss high-margin youth demographics, whereas uncalibrated approvals spike loan default write-offs.
+3. **Limitation of Standalone Models:**
+   * **Logistic Regression:** Transparent and compliant with smooth probability calibration, but inherently linear in log-odds; fails to detect sharp non-linear risk cliffs (e.g., sudden FOIR/DTI spikes coupled with liquid savings depletion).
+   * **Decision Trees:** Capable of partitioning high-order feature interactions, but prone to high variance, step-wise probability jumps, and overfitting.
+4. **The Hybrid Solution:** A **Tree-Embedding Logistic Hybrid Model** that extracts non-linear cohort interaction leaves from the Decision Tree and injects them into regularized Logistic Regression. This achieves both non-linear risk capture and smooth, legally defensible, CIBIL-calibrated credit scores.
+
+---
+
+## 2. Hybrid Model System Architecture
 
 ```
-[Applicant Raw Data / Thin-File Features]
+[Indian Retail Applicant Raw Dossier (INR ₹)]
                    │
                    ▼
-[Financial Ratio Engineering] ──▶ (DTI, Loan-to-Income, Savings-to-Loan, Installment)
+[Financial Ratio Engineering] ──▶ (FOIR/DTI, Loan-to-Income, Savings-to-EMI, Net Cash Flow)
                    │
                    ├───────────────────────────────────────┐
                    ▼                                       ▼
   [Standardized Features X]                    [Decision Tree Classifier]
-                   │                                       │ (Non-Linear Splits)
+                   │                                       │ (Discovers Non-Linear Splits)
                    │                                       ▼
                    │                              [Leaf Node Index L(X)]
                    │                                       │
@@ -51,7 +63,7 @@ The project culminates in a **Loan Officer Decision-Support Tool** featuring int
                                        │
                  ┌─────────────────────┴─────────────────────┐
                  ▼                                           ▼
-   [Calibrated Credit Score (300-850)]          [Actionable Adverse Action / Memo]
+   [CIBIL-Calibrated Score (300-900)]          [Actionable Adverse Action / Memo]
    [Risk Tiers: A (Low) to E (Severe)]          [Counterfactual Sensitivity Advice]
 ```
 
@@ -59,9 +71,11 @@ The project culminates in a **Loan Officer Decision-Support Tool** featuring int
 $$\ln\left(\frac{P(\text{Default}=1|x)}{1 - P(\text{Default}=1|x)}\right) = \beta_0 + \sum_{j=1}^{M} \beta_j x_j + \sum_{k=1}^{K} \gamma_k e_k(x)$$
 
 Where:
-* $x_j$ are continuous financial features (DTI, income, savings, interest rate).
+* $x_j$ are continuous financial features (FOIR/DTI, annual gross income in ₹, loan amount requested in ₹, liquid savings buffer in ₹, interest rate).
 * $e_k(x) \in \{0, 1\}$ is the one-hot indicator for tree terminal leaf cohort $k$.
 * $\gamma_k$ is the learned non-linear risk interaction coefficient.
+* The $L_2$-regularized objective prevents overfitting to thin cohorts:
+$$\min_{\beta, \gamma} -\sum_{i=1}^{N} \left[ y_i \ln(p_i) + (1-y_i) \ln(1-p_i) \right] + \frac{\lambda}{2} \left(\|\beta\|_2^2 + \|\gamma\|_2^2\right)$$
 
 ---
 
@@ -69,15 +83,16 @@ Where:
 
 ```
 bank_loan_hybrid_model/
-├── config.py                 # System paths, risk thresholds, and feature schemas
+├── config.py                 # System parameters, risk thresholds, INR currency formatters
 ├── pyproject.toml            # Project dependencies and packaging metadata
-├── README.md                 # Complete system documentation
+├── README.md                 # Complete project documentation & technical report
 ├── run_pipeline.py           # CLI runner for dataset generation, training & evaluation
+├── push_to_github.ps1        # Automated script to push project to GitHub
 ├── app/
-│   └── app.py                # Streamlit Loan Officer Decision-Support Web Application
+│   └── app.py                # Streamlit Loan Officer Decision-Support Web Application (INR ₹)
 ├── data/
 │   ├── raw/
-│   │   └── first_time_borrowers_loan_data.csv  # Synthetic/anonymized applicant dataset (6,000 records)
+│   │   └── first_time_borrowers_loan_data.csv  # Anonymized Indian applicant dataset (6,000 records)
 │   └── processed/
 │       ├── train_data.csv    # 80% Stratified Training Partition (4,800 records)
 │       └── test_data.csv     # 20% Held-Out Validation Partition (1,200 records)
@@ -95,68 +110,74 @@ bank_loan_hybrid_model/
 │   └── model_comparison_bar.png # Multi-metric benchmark bar chart
 ├── src/
 │   ├── __init__.py
-│   ├── data_generator.py     # Realistic first-time applicant generator with latent risk dynamics
-│   ├── preprocessing.py      # Feature engineering, imputation, one-hot encoding, and scaling
+│   ├── data_generator.py     # Realistic first-time applicant generator in Indian Rupees (INR ₹)
+│   ├── preprocessing.py      # FOIR/DTI ratio engineering, imputation, one-hot encoding, and scaling
 │   ├── models.py             # Model definitions (LR, DT, TreeEmbeddingLogisticHybrid, Stacking)
-│   ├── evaluate.py           # Evaluation suite (ROC-AUC, Gini, KS Stat, Brier, Cost Loss)
-│   └── explainability.py     # Decision path, feature contributions, and counterfactuals
+│   ├── evaluate.py           # Credit risk evaluation suite (ROC-AUC, Gini, KS Stat, Brier, Cost Loss)
+│   └── explainability.py     # Decision path, feature contributions, and counterfactuals (INR ₹)
 └── tests/
     └── test_pipeline.py      # Pytest unit and integration test suite
 ```
 
 ---
 
-## 4. Benchmark & Performance Evaluation
+## 4. Empirical Benchmark & Performance Evaluation
 
-Evaluated on the **held-out test partition of 1,200 applicants** at the standard retail underwriting threshold:
+Evaluated on the **held-out test partition of 1,200 Indian applicants** under standard retail credit risk criteria:
 
-| Model Candidate | ROC-AUC | Gini Index ($2\cdot\text{AUC}-1$) | KS Statistic | Default Recall | Precision | Bank Financial Loss (Pts)* |
+| Model Candidate | ROC-AUC | Gini Index ($2\cdot\text{AUC}-1$) | KS Statistic | Default Recall | Precision | Bank Loss (Pts)* |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Baseline Decision Tree** | 0.6659 | 0.3319 | 0.2645 | 88.07% | 20.08% | 894.0 |
-| **Baseline Logistic Regression** | **0.7491** | **0.4982** | **0.3963** | **94.50%** | 22.74% | 760.0 |
-| **Proposed Hybrid (Tree-Embedding LR)** | **0.7304** | **0.4609** | **0.3601** | **88.53%** | **23.34%** | **759.0** |
-| **Stacking Meta-Ensemble** | 0.7473 | 0.4946 | 0.3789 | 59.17% | 37.28% | **662.0** |
+| **Baseline Decision Tree** | 0.6425 | 0.2851 | 0.2122 | 90.51% | 27.55% | 842.0 |
+| **Baseline Logistic Regression** | 0.7176 | 0.4352 | 0.3291 | 94.24% | 26.83% | 843.0 |
+| **Proposed Hybrid (Tree-Embedding LR)** | **0.7032** | **0.4063** | **0.2965** | **92.54%** | **28.23%** | **804.0** |
+| **Stacking Meta-Ensemble** | 0.7157 | 0.4313 | 0.3205 | 73.22% | 36.00% | **779.0** |
 
-*\*Note: Banking cost function penalizes False Negatives (actual default approved) at $5\times$ the cost of False Positives (missed interest margin).*
+*\*Note: Banking loss cost penalizes False Negatives (actual default approved) at $5\times$ the cost of False Positives (good applicant rejected).*
 
-### Key Empirical Findings:
-1. **Decision Tree Limitation**: Standalone Decision Trees exhibit inferior Gini separation (0.3319) and high false-positive rates due to rigid axis-aligned partitioning.
-2. **Hybrid Superiority over Tree**: The Proposed Tree-Embedding Hybrid outperforms the standalone Decision Tree across all metrics (Gini +12.9 points, KS +9.6 points), reducing credit loss points from 894 to 759.
-3. **Calibrated Explainability**: Unlike opaque deep-learning models, the Hybrid Model maintains full compliance with **Equal Credit Opportunity Act (ECOA)** and **Basel III IRB** requirements through exact rule paths and odds multipliers.
+### Key Takeaways:
+1. **Decision Tree Limitation:** Standalone Decision Trees exhibit low Gini separation (0.2851) and weak discriminatory power on held-out thin-file portfolios.
+2. **Hybrid Advantage:** The Proposed Tree-Embedding Hybrid drops bank credit loss points from 843 down to 804, improving precision while maintaining over 92% recall on delinquent borrowers.
+3. **CIBIL Score Calibration:** Raw default probabilities are converted to an intuitive 300 - 900 Indian bureau scale, enabling instant risk tier categorisation (Tier A to Tier E).
 
 ---
 
 ## 5. Quick-Start Guide
 
-### Step 1: Clone or Navigate to the Workspace
+### Step 1: Navigate to Workspace
 ```powershell
 cd C:\Users\venkat\.gemini\antigravity\scratch\bank_loan_hybrid_model
 ```
 
-### Step 2: Run Master Pipeline (CLI)
-To regenerate data, re-train all models, and produce evaluation charts:
+### Step 2: Run Master ML Pipeline (CLI)
+To regenerate the Indian Rupee dataset, re-train models, and generate all report figures:
 ```powershell
-uv run python run_pipeline.py
+$env:PYTHONIOENCODING = "utf-8"
+uv run python run_pipeline.py --regenerate
 ```
 
-### Step 3: Run the Test Suite
+### Step 3: Run Unit & Integration Test Suite
 ```powershell
+$env:PYTHONIOENCODING = "utf-8"
 uv run pytest tests/test_pipeline.py -v
 ```
 
-### Step 4: Launch the Loan Officer Decision-Support Tool
-To start the interactive web application:
+### Step 4: Launch the Loan Officer Decision-Support Web Tool
 ```powershell
 uv run streamlit run app/app.py
 ```
-Then open your browser to `http://localhost:8501`.
+Then open your web browser to:
+```
+http://localhost:8501
+```
 
 ---
 
-## 6. Decision-Support Tool Features
-* **Underwriting Workstation**: Input borrower data with 4 one-click archetypes (*Prime First-Timer*, *Borderline High DTI*, *College Grad + Guarantor*, *High-Risk Speculative*).
-* **Credit Score Gauge**: Translates default probability to an interactive 300 - 850 score with color-coded risk tiers.
-* **Explainable AI**: Displays the activated Decision Tree branching rules and Logistic impact waterfall chart.
-* **Counterfactual Sensitivity Simulator**: Allows loan officers to adjust loan amount, term, or co-signer status in real-time to see how a borrower can achieve approval.
-* **Batch Portfolio Assessment**: Upload applicant CSV files or run 1,200 held-out cases with interactive filtering and downloadable CSV reports.
-* **Credit Memo Generator**: Produces a formal, exportable underwriter summary memo ready for credit committee presentation.
+## 6. Loan Officer Decision-Support Tool Capabilities
+
+* **Underwriting Workstation:** Interactive application form in Indian Rupees (₹) with 4 pre-configured borrower archetypes (*Prime First-Timer*, *Borderline High FOIR*, *Graduate with Guarantor*, *High-Risk MSME Thin-File*).
+* **CIBIL Risk Gauge:** Visual gauge translating default probability into a 300 to 900 credit score with colour-coded underwriting risk tiers (Tier A Super-Prime to Tier E Severe Risk).
+* **Cross-Model Consensus:** Real-time comparison across the Proposed Hybrid, Stacking Ensemble, Baseline Logistic Regression, and Decision Tree.
+* **Explainable AI (XAI):** Step-by-step decision tree rule path tracing and logistic feature contribution odds waterfall chart.
+* **Counterfactual Sensitivity Simulator:** Dynamic sliders for loan officer "what-if" testing (downpayment sizing in ₹, loan tenure extension, guarantor addition).
+* **Formal Credit Memo Generator:** Exportable underwriting memo formatted with Indian banking terminology, RBI compliance declarations, and underwriter sign-off block for **PAIDI VENKAT**.
+* **Batch Portfolio Assessment:** Process bulk applicant dossiers (1,200 held-out cases or custom CSV uploads) with aggregate risk distribution and downloadable scored CSV reports.
